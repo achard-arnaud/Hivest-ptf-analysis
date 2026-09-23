@@ -28,3 +28,5 @@ Comparer à règle métier/SPC/optimisation classique/process sans IA et NO-ACTI
 ## Gates et projection trois pages
 Avant HITL, red-team doit vérifier la chaîne complète et les transferts secteur→entreprise, ainsi que les doubles comptes. Sans contexte exploitable : RESEARCH_TARGETED ou manque explicitement accepté, jamais maturité zéro.
 P1 : 2–3 signaux externes, position concurrentielle et drivers dominants. P2 : drivers attachés aux étapes/process et KPI. P3 : priorité business distincte du séquençage, stratégie de valeur, sourcing, baseline et test d'arrêt. Conserver exactement trois pages ; condenser ailleurs, pas de quatrième page ni police réduite. Aucun rendu final avant GO_DRAFT.
+
+Un gain annoncé par un fournisseur ou un pair ne devient ni baseline ni ROI de l’entreprise : benchmark non transféré jusqu’à validation locale.

@@ -19,3 +19,5 @@ Ne pas rédiger le trois-pages final sans GO_DRAFT humain référencé au dossie
 
 ## Contexte externe obligatoire
 Avant diagnostic et shortlist, charger `references/market-drivers.md` : collecte sites/études → segmentation et concurrence → drivers industriels priorisés → stratégie de valeur → use cases → trois pages. Cette étape s’applique aussi aux reprises.
+
+Le complément market-drivers obligatoire s’ajoute à la procédure métier unique sélectionnée pour l’étape.
