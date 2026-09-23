@@ -19,11 +19,17 @@ def validate_bundle(directory,archive=None):
     check(p['cutoff']==c['cutoff'],'bundle cutoff mismatch')
     check(p['strategic_context_ref']=='strategic_context.json','unexpected context path')
     claims=index(p['claims']);sources=index(p['sources']);ucs=index(p['use_cases']);acts=index(p['value_chain'])
-    check({x['role'] for x in c['leaders']}=={'COO','DSI'} and len(c['leaders'])==2,'two leadership roles required')
+    roles=[x['role'] for x in c['leaders']]
+    check({'COO','DSI'}<=set(roles) and len(set(roles))==len(roles),'COO/DSI required and leadership roles unique')
     for role in c['leaders']:
         check((role['person'] is None)==(role['status']=='unknown'),'leadership unknown mismatch')
         refs(role['source_refs'],sources)
-        if role['status']=='verified_group':check(role['scope']=='group' and bool(role['source_refs']),'subsidiary promoted to group')
+        if role['status']=='verified_group':
+            check(role['scope']=='group' and bool(role['source_refs']) and bool(role['exact_title']),
+                  'subsidiary or unsourced role promoted to group')
+            check(any(sources[x]['source_type'] in ('legal_register','corporate') and sources[x]['scope']=='company'
+                      for x in role['source_refs']), 'group leader lacks legal or corporate source')
+        if role['status']=='verified_subsidiary':check(role['scope']=='subsidiary' and bool(role['source_refs']),'subsidiary scope missing')
     check(c['ml_strategy']['observed_status'] in ('unknown','observed'),'ML strategy status required')
     refs(c['ml_strategy']['observed_claim_refs'],claims)
     if c['ml_strategy']['observed_status']=='observed':
@@ -59,14 +65,23 @@ def validate_bundle(directory,archive=None):
     check(required_paths <= set(c['artifact_hashes']),'artifact hash coverage missing')
     # Integrity is explicit: an excerpt hash never masquerades as a full original hash.
     fragments=index(p['fragments'])
-    for s in sources.values():check(s.get('capture_kind')=='selected_excerpt' and s.get('hash_scope')=='excerpt_utf8','capture hash scope unsupported')
+    for s in sources.values():
+        kind=s.get('capture_kind');scope=s.get('hash_scope')
+        check((kind,scope) in (('selected_excerpt','excerpt_utf8'),('full_original','original_bytes')),
+              'capture kind and hash scope unsupported')
     if archive:
         captures={x['id']:x for x in load(archive)['sources']}
         for s in sources.values():
-            check(s['id'] in captures and 'excerpt' in captures[s['id']],'missing capture')
-            check(hashlib.sha256(captures[s['id']]['excerpt'].encode()).hexdigest()==s['sha256'],'source capture hash mismatch')
-            for f in fragments.values():
-                if f['source_id']==s['id']:check(f['excerpt'] in captures[s['id']]['excerpt'],'fragment not in capture')
+            check(s['id'] in captures,'missing capture')
+            capture=captures[s['id']]
+            if s['capture_kind']=='full_original':
+                original=safe(Path(archive).parent,capture['original_path'])
+                check(sha(original)==s['sha256'],'original bytes hash mismatch')
+            else:
+                check('excerpt' in capture,'missing excerpt')
+                check(hashlib.sha256(capture['excerpt'].encode()).hexdigest()==s['sha256'],'source capture hash mismatch')
+                for f in fragments.values():
+                    if f['source_id']==s['id']:check(f['excerpt'] in capture['excerpt'],'fragment not in capture')
     # No automatic human decision; valid bundle may deliberately remain pre-HITL.
     check(c['render_status']=='not_authorized','use separate human freeze gate')
     return {'status':'PASS','company':p['entity_id'],'cases':len(ucs),'claims':len(claims),'snapshot_integrity':'verified' if archive else 'not_checked_external_archive_required','render_authorized':False}

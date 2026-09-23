@@ -1,0 +1,521 @@
+{
+ "template": "THREE_PAGER_PORTFOLIO_AI",
+ "template_version": "0.3.0-exec",
+ "render_profile": "exec",
+ "program": "Hivest — Portfolio AI Diagnostic",
+ "entity": "SPHERE",
+ "entity_id": "sphere",
+ "language": "fr",
+ "cutoff": "2026-09-24",
+ "lineage": {
+  "repo": "achard-arnaud/Hivest-ptf-analysis",
+  "repo_commit": "3ebd6a8",
+  "bundle": "companies/sphere/package.json + strategic_context.json (v0.2)",
+  "evidence_delta": [
+   "S-L01 pappers.fr GROUPE SPHERE (mandataires)",
+   "S-L02 ponts.org nomination V. Legros",
+   "S-I01 sphere.eu/our-innovations (>200 brevets, ≈50 % recyclé)"
+  ],
+  "status_in_repo": "RESEARCH — rendu de démonstration, non gelé"
+ },
+ "figures": {
+  "ca25": {
+   "value": "≈814 M€",
+   "src": "S02",
+   "kind": "fact"
+  },
+  "ebitda": {
+   "value": "77,9 M€",
+   "src": "S03",
+   "kind": "fact"
+  },
+  "marge": {
+   "value": "≈10 %",
+   "src": "S03",
+   "kind": "calc",
+   "calc": "77,945 / 782,054"
+  },
+  "achats": {
+   "value": "472,7 M€",
+   "src": "S03",
+   "kind": "fact"
+  },
+  "achats_pct": {
+   "value": "≈60 %",
+   "src": "S03",
+   "kind": "calc",
+   "calc": "472,66 / 782,054"
+  },
+  "stocks": {
+   "value": "167,6 M€",
+   "src": "S03",
+   "kind": "fact"
+  },
+  "bfr": {
+   "value": "125,7 M€",
+   "src": "S03",
+   "kind": "fact"
+  },
+  "pt_achats": {
+   "value": "4,7 M€",
+   "src": "S03",
+   "kind": "calc",
+   "calc": "1 % × 472,66"
+  },
+  "pt_ebitda": {
+   "value": "≈6 %",
+   "src": "S03",
+   "kind": "calc",
+   "calc": "4,727 / 77,945"
+  },
+  "stock10": {
+   "value": "16,8 M€",
+   "src": "S03",
+   "kind": "calc",
+   "calc": "10 % × 167,6"
+  },
+  "energie": {
+   "value": ">2,5 %",
+   "src": "S03",
+   "kind": "fact"
+  }
+ },
+ "drivers": [
+  {
+   "id": "marge",
+   "label": "Marge matière",
+   "text": "répercuter la volatilité des résines, optimiser le mix vierge / recyclé / biosourcé"
+  },
+  {
+   "id": "usine",
+   "label": "Rendement usine",
+   "text": "rebut, énergie et qualité par tonne produite"
+  },
+  {
+   "id": "cash",
+   "label": "Cash",
+   "text": "stocks ({stocks}) et BFR"
+  },
+  {
+   "id": "integration",
+   "label": "Intégration",
+   "text": "standards communs ERP, catalogue et planification après acquisitions"
+  },
+  {
+   "id": "diff",
+   "label": "Différenciation",
+   "text": "matériaux biosourcés et offre pro unifiée"
+  }
+ ],
+ "themes": [
+  {
+   "n": 1,
+   "name": "Pilotage de la marge matière",
+   "stars": 3,
+   "drivers": [
+    "marge"
+   ],
+   "activity": "Achats, ventes",
+   "strategy": "marge",
+   "strategy_family": "cost",
+   "horizon": "6–18 mois",
+   "change": "Marge par famille et client, alertes d’indexation, mix matière optimisé",
+   "benefit": "1 % d’achats = {pt_achats} de marge",
+   "advantage": "Répercuter la volatilité plus vite que les pairs",
+   "feature": "Détection d’anomalies, optimisation"
+  },
+  {
+   "n": 2,
+   "name": "Usine pilotée par la donnée",
+   "stars": 3,
+   "drivers": [
+    "usine"
+   ],
+   "activity": "Production",
+   "strategy": "coûts",
+   "strategy_family": "cost",
+   "horizon": "6–18 mois",
+   "change": "Supervision unifiée des lignes, détection de dérives, contrôle visuel",
+   "benefit": "Moins de rebut et d’énergie par tonne",
+   "advantage": "Qualité constante sur matière recyclée",
+   "feature": "ML machines, vision industrielle"
+  },
+  {
+   "n": 3,
+   "name": "Prévision et stocks",
+   "stars": 3,
+   "drivers": [
+    "cash"
+   ],
+   "activity": "Logistique",
+   "strategy": "cash",
+   "strategy_family": "cash",
+   "horizon": "6–18 mois",
+   "change": "Prévision au-dessus du S&OP, politiques de stock et de lots",
+   "benefit": "10 % de stocks = {stock10} de cash",
+   "advantage": "Délais face aux importations",
+   "feature": "Prévision ML, optimisation"
+  },
+  {
+   "n": 4,
+   "name": "Catalogue et innovation",
+   "stars": 2,
+   "drivers": [
+    "diff"
+   ],
+   "activity": "Ventes, R&D",
+   "strategy": "différenciation",
+   "strategy_family": "differentiation",
+   "horizon": "18–36 mois",
+   "change": "Catalogue SPHERE PRO assisté ; plans d’essais R&D assistés",
+   "benefit": "Conversion, innovation plus rapide",
+   "advantage": "Offre pro unifiée, brevets",
+   "feature": "GenAI, optimisation des essais"
+  }
+ ],
+ "transformation": {
+  "covers": [
+   "integration"
+  ],
+  "mt": "pilotage unifié par la donnée du rythme de production, de la qualité et des consommables.",
+  "lt": "modèle prédictif de bout en bout, de la demande à la production et aux achats matière.",
+  "take": "de l’intégration au prédictif."
+ },
+ "posture": {
+  "current": "W-O",
+  "label": "opportuniste",
+  "option": "S-O"
+ },
+ "page1": {
+  "subtitle": "Un leader européen de l’emballage en consolidation : la valeur se joue sur la marge matière, l’usine et le cash",
+  "signaletique": {
+   "rows": [
+    [
+     "Activité",
+     "Films, sacs et emballages ménagers, pros et industriels ; matériaux biosourcés"
+    ],
+    [
+     "Actionnariat",
+     "Hivest majoritaire depuis fin 2024 ; famille et management co-investis"
+    ],
+    [
+     "Taille",
+     "{ca25} de CA 2025 · 18 sites en Europe · >1 800 salariés"
+    ],
+    [
+     "Économie 2024",
+     "EBITDA {ebitda} ({marge}) · achats {achats} ({achats_pct} du CA)"
+    ],
+    [
+     "Capital 2024",
+     "Stocks {stocks} · BFR {bfr}"
+    ],
+    [
+     "Croissance",
+     "−3,4 % à périmètre constant (2024) ; Polyex acquis (09/2026)"
+    ]
+   ],
+   "take": "marge étroite et 60 % du CA en matière : 1 % d’achats en moins vaut {pt_ebitda} de l’EBITDA."
+  },
+  "thesis": {
+   "paras": [
+    "SPHERE est une plateforme européenne bâtie par acquisitions successives.",
+    "Sa création de valeur passe par l’intégration : piloter marge matière, qualité et stocks comme un seul groupe. L’IA accélère cette intégration, elle ne la remplace pas."
+   ],
+   "take": "intégrer avant d’innover."
+  },
+  "drivers_take": "les trois premiers protègent marge et cash ; les deux derniers construisent l’avantage.",
+  "breakdown": {
+   "title": "Activity breakdown (CA 2024)",
+   "series_title": "Familles de produits",
+   "series": [
+    [
+     "PE extrudé recyclable",
+     38
+    ],
+    [
+     "Biosourcés compostables",
+     20
+    ],
+    [
+     "Façonnés",
+     20
+    ],
+    [
+     "Négoce",
+     16
+    ],
+    [
+     "Autres",
+     6
+    ]
+   ],
+   "stack_title": "Clients",
+   "stack": [
+    [
+     "Grande distribution 65 %",
+     65
+    ],
+    [
+     "Entr. 32 %",
+     32
+    ],
+    [
+     "",
+     3
+    ]
+   ],
+   "footnote": "France 50 % · reste de l’Europe 49 %",
+   "take": "78 % du CA sur trois familles, deux tiers en grande distribution : le prix se négocie face aux distributeurs, d’où l’enjeu de l’indexation matière."
+  },
+  "board": {
+   "intro": "Objectif : qui peut porter la transformation data ?",
+   "rows": [
+    {
+     "who": "Hivest, famille, management",
+     "what": "capital co-investi",
+     "role": "alignement actionnarial"
+    },
+    {
+     "who": "Vincent Legros, DG (2026)",
+     "what": "ex-PDG de Bostik, industriel Saint-Gobain",
+     "role": "promoteur de l’excellence opérationnelle"
+    },
+    {
+     "who": "Bernard Doussot, DG délégué et CFO",
+     "what": "sponsor du S&OP Italie",
+     "role": "owner du cash et de la prévision"
+    },
+    {
+     "who": "Owner industriel et DSI groupe",
+     "what": "non visibles publiquement",
+     "role": null,
+     "gap": true
+    }
+   ],
+   "take": "empowerment fort au sommet ; l’ownership data/IA de la plateforme reste à attribuer."
+  },
+  "swot": {
+   "s": [
+    "Leader européen du ménager, 18 sites",
+    ">200 brevets biosourcés (Biotec)",
+    "≈50 % de la production en recyclé"
+   ],
+   "w": [
+    "Planification hétérogène post-acquisitions",
+    "ERP groupe partiel (Italie)",
+    "Marge ≈10 %, dépendance matière"
+   ],
+   "o": [
+    "Règlement emballages (PPWR) pro-recyclé",
+    "Consolidation : SPHERE PRO, S&OP",
+    "Prédictif sur le socle ERP"
+   ],
+   "t": [
+    "Volatilité des résines",
+    "Pouvoir des distributeurs",
+    "Importations sur le standard"
+   ],
+   "take": "posture opportuniste (W-O) : acquisitions, offre pro unifiée et S&OP servent à corriger la fragmentation."
+  },
+  "footer": {
+   "label": "Magic Quadrant · lecture activité",
+   "body": "**Core** : matière et R&D biosourcée, production, ventes : là où se font marge et différenciation. **Enabler** : planification, stocks, ERP et données, qui coordonnent la plateforme. **Support** : finance, conformité, encaissement."
+  },
+  "sources": "Sources : SPHERE (communiqué 07/09/2026 ; site, innovations) · rapport annuel 2024 · Hivest (10/2024) · registre légal GROUPE SPHERE · ponts.org (05/2026) · Valtus (07/2026)"
+ },
+ "page2": {
+  "subtitle": "La chaîne de valeur concentre l’impact sur quatre maillons : achats matière, production, stocks et ventes",
+  "support": [
+   {
+    "name": "Approvisionnement",
+    "stars": 3,
+    "desc": "{achats} d’achats consommés, {achats_pct} du CA : résines vierges, recyclées, biosourcées, aluminium.",
+    "benefit": "marge",
+    "themes": [
+     1
+    ]
+   },
+   {
+    "name": "Développement technologique",
+    "stars": 2,
+    "desc": ">200 brevets ; R&D biosourcée avec Biotec ; ERP JD Edwards déployé en Italie.",
+    "benefit": "cycle d’innovation raccourci",
+    "themes": [
+     4
+    ]
+   },
+   {
+    "name": "Infrastructure",
+    "stars": 2,
+    "desc": "Holding, finance, intégration des acquisitions, conformité emballages (PPWR).",
+    "benefit": "synergies, accès marché",
+    "transformation": "MT"
+   },
+   {
+    "name": "Ressources humaines",
+    "stars": 1,
+    "desc": ">1 800 salariés ; compétences data et IA non visibles.",
+    "benefit": "adoption"
+   }
+  ],
+  "primary": [
+   {
+    "name": "Logistique amont",
+    "stars": 2,
+    "desc": "Réception et stockage des matières ; lots et minimums fournisseurs.",
+    "benefit": "coût livré et BFR",
+    "themes": [
+     3
+    ]
+   },
+   {
+    "name": "Production",
+    "stars": 3,
+    "desc": "Extrusion, impression, soudure et façonnage sur 18 sites ; ≈50 % de recyclé.",
+    "benefit": "moins de rebut et d’énergie par tonne",
+    "themes": [
+     2
+    ]
+   },
+   {
+    "name": "Logistique aval",
+    "stars": 3,
+    "desc": "Stocks de {stocks}, distribution européenne ; S&OP engagé en Italie.",
+    "benefit": "cash libéré à service constant",
+    "themes": [
+     3
+    ]
+   },
+   {
+    "name": "Marketing et ventes",
+    "stars": 3,
+    "desc": "Grande distribution 65 % du CA ; SPHERE PRO : 4 000+ réf. pour les pros ; indexation matière.",
+    "benefit": "marge protégée, conversion",
+    "themes": [
+     1,
+     4
+    ]
+   },
+   {
+    "name": "Services",
+    "stars": 1,
+    "desc": "Facturation, litiges et encaissement.",
+    "benefit": "délai d’encaissement"
+   }
+  ],
+  "margin_sub": "EBITDA {marge}",
+  "metrics": {
+   "items": [
+    [
+     "{pt_achats}",
+     "1 % des achats, soit {pt_ebitda} de l’EBITDA"
+    ],
+    [
+     "{stock10}",
+     "de cash pour 10 % de stocks en moins"
+    ],
+    [
+     "{energie}",
+     "du CA en énergie"
+    ]
+   ],
+   "take": "la matière pèse plus que tout le reste : premier levier de marge."
+  },
+  "lecture": {
+   "text": "Quatre maillons ★★★ : deux dans la matière et l’usine (achats, production), deux dans les flux et la vente (stocks, ventes et indexation).",
+   "take": "la valeur IA se joue dans la chaîne matière et l’usine, pas dans le back-office."
+  },
+  "footer": {
+   "label": "Magic Quadrant · impact",
+   "body": "**Core × parité** : approvisionnement, production et ventes portent l’essentiel de l’impact, sans différenciation visible. **Seul candidat différenciant** : la technologie biosourcée. **Enablers** : stocks et planification libèrent le cash."
+  },
+  "sources": "Sources : rapport annuel 2024 · SPHERE (innovations ; SPHERE PRO 04/2026) · Valtus (07/2026) · ★ = impact estimé sur marge et cash",
+  "top_count": 4
+ },
+ "page3": {
+  "subtitle": "Quatre priorités : d’abord la marge et l’usine, puis le cash ; la différenciation biosourcée suivra une donnée unifiée",
+  "quadrant": {
+   "cells": [
+    {
+     "row": "Core",
+     "col": "Parity",
+     "label": "Achats et pricing matière",
+     "theme": 1
+    },
+    {
+     "row": "Core",
+     "col": "Parity",
+     "label": "Production",
+     "theme": 2
+    },
+    {
+     "row": "Core",
+     "col": "Parity",
+     "label": "Ventes, SPHERE PRO",
+     "theme": 4
+    },
+    {
+     "row": "Core",
+     "col": "Differentiating",
+     "label": "Biosourcés (>200 brevets)",
+     "theme": 4
+    },
+    {
+     "row": "Enabler",
+     "col": "Parity",
+     "label": "Stocks, S&OP",
+     "theme": 3
+    },
+    {
+     "row": "Enabler",
+     "col": "Parity",
+     "label": "ERP, données"
+    },
+    {
+     "row": "Support",
+     "col": "Commodity",
+     "label": "Encaissement"
+    },
+    {
+     "row": "Support",
+     "col": "Parity",
+     "label": "Finance, RH"
+    }
+   ],
+   "take": "marge et usine d’abord. Seul candidat différenciant : les biosourcés ; l’information publique ne permet pas d’aller plus loin."
+  },
+  "themes_title": "Priorités IA · bénéfice, avantage, caractéristique",
+  "themes_take": "trois priorités d’efficience financent la quatrième, qui construit l’avantage.",
+  "ai_diag": {
+   "level": "Faible",
+   "facts": [
+    "ERP JD Edwards et S&OP structurés en Italie",
+    "Aucune équipe ni cas IA communiqués"
+   ],
+   "take": "socle ERP / S&OP amorcé ; capacité IA à construire."
+  },
+  "dominant": {
+   "rows": [
+    [
+     "Coûts et marge",
+     "cost"
+    ],
+    [
+     "Cash",
+     "cash"
+    ],
+    [
+     "Différenciation",
+     "differentiation"
+    ]
+   ],
+   "take": "résilience de marge et efficience d’abord ; différenciation ensuite."
+  },
+  "footer": {
+   "label": "Conclusion",
+   "body": "Posture opportuniste (W-O) : SPHERE doit transformer sa consolidation en plateforme pilotée par la donnée. L’IA sert d’abord la marge matière et l’usine, puis le cash ; la différenciation biosourcée devient l’option offensive (S-O) une fois la donnée unifiée."
+  },
+  "sources": "Sources : diagnostic Hivest-ptf-analysis (bundle Sphere v0.2 et compléments du 24/09/2026)"
+ }
+}

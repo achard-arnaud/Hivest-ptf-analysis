@@ -20,7 +20,8 @@
       "snapshot_uri": "oai-library://libfile_b99e2e770728819188adc0ce7d48a3ce#S02",
       "sha256": "b67a81405c93aa8ba96b6810c5d40358190a5de474c1e9ea85d4afe93dc6cc1b",
       "capture_kind": "selected_excerpt",
-      "hash_scope": "excerpt_utf8"
+      "hash_scope": "excerpt_utf8",
+      "capture_policy": "full_original_required"
     },
     {
       "id": "S03",
@@ -39,7 +40,8 @@
       "snapshot_uri": "oai-library://libfile_b99e2e770728819188adc0ce7d48a3ce#S03",
       "sha256": "0ba924b4c5fec1746c9fc986402b915299a36b00d2d43d23720b3fbb5c7d8fc7",
       "capture_kind": "selected_excerpt",
-      "hash_scope": "excerpt_utf8"
+      "hash_scope": "excerpt_utf8",
+      "capture_policy": "full_original_required"
     },
     {
       "id": "S05",
@@ -58,7 +60,8 @@
       "snapshot_uri": "oai-library://libfile_b99e2e770728819188adc0ce7d48a3ce#S05",
       "sha256": "167900cb47e4591f65415ec2b886f2cf45928bb8bf46fb8baaa9da236d48e2c0",
       "capture_kind": "selected_excerpt",
-      "hash_scope": "excerpt_utf8"
+      "hash_scope": "excerpt_utf8",
+      "capture_policy": "excerpt_by_rights"
     },
     {
       "id": "S06",
@@ -77,7 +80,8 @@
       "snapshot_uri": "oai-library://libfile_b99e2e770728819188adc0ce7d48a3ce#S06",
       "sha256": "42605af10b2b60fbb7b40c9c95d708a7a7a946a834ceda02e9def2760c637300",
       "capture_kind": "selected_excerpt",
-      "hash_scope": "excerpt_utf8"
+      "hash_scope": "excerpt_utf8",
+      "capture_policy": "full_original_required"
     },
     {
       "id": "JDE-01",
@@ -94,7 +98,8 @@
       "snapshot_uri": "oai-library://libfile_b99e2e770728819188adc0ce7d48a3ce#JDE-01",
       "sha256": "d4e500ec6f17a433de1351d42b5f2447c55e7559527e5bc312a511d1e4dbdca1",
       "capture_kind": "selected_excerpt",
-      "hash_scope": "excerpt_utf8"
+      "hash_scope": "excerpt_utf8",
+      "capture_policy": "excerpt_by_rights"
     },
     {
       "id": "JDE-02",
@@ -111,7 +116,8 @@
       "snapshot_uri": "oai-library://libfile_b99e2e770728819188adc0ce7d48a3ce#JDE-02",
       "sha256": "7de28eb5df4e7dd0043a0fe6ac9f82c31783299c2fbe62073984a0fcc65c56dd",
       "capture_kind": "selected_excerpt",
-      "hash_scope": "excerpt_utf8"
+      "hash_scope": "excerpt_utf8",
+      "capture_policy": "excerpt_by_rights"
     },
     {
       "id": "JDE-04",
@@ -128,7 +134,8 @@
       "snapshot_uri": "oai-library://libfile_b99e2e770728819188adc0ce7d48a3ce#JDE-04",
       "sha256": "186226c6017bea74a07dd1d25b68e5b3ce385cefb8f0d03d6bb92e919ec41d78",
       "capture_kind": "selected_excerpt",
-      "hash_scope": "excerpt_utf8"
+      "hash_scope": "excerpt_utf8",
+      "capture_policy": "excerpt_by_rights"
     },
     {
       "id": "JDE-05",
@@ -145,7 +152,8 @@
       "snapshot_uri": "oai-library://libfile_b99e2e770728819188adc0ce7d48a3ce#JDE-05",
       "sha256": "10814193454a9f9521bb7df01198763dd65bc07c1562cf0215b830a8ccc3a36c",
       "capture_kind": "selected_excerpt",
-      "hash_scope": "excerpt_utf8"
+      "hash_scope": "excerpt_utf8",
+      "capture_policy": "excerpt_by_rights"
     },
     {
       "id": "JDE-07",
@@ -162,7 +170,8 @@
       "snapshot_uri": "oai-library://libfile_b99e2e770728819188adc0ce7d48a3ce#JDE-07",
       "sha256": "3a7ba2357f029129fbe4e7756b7fb566ca45b771932ce1597f090005520c5c77",
       "capture_kind": "selected_excerpt",
-      "hash_scope": "excerpt_utf8"
+      "hash_scope": "excerpt_utf8",
+      "capture_policy": "excerpt_by_rights"
     },
     {
       "id": "S-P01",
@@ -181,7 +190,8 @@
       "snapshot_uri": "oai-library://libfile_b99e2e770728819188adc0ce7d48a3ce#S-P01",
       "sha256": "ba7eeb59626fe671368ffe3e2e66a2101096fe0e73626c425d114152862ef67a",
       "capture_kind": "selected_excerpt",
-      "hash_scope": "excerpt_utf8"
+      "hash_scope": "excerpt_utf8",
+      "capture_policy": "excerpt_by_rights"
     },
     {
       "id": "S-P02",
@@ -200,7 +210,8 @@
       "snapshot_uri": "oai-library://libfile_b99e2e770728819188adc0ce7d48a3ce#S-P02",
       "sha256": "0a4ea42586ce03f375158740a1bfd101a695cb0a2988e0e05ca0d4c9569cb8d7",
       "capture_kind": "selected_excerpt",
-      "hash_scope": "excerpt_utf8"
+      "hash_scope": "excerpt_utf8",
+      "capture_policy": "excerpt_by_rights"
     },
     {
       "id": "P01",
@@ -219,7 +230,8 @@
       "snapshot_uri": "oai-library://libfile_b99e2e770728819188adc0ce7d48a3ce#P01",
       "sha256": "7a2a72f1d3c8e2142c87ae111d8bf648e72b8f7ec1f38bee86a9551d36a5786a",
       "capture_kind": "selected_excerpt",
-      "hash_scope": "excerpt_utf8"
+      "hash_scope": "excerpt_utf8",
+      "capture_policy": "excerpt_by_rights"
     },
     {
       "id": "S-P05",
@@ -238,7 +250,8 @@
       "snapshot_uri": "oai-library://libfile_b99e2e770728819188adc0ce7d48a3ce#S-P05",
       "sha256": "3944d2197761c8eb9f52d2b46326639e336515a4e002123182d96e70cb4c8836",
       "capture_kind": "selected_excerpt",
-      "hash_scope": "excerpt_utf8"
+      "hash_scope": "excerpt_utf8",
+      "capture_policy": "excerpt_by_rights"
     },
     {
       "id": "M02",
@@ -255,7 +268,8 @@
       "snapshot_uri": "oai-library://libfile_b99e2e770728819188adc0ce7d48a3ce#M02",
       "sha256": "69b5b8efc936aecafcd3f92868af3fe9e8871de9378fdd3afb268967d362b81a",
       "capture_kind": "selected_excerpt",
-      "hash_scope": "excerpt_utf8"
+      "hash_scope": "excerpt_utf8",
+      "capture_policy": "excerpt_by_rights"
     },
     {
       "id": "M03",
@@ -272,7 +286,8 @@
       "snapshot_uri": "oai-library://libfile_b99e2e770728819188adc0ce7d48a3ce#M03",
       "sha256": "0f5a15dd9a804749c4ab93173195dc72a107a6ef7c06896e82810cd8d81efd0f",
       "capture_kind": "selected_excerpt",
-      "hash_scope": "excerpt_utf8"
+      "hash_scope": "excerpt_utf8",
+      "capture_policy": "excerpt_by_rights"
     },
     {
       "id": "M04",
@@ -289,7 +304,8 @@
       "snapshot_uri": "oai-library://libfile_b99e2e770728819188adc0ce7d48a3ce#M04",
       "sha256": "ff0d9eec41b153b345e0a3450b970d3e6e7608f1cf30f7f36ff46f47a85b023f",
       "capture_kind": "selected_excerpt",
-      "hash_scope": "excerpt_utf8"
+      "hash_scope": "excerpt_utf8",
+      "capture_policy": "excerpt_by_rights"
     },
     {
       "id": "M05",
@@ -306,7 +322,8 @@
       "snapshot_uri": "oai-library://libfile_b99e2e770728819188adc0ce7d48a3ce#M05",
       "sha256": "864e0ce4f00d719e47a927d72ac1435c130d5515a389e673b413ead87f290b7c",
       "capture_kind": "selected_excerpt",
-      "hash_scope": "excerpt_utf8"
+      "hash_scope": "excerpt_utf8",
+      "capture_policy": "excerpt_by_rights"
     },
     {
       "id": "M07",
@@ -325,7 +342,8 @@
       "snapshot_uri": "oai-library://libfile_b99e2e770728819188adc0ce7d48a3ce#M07",
       "sha256": "1d253d763cc7f0e33336b0d99797faeccf7d4869d9c56aeb52416d27e0410cd9",
       "capture_kind": "selected_excerpt",
-      "hash_scope": "excerpt_utf8"
+      "hash_scope": "excerpt_utf8",
+      "capture_policy": "excerpt_by_rights"
     },
     {
       "id": "M06",
@@ -342,7 +360,8 @@
       "snapshot_uri": "oai-library://libfile_b99e2e770728819188adc0ce7d48a3ce#M06",
       "sha256": "09577297769f34ab46eb2c094b152237642919144ec8f36cd74e86e0c8ee49c5",
       "capture_kind": "selected_excerpt",
-      "hash_scope": "excerpt_utf8"
+      "hash_scope": "excerpt_utf8",
+      "capture_policy": "excerpt_by_rights"
     },
     {
       "id": "M01P",
@@ -359,7 +378,8 @@
       "snapshot_uri": "oai-library://libfile_b99e2e770728819188adc0ce7d48a3ce#M01P",
       "sha256": "1deb5e547ce0ff420ce34b66961b55c053c8bc19bba17fddea534237ee32c723",
       "capture_kind": "selected_excerpt",
-      "hash_scope": "excerpt_utf8"
+      "hash_scope": "excerpt_utf8",
+      "capture_policy": "excerpt_by_rights"
     }
   ],
   "fragments": [

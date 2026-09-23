@@ -75,6 +75,7 @@
           "source_type": {
             "enum": [
               "filing",
+              "legal_register",
               "corporate",
               "customer_case",
               "research",
@@ -108,6 +109,9 @@
               "full_original",
               "web_extract"
             ]
+          },
+          "capture_policy": {
+            "enum": ["full_original_required", "excerpt_by_rights"]
           },
           "hash_scope": {
             "enum": [

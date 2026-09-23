@@ -18,7 +18,8 @@
     "accessed_at": "2026-09-23",
     "origin_id": "https://www.sphere.eu/en/the-sphere-group-expands-its-operations-in-the-industrial-film-market-through-the-acquisition-of-polyex/",
     "rights": "Public reference; short selected excerpts only; no full reproduction or raw HTML claim",
-    "capture_sha256": "b67a81405c93aa8ba96b6810c5d40358190a5de474c1e9ea85d4afe93dc6cc1b"
+    "capture_sha256": "b67a81405c93aa8ba96b6810c5d40358190a5de474c1e9ea85d4afe93dc6cc1b",
+    "capture_policy": "full_original_required"
   },
   {
     "id": "S03",
@@ -39,7 +40,8 @@
     "accessed_at": "2026-09-23",
     "origin_id": "https://uploads1.craft.co/uploads/unified_record/source/document/2165394/f71eb45b0ee203cf.pdf",
     "rights": "Public reference; short selected excerpts only; no full reproduction or raw HTML claim",
-    "capture_sha256": "0ba924b4c5fec1746c9fc986402b915299a36b00d2d43d23720b3fbb5c7d8fc7"
+    "capture_sha256": "0ba924b4c5fec1746c9fc986402b915299a36b00d2d43d23720b3fbb5c7d8fc7",
+    "capture_policy": "full_original_required"
   },
   {
     "id": "S05",
@@ -60,7 +62,8 @@
     "accessed_at": "2026-09-23",
     "origin_id": "https://www.sphere.eu/fr/le-groupe-sphere-presente-au-salon-interclean-2026-sa-nouvelle-division-europeenne-sphere-pro/",
     "rights": "Public reference; short selected excerpts only; no full reproduction or raw HTML claim",
-    "capture_sha256": "167900cb47e4591f65415ec2b886f2cf45928bb8bf46fb8baaa9da236d48e2c0"
+    "capture_sha256": "167900cb47e4591f65415ec2b886f2cf45928bb8bf46fb8baaa9da236d48e2c0",
+    "capture_policy": "excerpt_by_rights"
   },
   {
     "id": "S06",
@@ -81,7 +84,8 @@
     "accessed_at": "2026-09-23",
     "origin_id": "https://hivestcapital.com/hivest-capital-partners-mene-la-reconfiguration-capitalistique-du-groupe-sphere-leader-europeen-des-emballages-menagers-durables/",
     "rights": "Public reference; short selected excerpts only; no full reproduction or raw HTML claim",
-    "capture_sha256": "42605af10b2b60fbb7b40c9c95d708a7a7a946a834ceda02e9def2760c637300"
+    "capture_sha256": "42605af10b2b60fbb7b40c9c95d708a7a7a946a834ceda02e9def2760c637300",
+    "capture_policy": "full_original_required"
   },
   {
     "id": "S07",
@@ -97,7 +101,8 @@
     "capture_kind": "reference_only",
     "accessed_at": "2026-09-23",
     "origin_id": "https://www.wh.group/cee/en/company/news_events/e_magazine/intelligent_data_use_with_ruby/",
-    "rights": "Public reference; short selected excerpts only; no full reproduction or raw HTML claim"
+    "rights": "Public reference; short selected excerpts only; no full reproduction or raw HTML claim",
+    "capture_policy": "excerpt_by_rights"
   },
   {
     "id": "S08",
@@ -113,7 +118,8 @@
     "capture_kind": "reference_only",
     "accessed_at": "2026-09-23",
     "origin_id": "https://www.isravision.com/en-en/industries/plastic-film-foil-sheets",
-    "rights": "Public reference; short selected excerpts only; no full reproduction or raw HTML claim"
+    "rights": "Public reference; short selected excerpts only; no full reproduction or raw HTML claim",
+    "capture_policy": "excerpt_by_rights"
   },
   {
     "id": "S09",
@@ -129,7 +135,8 @@
     "capture_kind": "reference_only",
     "accessed_at": "2026-09-23",
     "origin_id": "https://www.flexpack-europe.org/press-release/rising-raw-material-costs-and-geopolitical-tensions-impact-the-markets-for-flexible-packaging-materials",
-    "rights": "Public reference; short selected excerpts only; no full reproduction or raw HTML claim"
+    "rights": "Public reference; short selected excerpts only; no full reproduction or raw HTML claim",
+    "capture_policy": "excerpt_by_rights"
   },
   {
     "id": "S10",
@@ -145,7 +152,8 @@
     "capture_kind": "reference_only",
     "accessed_at": "2026-09-23",
     "origin_id": "https://cyprus.representation.ec.europa.eu/news/new-package-measures-boost-circular-economy-and-strengthen-europes-plastic-recycling-2025-12-19_en",
-    "rights": "Public reference; short selected excerpts only; no full reproduction or raw HTML claim"
+    "rights": "Public reference; short selected excerpts only; no full reproduction or raw HTML claim",
+    "capture_policy": "excerpt_by_rights"
   },
   {
     "id": "S11",
@@ -161,7 +169,8 @@
     "capture_kind": "reference_only",
     "accessed_at": "2026-09-23",
     "origin_id": "https://environment.ec.europa.eu/topics/waste-and-recycling/packaging-waste_en",
-    "rights": "Public reference; short selected excerpts only; no full reproduction or raw HTML claim"
+    "rights": "Public reference; short selected excerpts only; no full reproduction or raw HTML claim",
+    "capture_policy": "excerpt_by_rights"
   },
   {
     "id": "JDE-01",
@@ -181,7 +190,8 @@
     "accessed_at": "2026-09-23",
     "origin_id": "https://www.oracle.com/webfolder/technetwork/tutorials/jdedwards/FAQ/FAQ-Oracle-AI-JDE.pdf",
     "rights": "Public reference; short selected excerpts only; no full reproduction or raw HTML claim",
-    "capture_sha256": "d4e500ec6f17a433de1351d42b5f2447c55e7559527e5bc312a511d1e4dbdca1"
+    "capture_sha256": "d4e500ec6f17a433de1351d42b5f2447c55e7559527e5bc312a511d1e4dbdca1",
+    "capture_policy": "excerpt_by_rights"
   },
   {
     "id": "JDE-02",
@@ -201,7 +211,8 @@
     "accessed_at": "2026-09-23",
     "origin_id": "https://docs.oracle.com/cd/E84502_01/learnjde/orchestrator-integration.html",
     "rights": "Public reference; short selected excerpts only; no full reproduction or raw HTML claim",
-    "capture_sha256": "7de28eb5df4e7dd0043a0fe6ac9f82c31783299c2fbe62073984a0fcc65c56dd"
+    "capture_sha256": "7de28eb5df4e7dd0043a0fe6ac9f82c31783299c2fbe62073984a0fcc65c56dd",
+    "capture_policy": "excerpt_by_rights"
   },
   {
     "id": "JDE-04",
@@ -221,7 +232,8 @@
     "accessed_at": "2026-09-23",
     "origin_id": "https://docs.oracle.com/cd/E84502_01/learnjde/jde-ai.html",
     "rights": "Public reference; short selected excerpts only; no full reproduction or raw HTML claim",
-    "capture_sha256": "186226c6017bea74a07dd1d25b68e5b3ce385cefb8f0d03d6bb92e919ec41d78"
+    "capture_sha256": "186226c6017bea74a07dd1d25b68e5b3ce385cefb8f0d03d6bb92e919ec41d78",
+    "capture_policy": "excerpt_by_rights"
   },
   {
     "id": "JDE-05",
@@ -241,7 +253,8 @@
     "accessed_at": "2026-09-23",
     "origin_id": "https://docs.oracle.com/cd/E84502_01/learnjde/release26.html",
     "rights": "Public reference; short selected excerpts only; no full reproduction or raw HTML claim",
-    "capture_sha256": "10814193454a9f9521bb7df01198763dd65bc07c1562cf0215b830a8ccc3a36c"
+    "capture_sha256": "10814193454a9f9521bb7df01198763dd65bc07c1562cf0215b830a8ccc3a36c",
+    "capture_policy": "excerpt_by_rights"
   },
   {
     "id": "JDE-07",
@@ -261,7 +274,8 @@
     "accessed_at": "2026-09-23",
     "origin_id": "https://www.oracle.com/webfolder/technetwork/tutorials/jdedwards/White%20Papers/ChatbotforCNCAdministrationUsingServerManager_TechBrief.pdf",
     "rights": "Public reference; short selected excerpts only; no full reproduction or raw HTML claim",
-    "capture_sha256": "3a7ba2357f029129fbe4e7756b7fb566ca45b771932ce1597f090005520c5c77"
+    "capture_sha256": "3a7ba2357f029129fbe4e7756b7fb566ca45b771932ce1597f090005520c5c77",
+    "capture_policy": "excerpt_by_rights"
   },
   {
     "id": "S-P01",
@@ -282,7 +296,8 @@
     "accessed_at": "2026-09-23",
     "origin_id": "https://www.alfapac.eu/mentions-legales/",
     "rights": "Public reference; short selected excerpts only; no full reproduction or raw HTML claim",
-    "capture_sha256": "ba7eeb59626fe671368ffe3e2e66a2101096fe0e73626c425d114152862ef67a"
+    "capture_sha256": "ba7eeb59626fe671368ffe3e2e66a2101096fe0e73626c425d114152862ef67a",
+    "capture_policy": "excerpt_by_rights"
   },
   {
     "id": "S-P02",
@@ -303,7 +318,8 @@
     "accessed_at": "2026-09-23",
     "origin_id": "https://fr.linkedin.com/company/schweitzer-groupe-sphere",
     "rights": "Public reference; short selected excerpts only; no full reproduction or raw HTML claim",
-    "capture_sha256": "0a4ea42586ce03f375158740a1bfd101a695cb0a2988e0e05ca0d4c9569cb8d7"
+    "capture_sha256": "0a4ea42586ce03f375158740a1bfd101a695cb0a2988e0e05ca0d4c9569cb8d7",
+    "capture_policy": "excerpt_by_rights"
   },
   {
     "id": "P01",
@@ -324,7 +340,8 @@
     "accessed_at": "2026-09-23",
     "origin_id": "https://www.valtus.fr/blog/2026/07/10/groupe-sphere-structurer-et-transformer-la-filiale-italienne-du-leader-europeen-des-emballages-menagers/",
     "rights": "Public reference; short selected excerpts only; no full reproduction or raw HTML claim",
-    "capture_sha256": "7a2a72f1d3c8e2142c87ae111d8bf648e72b8f7ec1f38bee86a9551d36a5786a"
+    "capture_sha256": "7a2a72f1d3c8e2142c87ae111d8bf648e72b8f7ec1f38bee86a9551d36a5786a",
+    "capture_policy": "excerpt_by_rights"
   },
   {
     "id": "S-P05",
@@ -345,7 +362,8 @@
     "accessed_at": "2026-09-23",
     "origin_id": "https://fr.linkedin.com/in/guillaume-estocq-83014b82",
     "rights": "Public reference; short selected excerpts only; no full reproduction or raw HTML claim",
-    "capture_sha256": "3944d2197761c8eb9f52d2b46326639e336515a4e002123182d96e70cb4c8836"
+    "capture_sha256": "3944d2197761c8eb9f52d2b46326639e336515a4e002123182d96e70cb4c8836",
+    "capture_policy": "excerpt_by_rights"
   },
   {
     "id": "M01",
@@ -361,7 +379,8 @@
     "capture_kind": "reference_only",
     "accessed_at": "2026-09-23",
     "origin_id": "https://rkw-group.com/fileadmin/RKW_Pictures_Files/Company/Sustainability/en/RKW_Sustainability_Report_2024_EN.pdf",
-    "rights": "Public reference; short selected excerpts only; no full reproduction or raw HTML claim"
+    "rights": "Public reference; short selected excerpts only; no full reproduction or raw HTML claim",
+    "capture_policy": "excerpt_by_rights"
   },
   {
     "id": "M02",
@@ -380,7 +399,8 @@
     "accessed_at": "2026-09-23",
     "origin_id": "https://polipak.sarantisgroup.com/en/",
     "rights": "Public reference; short selected excerpts only; no full reproduction or raw HTML claim",
-    "capture_sha256": "69b5b8efc936aecafcd3f92868af3fe9e8871de9378fdd3afb268967d362b81a"
+    "capture_sha256": "69b5b8efc936aecafcd3f92868af3fe9e8871de9378fdd3afb268967d362b81a",
+    "capture_policy": "excerpt_by_rights"
   },
   {
     "id": "M03",
@@ -399,7 +419,8 @@
     "accessed_at": "2026-09-23",
     "origin_id": "https://www.ersoplast.com/en/corporate.html",
     "rights": "Public reference; short selected excerpts only; no full reproduction or raw HTML claim",
-    "capture_sha256": "0f5a15dd9a804749c4ab93173195dc72a107a6ef7c06896e82810cd8d81efd0f"
+    "capture_sha256": "0f5a15dd9a804749c4ab93173195dc72a107a6ef7c06896e82810cd8d81efd0f",
+    "capture_policy": "excerpt_by_rights"
   },
   {
     "id": "M04",
@@ -418,7 +439,8 @@
     "accessed_at": "2026-09-23",
     "origin_id": "https://www.hongyuanplastic.com/about/intro/",
     "rights": "Public reference; short selected excerpts only; no full reproduction or raw HTML claim",
-    "capture_sha256": "ff0d9eec41b153b345e0a3450b970d3e6e7608f1cf30f7f36ff46f47a85b023f"
+    "capture_sha256": "ff0d9eec41b153b345e0a3450b970d3e6e7608f1cf30f7f36ff46f47a85b023f",
+    "capture_policy": "excerpt_by_rights"
   },
   {
     "id": "M05",
@@ -437,7 +459,8 @@
     "accessed_at": "2026-09-23",
     "origin_id": "https://www.melitta-group.com/en/unternehmen/about-us/melitta-group/cuki-cofresco",
     "rights": "Public reference; short selected excerpts only; no full reproduction or raw HTML claim",
-    "capture_sha256": "864e0ce4f00d719e47a927d72ac1435c130d5515a389e673b413ead87f290b7c"
+    "capture_sha256": "864e0ce4f00d719e47a927d72ac1435c130d5515a389e673b413ead87f290b7c",
+    "capture_policy": "excerpt_by_rights"
   },
   {
     "id": "M06",
@@ -456,7 +479,8 @@
     "rights": "Public reference; short selected excerpts only; no full reproduction or raw HTML claim",
     "excerpt": "MATER-BI shopping bags and produce bags can also be reused for the separate collection of organic waste.",
     "locator": "Retail,L65",
-    "capture_sha256": "09577297769f34ab46eb2c094b152237642919144ec8f36cd74e86e0c8ee49c5"
+    "capture_sha256": "09577297769f34ab46eb2c094b152237642919144ec8f36cd74e86e0c8ee49c5",
+    "capture_policy": "excerpt_by_rights"
   },
   {
     "id": "M07",
@@ -477,7 +501,8 @@
     "accessed_at": "2026-09-23",
     "origin_id": "https://www.virosac.com/",
     "rights": "Public reference; short selected excerpts only; no full reproduction or raw HTML claim",
-    "capture_sha256": "1d253d763cc7f0e33336b0d99797faeccf7d4869d9c56aeb52416d27e0410cd9"
+    "capture_sha256": "1d253d763cc7f0e33336b0d99797faeccf7d4869d9c56aeb52416d27e0410cd9",
+    "capture_policy": "excerpt_by_rights"
   },
   {
     "id": "M08",
@@ -493,7 +518,8 @@
     "capture_kind": "reference_only",
     "accessed_at": "2026-09-23",
     "origin_id": "https://environment.ec.europa.eu/document/download/60277c52-77f0-4860-b6cc-cdaf6665e336_en?filename=COM_2025_805_1_EN_ACT_part1_v3.pdf",
-    "rights": "Public reference; short selected excerpts only; no full reproduction or raw HTML claim"
+    "rights": "Public reference; short selected excerpts only; no full reproduction or raw HTML claim",
+    "capture_policy": "excerpt_by_rights"
   },
   {
     "id": "M09",
@@ -509,7 +535,8 @@
     "capture_kind": "reference_only",
     "accessed_at": "2026-09-23",
     "origin_id": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2813433-eu-virgin-recycled-premiums-extend-record-gains",
-    "rights": "Public reference; short selected excerpts only; no full reproduction or raw HTML claim"
+    "rights": "Public reference; short selected excerpts only; no full reproduction or raw HTML claim",
+    "capture_policy": "excerpt_by_rights"
   },
   {
     "id": "M01P",
@@ -528,6 +555,7 @@
     "accessed_at": "2026-09-23",
     "origin_id": "https://rkw-group.com/company/corporate-profile/",
     "rights": "Public short excerpt only",
-    "capture_sha256": "1deb5e547ce0ff420ce34b66961b55c053c8bc19bba17fddea534237ee32c723"
+    "capture_sha256": "1deb5e547ce0ff420ce34b66961b55c053c8bc19bba17fddea534237ee32c723",
+    "capture_policy": "excerpt_by_rights"
   }
 ]

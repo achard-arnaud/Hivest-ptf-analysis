@@ -12,10 +12,44 @@
       "type": "object"
     },
     "leaders": {
-      "type": "array"
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "required": ["role", "person", "exact_title", "scope", "status", "source_refs", "next_question"],
+        "properties": {
+          "role": {"type": "string", "minLength": 1},
+          "person": {"type": ["string", "null"]},
+          "exact_title": {"type": ["string", "null"]},
+          "scope": {"enum": ["group", "subsidiary"]},
+          "status": {"enum": ["unknown", "verified_group", "verified_subsidiary"]},
+          "source_refs": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+          "next_question": {"type": "string"},
+          "promoter_signal": {"type": ["string", "null"]},
+          "ownership_scope": {"type": ["string", "null"]}
+        },
+        "additionalProperties": false
+      }
     },
     "segments": {
-      "type": "array"
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "revenue_share", "revenue_year", "revenue_estimate_meur", "share_basis", "company_growth", "market_growth", "relative_market_share", "bcg", "claim_refs"],
+        "properties": {
+          "id": {"type": "string"}, "name": {"type": "string"},
+          "revenue_share": {"type": "integer", "minimum": 0, "maximum": 100},
+          "revenue_year": {"type": "integer"},
+          "revenue_estimate_meur": {"type": ["string", "null"], "pattern": "^[0-9]+(\\.[0-9]+)?$"},
+          "share_basis": {"type": "string"},
+          "company_growth": {"type": ["number", "null"]},
+          "market_growth": {"type": ["number", "null"]},
+          "relative_market_share": {"type": ["number", "null"]},
+          "bcg": {"type": ["string", "null"]},
+          "claim_refs": {"type": "array", "items": {"type": "string"}, "minItems": 1}
+        },
+        "additionalProperties": false
+      }
     },
     "frameworks": {
       "type": "object"
@@ -24,7 +58,21 @@
       "type": "array"
     },
     "opportunity_links": {
-      "type": "array"
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["use_case_id", "driver_id", "value_strategy", "method", "kpi", "baseline", "activity_id", "page", "ml_required", "decision_status", "driver_label"],
+        "properties": {
+          "use_case_id": {"type": "string"}, "driver_id": {"type": "string"},
+          "value_strategy": {"type": "string"}, "method": {"type": "string"},
+          "kpi": {"type": "string"}, "baseline": {"type": "string"},
+          "activity_id": {"type": "string"}, "page": {"const": 3},
+          "ml_required": {"type": "boolean"},
+          "decision_status": {"enum": ["hypothesis", "observed", "rejected"]},
+          "driver_label": {"type": "string"}
+        },
+        "additionalProperties": false
+      }
     },
     "prerequisites": {
       "type": "array"
@@ -33,7 +81,17 @@
       "type": "array"
     },
     "reviews": {
-      "type": "array"
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["kind", "verdict", "path"],
+        "properties": {
+          "kind": {"enum": ["contracts", "alternative", "decision"]},
+          "verdict": {"enum": ["SURVIVES_RED_TEAM", "SURVIVES_WITH_NARROWING", "REOPEN_TARGETED", "PIVOT_REQUIRED"]},
+          "path": {"type": "string"}
+        },
+        "additionalProperties": false
+      }
     },
     "coverage": {
       "type": "object"

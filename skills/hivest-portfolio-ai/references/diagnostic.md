@@ -16,4 +16,6 @@ Breadth dépend des domaines applicables, pas du nombre d'usines ou de technolog
 Score 3/4 : rechercher preuve d'opération et corroboration indépendante. Si elle manque, conserver une conclusion qualifiée plutôt qu'un score fort. Conserver les contre-preuves, même si elles réduisent la note.
 Sortie : chaîne, VRIO, 7S, SWOT, huit dimensions, synthèse descriptive, couverture et blocages. Aucune moyenne globale.
 
+Pour la projection exec, mapper explicitement les activités documentées aux quatre soutiens et cinq activités principales de Porter. Chaque cellule décrit un fait d'entreprise et le bénéfice possible ; les ★★★ signalent un impact direct sur marge ou cash, avec renvoi à un thème ou à MT/LT. Distinguer Core (transforme/vend), Enabler (coordonne les flux), Support (administre) indépendamment du libellé Porter. Déduire une posture TOWS S-O, S-T, W-O ou W-T des mouvements observés et citer les trois mouvements justificatifs. La jauge publique en page 3 ne remplace pas les huit dimensions du bundle.
+
 Appliquer le gate marché/drivers de `market-drivers.md` ; conserver la traçabilité source externe → exposition entreprise → driver → stratégie de valeur → opportunité → page.

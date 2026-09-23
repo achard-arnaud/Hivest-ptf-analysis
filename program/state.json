@@ -2,13 +2,13 @@
   "version": "0.2.0",
   "phase": "PILOTS",
   "design_status": "candidate_for_pilots",
-  "next_action": "STG: confirmer périmètre transport après séparation Boréal, construire bundle v0.2 et baselines TMS/dispatch ; Sphere: archivage originaux avant HITL ; comparer les deux pilotes puis loopback",
+  "next_action": "STG: confirmer périmètre transport après séparation Boréal, construire bundle v0.2 et baselines TMS/dispatch ; Sphere: archiver preuves et revoir le payload exec ; comparer les deux pilotes puis loopback",
   "pilots": [
     "sphere",
     "stg"
   ],
   "pilots_started": true,
-  "template_status": "candidate_unrendered",
+  "template_status": "exec_v0.3_integrated_unverified_fixture",
   "production_allowed": false,
   "hitl": null,
   "open_gates": [

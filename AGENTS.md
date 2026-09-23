@@ -1,4 +1,4 @@
-# Portfolio router — v0.1.0
+# Portfolio router — profils de rendu v0.1 audit / v0.3 exec
 
 Profil François-Pro. Finalité business et création de valeur ; aucune logique de product matching.
 Lire `program/state.json` puis UN manifest entreprise. Charger uniquement la procédure de l'étape depuis `skills/hivest-portfolio-ai/references/`. Ne pas relire le handoff entier ni énumérer le corpus pendant un run.
@@ -9,6 +9,7 @@ Lire `program/state.json` puis UN manifest entreprise. Charger uniquement la pro
 - Un pattern sectoriel n'est pas un fait entreprise ; un poste ouvert n'est pas une capacité acquise ; une annonce n'est pas un déploiement.
 - Évaluer les hard gates avant toute priorité. Garder NO-ACTION et la solution sans IA.
 - Les runs temporaires ne sont jamais stockés dans le code. Utiliser un répertoire externe au dépôt. Ne promouvoir que des connaissances contrôlées, fixtures et décisions canoniques.
+- Le profil exec masque les marqueurs internes sur la page ; le payload et le manifeste conservent les limites de preuve. Un rendu de démonstration ne clôt aucun gate.
 - Ne pas écrire de recommandations fournisseur. Distinguer technical, product et business ; business est la dimension principale.
 - Orchestrateur : distribuer les étapes, vérifier états/handoffs ; la recherche appartient au rôle research. Un rôle n'impose pas un nouvel agent.
 
@@ -21,6 +22,7 @@ Lire `program/state.json` puis UN manifest entreprise. Charger uniquement la pro
 | Opportunities, 9-box | references/opportunities.md | inventaire + shortlist |
 | Red-team, HITL | references/review.md | dossier pré-HITL |
 | Storytelling, rendu | references/composition.md | contenu gelé puis trois pages |
+| Rédaction exec | references/exec-writing.md et templates/THREE_PAGER_EXEC_v0.3.md | payload exec, cohérence et QA visuelle |
 | Loopback, rollup | references/learning.md | delta proposé + lineage |
 
 Limiter le contexte courant : une entreprise, une étape, un résumé wiki et les claims décisifs avec leurs contre-preuves. Top-k initial 12, élargir si une contradiction ou un claim critique est omis. Sauvegarder un checkpoint avant changement d'étape.

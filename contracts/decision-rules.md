@@ -20,6 +20,8 @@ Ce sont des présomptions à challenger, pas une fonction automatique. Toujours 
 ## Gates de contenu et de fin
 GO_DRAFT exige une décision humaine datée avec référence au dossier/version. Une modification matérielle après validation réouvre HITL. FROZEN exige hash canonique du payload et GO_DRAFT correspondant. Le rendu doit préserver ce hash dans son manifeste.
 Le validateur de contenu accepte uniquement un checkpoint FROZEN. Il n'atteste jamais RENDERED ni DONE. Les transitions finales et attestations QA/wiki/loopback sont contrôlées par l'orchestrateur et le dossier de revue, pas automatisées dans cette version.
+
+Le profil `exec` peut produire une démonstration sur bundle validé non gelé, avec statut, hash et gates ouverts dans `render_manifest.json`. Le renderer seul ne valide pas ce bundle. Sans bundle, un payload ne sert que de fixture technique. Diffusion en comité d'investissement : GO_DRAFT référencé, gel et QA visuelle obligatoires.
 DONE entreprise : identité/roster, signalétique/finance sourcées ou explicitement inconnues, thèse, chaîne, VRIO, 7S, SWOT, huit dimensions, séparation entreprise/secteur, use cases/horizons/sourcing, contradictions/inconnues, trois revues, HITL, freeze, trois pages et QA visuelle/reader, wiki/loopback.
 DONE portefeuille : onze DONE, comparabilité contrôlée, heatmap avec couverture, mutualisations argumentées avec lineage vers au moins deux entreprises indépendantes et spécificités locales conservées. Deux occurrences seules ne prouvent pas une économie de mutualisation.
 

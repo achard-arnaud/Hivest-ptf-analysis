@@ -1,5 +1,5 @@
 name: Contract and epistemic NRT
-on: [push, pull_request]
+on: [push, pull_request, workflow_dispatch]
 jobs:
   validate:
     runs-on: ubuntu-latest
@@ -10,3 +10,19 @@ jobs:
           python-version: '3.11'
       - run: python -m pip install -r requirements.txt
       - run: python -m unittest discover -s tests -v
+  render-qa:
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install -r requirements.txt playwright
+      - run: python -m playwright install --with-deps chromium
+      - run: python renderers/three_pager_exec/render_exec.py tests/fixtures/exec/sphere_unverified_v0.3.json /tmp/hivest-render-qa --pdf
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: sphere-exec-unverified-layout-qa
+          path: /tmp/hivest-render-qa/

@@ -1,5 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "THREE_PAGER_PORTFOLIO_AI v0.1 — profil audit",
   "type": "object",
   "properties": {
     "version": {

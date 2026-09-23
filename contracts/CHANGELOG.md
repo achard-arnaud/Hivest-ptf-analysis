@@ -1,5 +1,9 @@
 # Évolution des contrats
 
+## 0.3.0 (profil de présentation exec candidat)
+
+Le contrat `three-pager-exec.schema.json` et son renderer ajoutent une projection C-level distincte du contenu audit v0.1. La fixture Sphere permet la non-régression de la composition ; ses sources et son bundle ne sont pas certifiés dans ce dépôt. Le manifeste marque donc `UNVERIFIED_DEMO`. Les gates de diagnostic et de diffusion restent ouverts, et le profil audit ne change pas.
+
 ## 0.2.0 (candidat)
 
 Le package exige `market_context` et `drivers`, avec couverture des six axes, liens des use cases aux drivers, mécanismes de valeur, classe technique et conditions d'arrêt. Les packages 0.1.0 restent validables pour historique mais ne satisfont pas la nouvelle étape marché. Une migration automatique ne peut pas inventer signaux, expositions ou preuves : acquisition et revue humaines sont nécessaires avant de déclarer un package 0.2.0 conforme.
