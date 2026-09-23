@@ -5,3 +5,5 @@ Compléter les champs du schema pour chaque cas : douleur, valeur, propriétaire
 Comparer qualité du processus et automatisation classique à l'IA. Quick win n'est pas synonyme de chatbot ni seulement d'horizon court. Structural change le workflow ; transformation modifie rôles, actifs ou modèle économique. ERIC est réservé aux transformation bets.
 Positionner capacités dans centrality × differentiation puis argumenter BUILD/BUY/PARTNER/OUTSOURCE/NO-ACTION ; ne pas en faire un mapping automatique. Conserver IP, données, contrôles, coût complet et sortie.
 Prioriser ordinalement avec incertitude et sensibilité. Ne pas transférer un ROI fournisseur ni additionner deux gains sur la même base. Shortlist 6–10, et moins uniquement avec scope explicitement réouvert. Aucun fournisseur recommandé.
+
+Appliquer le gate marché/drivers de `market-drivers.md` ; conserver la traçabilité source externe → exposition entreprise → driver → stratégie de valeur → opportunité → page.

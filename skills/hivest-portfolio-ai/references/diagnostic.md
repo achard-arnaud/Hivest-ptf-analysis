@@ -15,3 +15,5 @@ Construire d'abord la chaîne d'entreprise à partir des produits, clients, site
 Breadth dépend des domaines applicables, pas du nombre d'usines ou de technologies. Toute exclusion se justifie. Gouvernance et delivery sont évalués séparément. Ne pas extrapoler un succès local au groupe.
 Score 3/4 : rechercher preuve d'opération et corroboration indépendante. Si elle manque, conserver une conclusion qualifiée plutôt qu'un score fort. Conserver les contre-preuves, même si elles réduisent la note.
 Sortie : chaîne, VRIO, 7S, SWOT, huit dimensions, synthèse descriptive, couverture et blocages. Aucune moyenne globale.
+
+Appliquer le gate marché/drivers de `market-drivers.md` ; conserver la traçabilité source externe → exposition entreprise → driver → stratégie de valeur → opportunité → page.

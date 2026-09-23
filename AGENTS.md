@@ -29,3 +29,5 @@ PROGRAM_DESIGN_READY → PILOTS → PILOT_LOOPBACK → CLUSTERS → HIVEST → P
 Entreprise : INTAKE → RESEARCH → ANALYSIS → RED_TEAM → HITL_PENDING → GO_DRAFT → FROZEN → RENDERED → DONE.
 Les décisions HITL sont GO_DRAFT, RESEARCH_TARGETED, NARROW_SCOPE, PIVOT. Ne jamais auto-attribuer une approbation utilisateur. L'autorisation de préparer le programme ne vaut pas validation de ses conclusions.
 Ne lancer les clusters qu'après les deux pilotes et leur loopback. Une entreprise DONE satisfait toutes les conditions de `contracts/decision-rules.md`.
+
+Avant toute shortlist ou révision : lire `references/market-drivers.md`. Le contexte externe et le classement des drivers industriels sont obligatoires ; la facilité de déploiement ne détermine pas la priorité business.

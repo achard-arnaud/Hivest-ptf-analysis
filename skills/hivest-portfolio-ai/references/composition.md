@@ -4,3 +4,5 @@ Lire le contrat THREE_PAGER_PORTFOLIO_AI du dépôt et le schema. Une idée domi
 Valider puis figer payload_sha256 ; renderer prend uniquement le payload gelé. Garder versions et hash dans manifeste de rendu. Le renderer ne mène pas de recherche, ne modifie ni score ni recommandation. Toute lacune matérielle revient en REOPEN_TARGETED.
 Produire HTML/PDF/PNG hors code. Exécuter les contrôles trois pages, tailles, overflow et inspection visuelle des trois pages. Si layout impose une modification de fond, revenir au contenu et renouveler le gate si matériel.
 Template candidat jusqu'au loopback des deux pilotes. Ne jamais présenter des tests structurels comme une QA visuelle de rendu.
+
+Appliquer le gate marché/drivers de `market-drivers.md` ; conserver la traçabilité source externe → exposition entreprise → driver → stratégie de valeur → opportunité → page.

@@ -1,4 +1,14 @@
 interface:
-  display_name: "Hivest Portfolio AI"
-  short_description: "Diagnostic IA et création de valeur portefeuille"
-  default_prompt: "Utilise $hivest-portfolio-ai pour reprendre le programme au dernier gate validé."
+  display_name: Hivest Portfolio AI
+  short_description: Diagnostic IA et création de valeur portefeuille
+  default_prompt: Utilise $hivest-portfolio-ai pour reprendre le programme au dernier
+    gate validé.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

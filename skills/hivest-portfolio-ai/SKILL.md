@@ -16,3 +16,6 @@ Charger une seule procédure selon l'étape :
 Préserver fact/inference/hypothesis/recommendation/unknown, source→fragment→claim, dates, contre-preuves, périmètre et propriétaire. Inconnu = null, jamais zéro. Pas de moyenne de maturité, pas de vérité entreprise issue du seul secteur, pas de score qui compense un hard gate.
 Garder les runs temporaires hors code ; ne promouvoir que les connaissances canoniques et fixtures revues. Business est la dimension primaire ; technical et product servent le diagnostic.
 Ne pas rédiger le trois-pages final sans GO_DRAFT humain référencé au dossier. Deux pilotes et loopback avant production par clusters. Les tests structurels ne remplacent pas la lecture des sources ni la QA visuelle.
+
+## Contexte externe obligatoire
+Avant diagnostic et shortlist, charger `references/market-drivers.md` : collecte sites/études → segmentation et concurrence → drivers industriels priorisés → stratégie de valeur → use cases → trois pages. Cette étape s’applique aussi aux reprises.

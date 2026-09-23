@@ -21,3 +21,6 @@ A4 paysage, 297×210 mm, marges 10 mm ; corps ≥9 pt, sources ≥8 pt, interlig
 Exactement trois pages. Vérifier nombre de pages, absence de clipping/overflow, césures, lisibilité des sources, contraste, légendes, toutes les rubriques et les liens. Export PDF + HTML + PNG de contrôle hors code. Inspection visuelle des trois PNG obligatoire.
 Pas de radar si données 7S incomplètes ; jamais interpoler, zéroter ni fermer les trous. Pas de métrique créée par le renderer. Si overflow : condenser le contenu avec son auteur et renouveler hash/HITL si matériel, jamais diminuer la police sous le minimum.
 Statut promotion : après deux pilotes contrastés, QA visuelle et décision humaine. La présente livraison ne prétend pas avoir validé un PDF.
+
+## Contrat de contexte externe (v0.2)
+P1 : signaux marché sourcés, concurrents comparables, trois drivers hiérarchisés. P2 : driver_id et KPI reliés aux processus. P3 : chaque cas relie driver, stratégie de valeur, alternative sans IA, sourcing et condition de validation ; distinguer priorité business et ordre de déploiement. BLUE_OCEAN exige nouvelle demande à tester. Ne pas ajouter une quatrième page.
