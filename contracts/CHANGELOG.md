@@ -7,3 +7,7 @@ Le package exige `market_context` et `drivers`, avec couverture des six axes, li
 Le schéma de contenu reste en 0.1.0 jusqu'à la définition de la projection marché sur les trois pages et du renderer. `validate_content` ne peut donc pas certifier le gel d'un package 0.2.0 pour l'instant. Un PASS de `validate_package` ne certifie pas le rendu.
 
 Décisions ouvertes : seuils de maturité >=3 appliqués à toutes les dimensions ; inférences ancrées obligatoires ; sources partielles incompatibles avec confiance haute si seules origines ; enveloppe de valeur en sensibilité et preuve déclarative non mises en production.
+
+
+## Complément Sphere —23/09/2026
+Intégration conservatrice du contexte stratégique,graphe et rôles/ML. Le package réel respecte market_context/drivers. Les captures sont des extraits déclarés ; Sphere reste RESEARCH au gate originaux. Les garde-fous de hash global/unknowns sont préparés, mais la projection contenu v0.2 reste non certifiable tant que le contrat renderer demeure0.1. Aucun GO_DRAFT attribué.

@@ -1,0 +1,450 @@
+[
+  {
+    "id": "C-ownership",
+    "entity_id": "sphere",
+    "scope": "company",
+    "statement": "Accord majoritaire Hivest annoncé en2024 ; ventes recyclées/biosourcées annoncées environ70 %, pas mix achats.",
+    "status": "fact",
+    "confidence": "medium",
+    "fragment_refs": [
+      "F-S06"
+    ],
+    "basis_claim_refs": [],
+    "contradiction_refs": [],
+    "observed_at": "2026-09-23",
+    "valid_until": null,
+    "owner": "research",
+    "validation_question": "Confirmer périmètre et actualité au prochain refresh",
+    "deployment_stage": "not_applicable"
+  },
+  {
+    "id": "C-polyex",
+    "entity_id": "sphere",
+    "scope": "company",
+    "statement": "SPHERE annonce avoir acquis toutes les actions Polyex ; date juridique séparée inconnue.",
+    "status": "fact",
+    "confidence": "medium",
+    "fragment_refs": [
+      "F-S02"
+    ],
+    "basis_claim_refs": [],
+    "contradiction_refs": [],
+    "observed_at": "2026-09-23",
+    "valid_until": null,
+    "owner": "research",
+    "validation_question": "Confirmer périmètre et actualité au prochain refresh",
+    "deployment_stage": "not_applicable"
+  },
+  {
+    "id": "C-finance",
+    "entity_id": "sphere",
+    "scope": "company",
+    "statement": "CA2024 782,054 M€, EBITDA77,945 M€, achats472,660 M€, stock167,6 M€, BFR125,744 M€ ; source tiers et périmètre2024.",
+    "status": "fact",
+    "confidence": "medium",
+    "fragment_refs": [
+      "F-S03"
+    ],
+    "basis_claim_refs": [],
+    "contradiction_refs": [],
+    "observed_at": "2026-09-23",
+    "valid_until": null,
+    "owner": "research",
+    "validation_question": "Confirmer périmètre et actualité au prochain refresh",
+    "deployment_stage": "not_applicable"
+  },
+  {
+    "id": "C-segments",
+    "entity_id": "sphere",
+    "scope": "company",
+    "statement": "Produits2024 :38 % PE,20 % biosourcés,20 % façonnés,16 % négoce,6 % autres. Parts arrondies.",
+    "status": "fact",
+    "confidence": "medium",
+    "fragment_refs": [
+      "F-S03"
+    ],
+    "basis_claim_refs": [],
+    "contradiction_refs": [],
+    "observed_at": "2026-09-23",
+    "valid_until": null,
+    "owner": "research",
+    "validation_question": "Confirmer périmètre et actualité au prochain refresh",
+    "deployment_stage": "not_applicable"
+  },
+  {
+    "id": "C-growth",
+    "entity_id": "sphere",
+    "scope": "company",
+    "statement": "CA2024 −3,4 % à change et périmètre constants ; ne renseigne pas2025 ni croissance du marché.",
+    "status": "fact",
+    "confidence": "medium",
+    "fragment_refs": [
+      "F-S03"
+    ],
+    "basis_claim_refs": [],
+    "contradiction_refs": [],
+    "observed_at": "2026-09-23",
+    "valid_until": null,
+    "owner": "research",
+    "validation_question": "Confirmer périmètre et actualité au prochain refresh",
+    "deployment_stage": "not_applicable"
+  },
+  {
+    "id": "C-erp",
+    "entity_id": "sphere",
+    "scope": "company",
+    "statement": "ERP JD Edwards décrit chez Comset/Flexopack en2024 ; version et Orchestrator2026 inconnus.",
+    "status": "fact",
+    "confidence": "medium",
+    "fragment_refs": [
+      "F-S03"
+    ],
+    "basis_claim_refs": [],
+    "contradiction_refs": [],
+    "observed_at": "2026-09-23",
+    "valid_until": null,
+    "owner": "research",
+    "validation_question": "Confirmer périmètre et actualité au prochain refresh",
+    "deployment_stage": "not_applicable"
+  },
+  {
+    "id": "C-pro",
+    "entity_id": "sphere",
+    "scope": "company",
+    "statement": "Division SPHERE PRO annoncée ; capacité IA non démontrée.",
+    "status": "fact",
+    "confidence": "medium",
+    "fragment_refs": [
+      "F-S05"
+    ],
+    "basis_claim_refs": [],
+    "contradiction_refs": [],
+    "observed_at": "2026-09-23",
+    "valid_until": null,
+    "owner": "research",
+    "validation_question": "Confirmer périmètre et actualité au prochain refresh",
+    "deployment_stage": "not_applicable"
+  },
+  {
+    "id": "C-italy",
+    "entity_id": "sphere",
+    "scope": "company",
+    "statement": "Cas prestataire Valtus décrit stocks élevés en Italie et cite CFO groupe Bernard Doussot ; résultats S&OP décrits sans preuve IA.",
+    "status": "fact",
+    "confidence": "medium",
+    "fragment_refs": [
+      "F-P01"
+    ],
+    "basis_claim_refs": [],
+    "contradiction_refs": [],
+    "observed_at": "2026-09-23",
+    "valid_until": null,
+    "owner": "research",
+    "validation_question": "Confirmer périmètre et actualité au prochain refresh",
+    "deployment_stage": "not_applicable"
+  },
+  {
+    "id": "C-france-it",
+    "entity_id": "sphere",
+    "scope": "company",
+    "statement": "Francis Lustman figure comme Directeur du Service Informatique sur mentions Alfapac/SPHERE France non datées ; groupe non confirmé.",
+    "status": "fact",
+    "confidence": "medium",
+    "fragment_refs": [
+      "F-S-P01"
+    ],
+    "basis_claim_refs": [],
+    "contradiction_refs": [],
+    "observed_at": "2026-09-23",
+    "valid_until": null,
+    "owner": "research",
+    "validation_question": "Confirmer périmètre et actualité au prochain refresh",
+    "deployment_stage": "not_applicable"
+  },
+  {
+    "id": "C-schweitzer-it",
+    "entity_id": "sphere",
+    "scope": "company",
+    "statement": "LinkedIn indexe Thomas Blanc, Directeur Informatique Schweitzer ; pas DSI groupe.",
+    "status": "fact",
+    "confidence": "medium",
+    "fragment_refs": [
+      "F-S-P02"
+    ],
+    "basis_claim_refs": [],
+    "contradiction_refs": [],
+    "observed_at": "2026-09-23",
+    "valid_until": null,
+    "owner": "research",
+    "validation_question": "Confirmer périmètre et actualité au prochain refresh",
+    "deployment_stage": "not_applicable"
+  },
+  {
+    "id": "C-virosac",
+    "entity_id": "sphere",
+    "scope": "company",
+    "statement": "Virosac se déclare membre du groupe SPHERE ; ne pas la compter comme concurrent.",
+    "status": "fact",
+    "confidence": "medium",
+    "fragment_refs": [
+      "F-M07"
+    ],
+    "basis_claim_refs": [],
+    "contradiction_refs": [],
+    "observed_at": "2026-09-23",
+    "valid_until": null,
+    "owner": "research",
+    "validation_question": "Confirmer périmètre et actualité au prochain refresh",
+    "deployment_stage": "not_applicable"
+  },
+  {
+    "id": "C-M02",
+    "entity_id": "packaging",
+    "scope": "sector",
+    "statement": "Polipak : sacs ménagers/industrie, pas rang marché indépendant",
+    "status": "fact",
+    "confidence": "medium",
+    "fragment_refs": [
+      "F-M02"
+    ],
+    "basis_claim_refs": [],
+    "contradiction_refs": [],
+    "observed_at": "2026-09-23",
+    "valid_until": null,
+    "owner": "research",
+    "validation_question": "Confirmer périmètre et actualité au prochain refresh",
+    "deployment_stage": "not_applicable"
+  },
+  {
+    "id": "C-M03",
+    "entity_id": "packaging",
+    "scope": "sector",
+    "statement": "Ersoplast : offre sacs collectivités/retail ; prix rendu inconnu",
+    "status": "fact",
+    "confidence": "medium",
+    "fragment_refs": [
+      "F-M03"
+    ],
+    "basis_claim_refs": [],
+    "contradiction_refs": [],
+    "observed_at": "2026-09-23",
+    "valid_until": null,
+    "owner": "research",
+    "validation_question": "Confirmer périmètre et actualité au prochain refresh",
+    "deployment_stage": "not_applicable"
+  },
+  {
+    "id": "C-M04",
+    "entity_id": "packaging",
+    "scope": "sector",
+    "statement": "Hongyuan : fabricant sacs déclaré, parts export inconnues",
+    "status": "fact",
+    "confidence": "medium",
+    "fragment_refs": [
+      "F-M04"
+    ],
+    "basis_claim_refs": [],
+    "contradiction_refs": [],
+    "observed_at": "2026-09-23",
+    "valid_until": null,
+    "owner": "research",
+    "validation_question": "Confirmer périmètre et actualité au prochain refresh",
+    "deployment_stage": "not_applicable"
+  },
+  {
+    "id": "C-M05",
+    "entity_id": "packaging",
+    "scope": "sector",
+    "statement": "Cuki Cofresco : offre emballages alimentaires et sacs déchets",
+    "status": "fact",
+    "confidence": "medium",
+    "fragment_refs": [
+      "F-M05"
+    ],
+    "basis_claim_refs": [],
+    "contradiction_refs": [],
+    "observed_at": "2026-09-23",
+    "valid_until": null,
+    "owner": "research",
+    "validation_question": "Confirmer périmètre et actualité au prochain refresh",
+    "deployment_stage": "not_applicable"
+  },
+  {
+    "id": "C-JDE-01",
+    "entity_id": "packaging",
+    "scope": "sector",
+    "statement": "Oracle documente connexion OCI AI via Orchestrator dès Release24/Tools9.2.8.2",
+    "status": "fact",
+    "confidence": "medium",
+    "fragment_refs": [
+      "F-JDE-01"
+    ],
+    "basis_claim_refs": [],
+    "contradiction_refs": [],
+    "observed_at": "2026-09-23",
+    "valid_until": null,
+    "owner": "research",
+    "validation_question": "Confirmer périmètre et actualité au prochain refresh",
+    "deployment_stage": "not_applicable"
+  },
+  {
+    "id": "C-JDE-02",
+    "entity_id": "packaging",
+    "scope": "sector",
+    "statement": "Orchestration exposée comme API REST selon Oracle",
+    "status": "fact",
+    "confidence": "medium",
+    "fragment_refs": [
+      "F-JDE-02"
+    ],
+    "basis_claim_refs": [],
+    "contradiction_refs": [],
+    "observed_at": "2026-09-23",
+    "valid_until": null,
+    "owner": "research",
+    "validation_question": "Confirmer périmètre et actualité au prochain refresh",
+    "deployment_stage": "not_applicable"
+  },
+  {
+    "id": "C-JDE-04",
+    "entity_id": "packaging",
+    "scope": "sector",
+    "statement": "Oracle documente un parcours inspection composants OCI Vision",
+    "status": "fact",
+    "confidence": "medium",
+    "fragment_refs": [
+      "F-JDE-04"
+    ],
+    "basis_claim_refs": [],
+    "contradiction_refs": [],
+    "observed_at": "2026-09-23",
+    "valid_until": null,
+    "owner": "research",
+    "validation_question": "Confirmer périmètre et actualité au prochain refresh",
+    "deployment_stage": "not_applicable"
+  },
+  {
+    "id": "C-JDE-05",
+    "entity_id": "packaging",
+    "scope": "sector",
+    "statement": "Release26 distingue Applications Update26 et Tools9.2.26",
+    "status": "fact",
+    "confidence": "medium",
+    "fragment_refs": [
+      "F-JDE-05"
+    ],
+    "basis_claim_refs": [],
+    "contradiction_refs": [],
+    "observed_at": "2026-09-23",
+    "valid_until": null,
+    "owner": "research",
+    "validation_question": "Confirmer périmètre et actualité au prochain refresh",
+    "deployment_stage": "not_applicable"
+  },
+  {
+    "id": "C-JDE-07",
+    "entity_id": "packaging",
+    "scope": "sector",
+    "statement": "Guide chatbot CNC : fonctionnalité hors disponibilité générale produit",
+    "status": "fact",
+    "confidence": "medium",
+    "fragment_refs": [
+      "F-JDE-07"
+    ],
+    "basis_claim_refs": [],
+    "contradiction_refs": [],
+    "observed_at": "2026-09-23",
+    "valid_until": null,
+    "owner": "research",
+    "validation_question": "Confirmer périmètre et actualité au prochain refresh",
+    "deployment_stage": "not_applicable"
+  },
+  {
+    "id": "C-thesis",
+    "entity_id": "sphere",
+    "scope": "company",
+    "statement": "Priorité de recherche marge/rendement/cash ; intégration transverse ; Italie candidat après mesure baseline S&OP.",
+    "status": "inference",
+    "confidence": "low",
+    "fragment_refs": [],
+    "basis_claim_refs": [
+      "C-finance",
+      "C-italy",
+      "C-ownership"
+    ],
+    "contradiction_refs": [],
+    "observed_at": "2026-09-23",
+    "valid_until": null,
+    "owner": "research",
+    "validation_question": "Confirmer périmètre et actualité au prochain refresh",
+    "deployment_stage": "not_applicable"
+  },
+  {
+    "id": "C-ml-unknown",
+    "entity_id": "sphere",
+    "scope": "company",
+    "statement": "Stratégie/équipe ML actuelles non établies dans recherche publique bornée.",
+    "status": "unknown",
+    "confidence": "low",
+    "fragment_refs": [],
+    "basis_claim_refs": [],
+    "contradiction_refs": [],
+    "observed_at": "2026-09-23",
+    "valid_until": null,
+    "owner": "research",
+    "validation_question": "Inventaire modèles, organigramme data/IA/ML et owner ?",
+    "deployment_stage": "not_applicable"
+  },
+  {
+    "id": "C-bcg-unknown",
+    "entity_id": "sphere",
+    "scope": "company",
+    "statement": "Part relative et croissance du marché par catégorie inconnues ; BCG non calculable.",
+    "status": "unknown",
+    "confidence": "low",
+    "fragment_refs": [],
+    "basis_claim_refs": [],
+    "contradiction_refs": [],
+    "observed_at": "2026-09-23",
+    "valid_until": null,
+    "owner": "research",
+    "validation_question": "Données comparables marché, parts et contribution cash par catégorie ?",
+    "deployment_stage": "not_applicable"
+  },
+  {
+    "id": "C-M01P",
+    "entity_id": "packaging",
+    "scope": "sector",
+    "statement": "RKW publie une offre de films industriels haute performance ; pricing power et part de marché inconnus.",
+    "status": "fact",
+    "confidence": "medium",
+    "fragment_refs": [
+      "F-M01P"
+    ],
+    "basis_claim_refs": [],
+    "contradiction_refs": [],
+    "observed_at": "2026-09-23",
+    "valid_until": null,
+    "owner": "research",
+    "validation_question": "Comparer grades/usages, pas revenus consolidés",
+    "deployment_stage": "not_applicable"
+  },
+  {
+    "id": "C-M06",
+    "entity_id": "packaging",
+    "scope": "sector",
+    "statement": "Novamont publie applications Mater-Bi sacs et collecte organique ; comparable amont distinct du groupe Sphere.",
+    "status": "fact",
+    "confidence": "medium",
+    "fragment_refs": [
+      "F-M06"
+    ],
+    "basis_claim_refs": [],
+    "contradiction_refs": [],
+    "observed_at": "2026-09-23",
+    "valid_until": null,
+    "owner": "research",
+    "validation_question": "Comparer grades/usages, pas revenus consolidés",
+    "deployment_stage": "not_applicable"
+  }
+]

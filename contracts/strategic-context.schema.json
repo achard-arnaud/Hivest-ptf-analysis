@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "entity_id": {
+      "type": "string"
+    },
+    "cutoff": {
+      "type": "string"
+    },
+    "ml_strategy": {
+      "type": "object"
+    },
+    "leaders": {
+      "type": "array"
+    },
+    "segments": {
+      "type": "array"
+    },
+    "frameworks": {
+      "type": "object"
+    },
+    "driver_ids": {
+      "type": "array"
+    },
+    "opportunity_links": {
+      "type": "array"
+    },
+    "prerequisites": {
+      "type": "array"
+    },
+    "shortlist_ids": {
+      "type": "array"
+    },
+    "reviews": {
+      "type": "array"
+    },
+    "coverage": {
+      "type": "object"
+    },
+    "critical_questions": {
+      "type": "array"
+    },
+    "render_status": {
+      "type": "string"
+    },
+    "artifact_hashes": {
+      "type": "object"
+    },
+    "version": {
+      "const": "0.2.0"
+    }
+  },
+  "required": [
+    "version",
+    "entity_id",
+    "cutoff",
+    "ml_strategy",
+    "leaders",
+    "segments",
+    "frameworks",
+    "driver_ids",
+    "opportunity_links",
+    "prerequisites",
+    "shortlist_ids",
+    "reviews",
+    "coverage",
+    "critical_questions",
+    "render_status",
+    "artifact_hashes"
+  ],
+  "additionalProperties": false
+}

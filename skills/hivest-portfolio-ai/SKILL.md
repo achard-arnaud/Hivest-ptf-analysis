@@ -5,7 +5,7 @@ description: Piloter le diagnostic de maturité et création de valeur IA du por
 
 # Hivest portfolio AI
 Lire AGENTS.md et program/state.json dans le dépôt Hivest-ptf-analysis, puis le manifest de l'entité. Si le dépôt n'est pas local, récupérer uniquement ces fichiers depuis https://github.com/achard-arnaud/Hivest-ptf-analysis. Ne pas réinventer ses contrats.
-Charger une seule procédure selon l'étape :
+Charger une procédure métier selon l'étape :
 - Intake/recherche/wiki : [evidence](references/evidence.md).
 - Chaîne/VRIO/7S/maturité : [diagnostic](references/diagnostic.md).
 - Inventaire/9-box/priorité : [opportunities](references/opportunities.md).
@@ -21,3 +21,5 @@ Ne pas rédiger le trois-pages final sans GO_DRAFT humain référencé au dossie
 Avant diagnostic et shortlist, charger `references/market-drivers.md` : collecte sites/études → segmentation et concurrence → drivers industriels priorisés → stratégie de valeur → use cases → trois pages. Cette étape s’applique aussi aux reprises.
 
 Le complément market-drivers obligatoire s’ajoute à la procédure métier unique sélectionnée pour l’étape.
+
+Pour reprise, portefeuille, leadership/ML ou loopback, appliquer [research-graph](references/research-graph.md). Les nouveaux dossiers exigent le bundle v0.2, vérifié sur données réelles avant HITL ; la validation legacy seule ne suffit pas.

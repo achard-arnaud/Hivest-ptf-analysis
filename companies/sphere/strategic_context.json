@@ -1,0 +1,345 @@
+{
+  "version": "0.2.0",
+  "entity_id": "sphere",
+  "cutoff": "2026-09-23",
+  "ml_strategy": {
+    "observed_status": "unknown",
+    "observed_claim_refs": [
+      "C-ml-unknown"
+    ],
+    "proposed": "Prédiction,qualité,pricing,cash ; optimisation sous contraintes et GenAI distincts",
+    "team_status": "unknown",
+    "search_ref": "analysis/04_people.md"
+  },
+  "leaders": [
+    {
+      "role": "COO",
+      "person": null,
+      "exact_title": null,
+      "scope": "group",
+      "status": "unknown",
+      "source_refs": [],
+      "next_question": "Organigramme daté et mandat exact"
+    },
+    {
+      "role": "DSI",
+      "person": null,
+      "exact_title": null,
+      "scope": "group",
+      "status": "unknown",
+      "source_refs": [],
+      "next_question": "Organigramme daté et mandat exact"
+    }
+  ],
+  "segments": [
+    {
+      "id": "SEG1",
+      "name": "PE extrudé recyclable",
+      "revenue_share": 38,
+      "revenue_year": 2024,
+      "revenue_estimate_meur": 297.18,
+      "share_basis": "rounded_published",
+      "company_growth": null,
+      "market_growth": null,
+      "relative_market_share": null,
+      "bcg": null,
+      "claim_refs": [
+        "C-segments"
+      ]
+    },
+    {
+      "id": "SEG2",
+      "name": "Biosourcés compostables",
+      "revenue_share": 20,
+      "revenue_year": 2024,
+      "revenue_estimate_meur": 156.41,
+      "share_basis": "rounded_published",
+      "company_growth": null,
+      "market_growth": null,
+      "relative_market_share": null,
+      "bcg": null,
+      "claim_refs": [
+        "C-segments"
+      ]
+    },
+    {
+      "id": "SEG3",
+      "name": "Façonnés",
+      "revenue_share": 20,
+      "revenue_year": 2024,
+      "revenue_estimate_meur": 156.41,
+      "share_basis": "rounded_published",
+      "company_growth": null,
+      "market_growth": null,
+      "relative_market_share": null,
+      "bcg": null,
+      "claim_refs": [
+        "C-segments"
+      ]
+    },
+    {
+      "id": "SEG4",
+      "name": "Négoce",
+      "revenue_share": 16,
+      "revenue_year": 2024,
+      "revenue_estimate_meur": 125.13,
+      "share_basis": "rounded_published",
+      "company_growth": null,
+      "market_growth": null,
+      "relative_market_share": null,
+      "bcg": null,
+      "claim_refs": [
+        "C-segments"
+      ]
+    },
+    {
+      "id": "SEG5",
+      "name": "Autres",
+      "revenue_share": 6,
+      "revenue_year": 2024,
+      "revenue_estimate_meur": 46.92,
+      "share_basis": "rounded_published",
+      "company_growth": null,
+      "market_growth": null,
+      "relative_market_share": null,
+      "bcg": null,
+      "claim_refs": [
+        "C-segments"
+      ]
+    }
+  ],
+  "frameworks": {
+    "porter": "analysis/02_market.md",
+    "four_p": "analysis/02_market.md",
+    "swot": "analysis/06_organisation.md",
+    "vrio": "analysis/06_organisation.md",
+    "seven_s": "analysis/06_organisation.md"
+  },
+  "driver_ids": [
+    "DRV-01",
+    "DRV-02",
+    "DRV-03",
+    "DRV-04",
+    "DRV-05",
+    "DRV-06",
+    "DRV-07",
+    "DRV-08",
+    "DRV-09"
+  ],
+  "opportunity_links": [
+    {
+      "use_case_id": "UC-S02",
+      "driver_id": "DRV-08",
+      "value_strategy": "DIFFERENTIATION_GROWTH",
+      "method": "RAG/GenAI borné, classification",
+      "kpi": "Taux de conversion/marge nette ; validation du devis",
+      "baseline": "Recherche catalogue et règles de compatibilité",
+      "activity_id": "A-02",
+      "page": 3,
+      "ml_required": false,
+      "decision_status": "hypothesis",
+      "driver_label": "D05"
+    },
+    {
+      "use_case_id": "UC-S03",
+      "driver_id": "DRV-04",
+      "value_strategy": "CAPITAL_PRODUCTIVITY",
+      "method": "ML prévision probabiliste + optimisation",
+      "kpi": "DIO moyen+OTIF ; backtest temporel puis pilote",
+      "baseline": "S&OP actuel, saisonnier naïf,ABC/XYZ",
+      "activity_id": "A-03",
+      "page": 3,
+      "ml_required": true,
+      "decision_status": "hypothesis",
+      "driver_label": "D03a"
+    },
+    {
+      "use_case_id": "UC-S04",
+      "driver_id": "DRV-02",
+      "value_strategy": "COST_REDUCTION",
+      "method": "Modèles qualité supervisés si données",
+      "kpi": "Coût/t conforme ; essais physiques et contraintes produit",
+      "baseline": "Formulation/règles et optimisation classique",
+      "activity_id": "A-04",
+      "page": 3,
+      "ml_required": false,
+      "decision_status": "hypothesis",
+      "driver_label": "D01b"
+    },
+    {
+      "use_case_id": "UC-S05",
+      "driver_id": "DRV-03",
+      "value_strategy": "COST_REDUCTION",
+      "method": "Computer vision supervisée",
+      "kpi": "Défauts échappés, faux rejets, scrap évitable",
+      "baseline": "Contrôle humain, capteurs,SPC",
+      "activity_id": "A-05",
+      "page": 3,
+      "ml_required": true,
+      "decision_status": "hypothesis",
+      "driver_label": "D02"
+    },
+    {
+      "use_case_id": "UC-S06",
+      "driver_id": "DRV-03",
+      "value_strategy": "COST_REDUCTION",
+      "method": "Anomaly detection / modèle supervisé",
+      "kpi": "kg rebut/t et kWh/t conforme ; contrôle intersites",
+      "baseline": "SPC, alarmes, standard réglages",
+      "activity_id": "A-06",
+      "page": 3,
+      "ml_required": true,
+      "decision_status": "hypothesis",
+      "driver_label": "D02"
+    },
+    {
+      "use_case_id": "UC-S07",
+      "driver_id": "DRV-07",
+      "value_strategy": "COST_AVOIDANCE",
+      "method": "Recherche opérationnelle ; ML optionnel",
+      "kpi": "Délais/capacité utile ; goulot prouvé avant capex évité",
+      "baseline": "Planification actuelle / solveur contraintes",
+      "activity_id": "A-07",
+      "page": 3,
+      "ml_required": false,
+      "decision_status": "hypothesis",
+      "driver_label": "D04"
+    },
+    {
+      "use_case_id": "UC-S08",
+      "driver_id": "DRV-09",
+      "value_strategy": "RISK_RESILIENCE",
+      "method": "RAG/GenAI avec citations",
+      "kpi": "Erreurs dossier et délai ; validation expert",
+      "baseline": "GED, moteur lexical et checklist",
+      "activity_id": "A-08",
+      "page": 3,
+      "ml_required": false,
+      "decision_status": "hypothesis",
+      "driver_label": "D06"
+    },
+    {
+      "use_case_id": "UC-S09",
+      "driver_id": "DRV-01",
+      "value_strategy": "RISK_RESILIENCE",
+      "method": "Détection anomalies ; élasticité seulement identifiable",
+      "kpi": "Asymétrie pass-through ; marge durable distincte du timing",
+      "baseline": "Clauses contractuelles et BI marge",
+      "activity_id": "A-09",
+      "page": 3,
+      "ml_required": false,
+      "decision_status": "hypothesis",
+      "driver_label": "D01a"
+    },
+    {
+      "use_case_id": "UC-S10",
+      "driver_id": "DRV-08",
+      "value_strategy": "DIFFERENTIATION_GROWTH",
+      "method": "Modèles supervisés / optimisation bayésienne",
+      "kpi": "Nombre essais et performance validée ; pas de recette auto-libérée",
+      "baseline": "Expertise matériaux et plans expérimentaux",
+      "activity_id": "A-10",
+      "page": 3,
+      "ml_required": false,
+      "decision_status": "hypothesis",
+      "driver_label": "D05"
+    },
+    {
+      "use_case_id": "UC-S11",
+      "driver_id": "DRV-05",
+      "value_strategy": "CAPITAL_PRODUCTIVITY",
+      "method": "Scoring retard + GenAI brouillons",
+      "kpi": "DSO et cash incrémental par cohortes ; envoi humain",
+      "baseline": "Balance âgée, règles relance et workflow litiges",
+      "activity_id": "A-11",
+      "page": 3,
+      "ml_required": false,
+      "decision_status": "hypothesis",
+      "driver_label": "D03b"
+    },
+    {
+      "use_case_id": "UC-S12",
+      "driver_id": "DRV-06",
+      "value_strategy": "CAPITAL_PRODUCTIVITY",
+      "method": "Optimisation contrainte alimentée par prévision ML",
+      "kpi": "Coût total livré et OTIF ; pas transport gagné contre surstock",
+      "baseline": "EOQ/règles contractuelles/optimisation classique",
+      "activity_id": "A-12",
+      "page": 3,
+      "ml_required": false,
+      "decision_status": "hypothesis",
+      "driver_label": "D03c"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "EN-S01",
+      "former_id": "UC-S01",
+      "kind": "data_prerequisite",
+      "title": "MDM/catalogue/identifiants",
+      "not_ai_use_case": true
+    }
+  ],
+  "shortlist_ids": [
+    "UC-S02",
+    "UC-S03",
+    "UC-S04",
+    "UC-S05",
+    "UC-S06",
+    "UC-S08",
+    "UC-S09",
+    "UC-S11",
+    "UC-S12"
+  ],
+  "reviews": [
+    {
+      "kind": "contracts",
+      "verdict": "SURVIVES_WITH_NARROWING",
+      "path": "reviews/01_contracts.md"
+    },
+    {
+      "kind": "alternative",
+      "verdict": "REOPEN_TARGETED",
+      "path": "reviews/02_alternative.md"
+    },
+    {
+      "kind": "decision",
+      "verdict": "SURVIVES_WITH_NARROWING",
+      "path": "reviews/03_decision.md"
+    }
+  ],
+  "coverage": {
+    "corporate": "read",
+    "leadership": "partial",
+    "hiring": "negative_bounded_search",
+    "newsflow": "read",
+    "market": "partial",
+    "raw_originals": "not_archived_selected_excerpts_only"
+  },
+  "critical_questions": [
+    "Q-pricing",
+    "Q-data",
+    "Q-leaders",
+    "Q-segments"
+  ],
+  "render_status": "not_authorized",
+  "artifact_hashes": {
+    "analysis/02_market.md": "bdfa374f2550dafd4a1394ea4c03b386f86a96ae8d3c0a033047abac56c352c8",
+    "analysis/07_use_cases.md": "d0a8a9c9a87fd9595405960ac4b86d75ba791b20c5c2522256fe565bd2106660",
+    "analysis/03_drivers.md": "f00c4e601fe711b1d4dc88351cd3fd7f56e2ef05c72dcb069329b1bf6108bd0e",
+    "analysis/01_business.md": "23ff835cc45009042fd34cd8bacd4b6cde411a28e57edc8c82dddee9cb63dfec",
+    "analysis/04_people.md": "6a5fec0008affdbfc38ec0f1f03c7eaca3e1b33b8fe98e9bf4f8841eee4e9821",
+    "analysis/06_organisation.md": "281ac0c75aeac61b4b71b81ecb3c19c9a4f9155f6ac5116feed92b331a26ee56",
+    "analysis/08_page_contract.md": "a75c0e446f8ebfd4379e759e29b50ee5112a8793623cac8d5587a227eda55e8c",
+    "analysis/05_ml_jde.md": "dde03452708a4bba0221f9255e3610bf3fd0265ea1fa3816e16fbbddbc83ca3c",
+    "reviews/01_contracts.md": "741253b7a00c25ff90c8ded36b1589547106ab592e0b2fdf2f166fb48ba2cb38",
+    "reviews/03_decision.md": "6ecd297c3b27295e3dc3a33019d6129915fcda4f56186adc8c4bc7d87997e284",
+    "reviews/02_alternative.md": "1b4e36967be84c51970e15f1ccc18027f4423ede9e29744a28c6319d28553f94",
+    "reviews/audit_response.md": "dbbe0acc122833c559516236d9eefe227d40bbbb96c1e6ec54fbd9248219052f",
+    "evidence/coverage.md": "274da1287504eb966b4525138d7a6b7ee5d84fd2cab6cf96b9d048c8a00a3461",
+    "evidence/claims.json": "9a2e9dae4ae7f3ff9433a566fcf038faca498a17e82f38a4a59bc140bdaf15d2",
+    "evidence/sources.json": "0c1dd655735d56a829416fb6bd6ece28c590cac90a744f11ecf2c0618f851da0",
+    "evidence/fragments.json": "bb2613f00e44869d3faf49794edb10eab56185c2ee7d9c6df76c59acb584f65b",
+    "research_graph.json": "83bc7586636105dd9bf52b3ae4461f2d584d40345c4f85a0670fd2a064886d6c"
+  }
+}

@@ -157,10 +157,12 @@ def validate_package(data):
         refs([p['activity_id']],activities);refs(p['claim_refs'],claims)
     return True
 
-def validate_content(content, package):
+def validate_content(content, package, *, bundle_hash=None):
     validate_package(package)
     schema(content,'three-pager.schema.json')
     run=content['run_context']; payload=content['payload']; hitl=run['hitl']
+    if package['version']=='0.2.0':
+        check(bundle_hash is not None and hitl is not None and hitl.get('bundle_sha256')==bundle_hash,'v0.2 requires validated bundle and matching human approval')
     check(run['entity_id']==payload['entity_id']==package['entity_id'],'entity mismatch')
     check(payload['cutoff']==package['cutoff'],'cutoff mismatch')
     check(run['package_sha256']==digest(package),'package changed after review')
@@ -211,3 +213,4 @@ if __name__=='__main__':
             output('FAIL','E_INVARIANT',str(exc));sys.exit(1)
     else:
         output('FAIL','E_USAGE','Usage: validate.py package <file> | content <content> <package>');sys.exit(2)
+

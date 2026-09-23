@@ -2,13 +2,25 @@
   "entity_id": "sphere",
   "cutoff": "2026-09-23",
   "stage": "RESEARCH",
-  "package_ref": null,
-  "dossier_ref": "companies/sphere/pre_hitl_dossier.md",
+  "package_ref": "companies/sphere/package.json",
   "top_unknowns": [
     "Hétérogénéité ERP/MES et données qualité par site ?",
     "Coût réel pertes, arrêts et énergie ?",
     "Autorité groupe/usines pour financer et déployer ?"
   ],
-  "diagnostic_status": "evidence_capture_required_before_hitl",
-  "market_context_ref": "companies/sphere/market_drivers.md"
+  "diagnostic_status": "bundle_validated_selected_excerpts_original_capture_gate_open",
+  "market_context_ref": "companies/sphere/market_drivers.md",
+  "required_pitch_fields": [
+    "COO",
+    "DSI",
+    "data_ai_ml_team",
+    "ml_strategy_observed",
+    "ml_strategy_proposed"
+  ],
+  "leadership_register_ref": "program/leadership_register.json",
+  "strategic_context_ref": "companies/sphere/strategic_context.json",
+  "graph_ref": "companies/sphere/research_graph.json",
+  "dossier_ref": "companies/sphere/pre_hitl_dossier.md",
+  "capture_status": "selected_excerpts_verified_originals_not_archived",
+  "evidence_archive_ref": "oai-library://libfile_b99e2e770728819188adc0ce7d48a3ce"
 }

@@ -1,0 +1,312 @@
+{
+  "as_of": "2026-09-23",
+  "scope": "10 participations + Hivest,22 rôles recherchés",
+  "coverage": {
+    "queries": 18,
+    "roles": 22,
+    "group_role_verified": 0,
+    "subsidiary_role_verified": 1,
+    "unknown": 21
+  },
+  "rows": [
+    {
+      "entity": "STG",
+      "role_requested": "COO",
+      "person": null,
+      "exact_title": null,
+      "scope": "groupe",
+      "status": "unknown_after_bounded_search",
+      "confidence": null,
+      "as_of": "2026-09-23",
+      "source_url": null,
+      "note": "Titulaire non établi dans la recherche publique bornée ; ne prouve ni vacance du poste ni absence de fonction."
+    },
+    {
+      "entity": "STG",
+      "role_requested": "DSI",
+      "person": null,
+      "exact_title": null,
+      "scope": "groupe",
+      "status": "unknown_after_bounded_search",
+      "confidence": null,
+      "as_of": "2026-09-23",
+      "source_url": null,
+      "note": "Titulaire non établi dans la recherche publique bornée ; ne prouve ni vacance du poste ni absence de fonction."
+    },
+    {
+      "entity": "CCE Group",
+      "role_requested": "COO",
+      "person": null,
+      "exact_title": null,
+      "scope": "groupe",
+      "status": "unknown_after_bounded_search",
+      "confidence": null,
+      "as_of": "2026-09-23",
+      "source_url": null,
+      "note": "Titulaire non établi dans la recherche publique bornée ; ne prouve ni vacance du poste ni absence de fonction."
+    },
+    {
+      "entity": "CCE Group",
+      "role_requested": "DSI",
+      "person": null,
+      "exact_title": null,
+      "scope": "groupe",
+      "status": "unknown_after_bounded_search",
+      "confidence": null,
+      "as_of": "2026-09-23",
+      "source_url": null,
+      "note": "Titulaire non établi dans la recherche publique bornée ; ne prouve ni vacance du poste ni absence de fonction."
+    },
+    {
+      "entity": "Aurightec",
+      "role_requested": "COO",
+      "person": null,
+      "exact_title": null,
+      "scope": "groupe",
+      "status": "unknown_after_bounded_search",
+      "confidence": null,
+      "as_of": "2026-09-23",
+      "source_url": null,
+      "note": "Titulaire non établi dans la recherche publique bornée ; ne prouve ni vacance du poste ni absence de fonction."
+    },
+    {
+      "entity": "Aurightec",
+      "role_requested": "DSI",
+      "person": null,
+      "exact_title": null,
+      "scope": "groupe",
+      "status": "unknown_after_bounded_search",
+      "confidence": null,
+      "as_of": "2026-09-23",
+      "source_url": null,
+      "note": "Titulaire non établi dans la recherche publique bornée ; ne prouve ni vacance du poste ni absence de fonction."
+    },
+    {
+      "entity": "VMI-Jokon",
+      "role_requested": "COO",
+      "person": "Ludovic Weiss",
+      "exact_title": "Chief Operating Officer of Jokon",
+      "scope": "filiale Jokon uniquement",
+      "status": "verified_subsidiary_not_group",
+      "confidence": "high",
+      "as_of": "2026-09-23",
+      "source_url": "https://hivestcapital.com/en/hivest-capital-partners-acquires-vmi-jokon-group-alongside-its-management-team/",
+      "note": "COO de Jokon, ne pas extrapoler au groupe VMI-Jokon. Romain Bontemps = Managing Director VMI ; Martin Zavelberg = Managing Director Jokon.",
+      "source_date": "2026-09-10"
+    },
+    {
+      "entity": "VMI-Jokon",
+      "role_requested": "DSI",
+      "person": null,
+      "exact_title": null,
+      "scope": "groupe",
+      "status": "unknown_after_bounded_search",
+      "confidence": null,
+      "as_of": "2026-09-23",
+      "source_url": null,
+      "note": "Titulaire non établi dans la recherche publique bornée ; ne prouve ni vacance du poste ni absence de fonction."
+    },
+    {
+      "entity": "Agora Makers",
+      "role_requested": "COO",
+      "person": null,
+      "exact_title": null,
+      "scope": "groupe",
+      "status": "unknown_after_bounded_search",
+      "confidence": null,
+      "as_of": "2026-09-23",
+      "source_url": null,
+      "note": "Titulaire non établi dans la recherche publique bornée ; ne prouve ni vacance du poste ni absence de fonction."
+    },
+    {
+      "entity": "Agora Makers",
+      "role_requested": "DSI",
+      "person": null,
+      "exact_title": null,
+      "scope": "groupe",
+      "status": "unknown_after_bounded_search",
+      "confidence": null,
+      "as_of": "2026-09-23",
+      "source_url": null,
+      "note": "Titulaire non établi dans la recherche publique bornée ; ne prouve ni vacance du poste ni absence de fonction."
+    },
+    {
+      "entity": "Marie-Laure PLV",
+      "role_requested": "COO",
+      "person": null,
+      "exact_title": null,
+      "scope": "groupe",
+      "status": "unknown_after_bounded_search",
+      "confidence": null,
+      "as_of": "2026-09-23",
+      "source_url": null,
+      "note": "Titulaire non établi dans la recherche publique bornée ; ne prouve ni vacance du poste ni absence de fonction."
+    },
+    {
+      "entity": "Marie-Laure PLV",
+      "role_requested": "DSI",
+      "person": null,
+      "exact_title": null,
+      "scope": "groupe",
+      "status": "unknown_after_bounded_search",
+      "confidence": null,
+      "as_of": "2026-09-23",
+      "source_url": null,
+      "note": "Titulaire non établi dans la recherche publique bornée ; ne prouve ni vacance du poste ni absence de fonction."
+    },
+    {
+      "entity": "NV Labs",
+      "role_requested": "COO",
+      "person": null,
+      "exact_title": null,
+      "scope": "groupe",
+      "status": "unknown_after_bounded_search",
+      "confidence": null,
+      "as_of": "2026-09-23",
+      "source_url": null,
+      "note": "Titulaire non établi dans la recherche publique bornée ; ne prouve ni vacance du poste ni absence de fonction."
+    },
+    {
+      "entity": "NV Labs",
+      "role_requested": "DSI",
+      "person": null,
+      "exact_title": null,
+      "scope": "groupe",
+      "status": "unknown_after_bounded_search",
+      "confidence": null,
+      "as_of": "2026-09-23",
+      "source_url": null,
+      "note": "Titulaire non établi dans la recherche publique bornée ; ne prouve ni vacance du poste ni absence de fonction."
+    },
+    {
+      "entity": "Novasol Chemicals",
+      "role_requested": "COO",
+      "person": null,
+      "exact_title": null,
+      "scope": "groupe",
+      "status": "unknown_after_bounded_search",
+      "confidence": null,
+      "as_of": "2026-09-23",
+      "source_url": null,
+      "note": "Titulaire non établi dans la recherche publique bornée ; ne prouve ni vacance du poste ni absence de fonction."
+    },
+    {
+      "entity": "Novasol Chemicals",
+      "role_requested": "DSI",
+      "person": null,
+      "exact_title": null,
+      "scope": "groupe",
+      "status": "unknown_after_bounded_search",
+      "confidence": null,
+      "as_of": "2026-09-23",
+      "source_url": null,
+      "note": "Titulaire non établi dans la recherche publique bornée ; ne prouve ni vacance du poste ni absence de fonction."
+    },
+    {
+      "entity": "Reunimer",
+      "role_requested": "COO",
+      "person": null,
+      "exact_title": null,
+      "scope": "groupe",
+      "status": "unknown_after_bounded_search",
+      "confidence": null,
+      "as_of": "2026-09-23",
+      "source_url": null,
+      "note": "Titulaire non établi dans la recherche publique bornée ; ne prouve ni vacance du poste ni absence de fonction."
+    },
+    {
+      "entity": "Reunimer",
+      "role_requested": "DSI",
+      "person": null,
+      "exact_title": null,
+      "scope": "groupe",
+      "status": "unknown_after_bounded_search",
+      "confidence": null,
+      "as_of": "2026-09-23",
+      "source_url": null,
+      "note": "Titulaire non établi dans la recherche publique bornée ; ne prouve ni vacance du poste ni absence de fonction."
+    },
+    {
+      "entity": "Hivest Capital Partners",
+      "role_requested": "COO",
+      "person": null,
+      "exact_title": null,
+      "scope": "groupe",
+      "status": "unknown_after_bounded_search",
+      "confidence": null,
+      "as_of": "2026-09-23",
+      "source_url": null,
+      "note": "Titulaire non établi dans la recherche publique bornée ; ne prouve ni vacance du poste ni absence de fonction."
+    },
+    {
+      "entity": "Hivest Capital Partners",
+      "role_requested": "DSI",
+      "person": null,
+      "exact_title": null,
+      "scope": "groupe",
+      "status": "unknown_after_bounded_search",
+      "confidence": null,
+      "as_of": "2026-09-23",
+      "source_url": null,
+      "note": "Titulaire non établi dans la recherche publique bornée ; ne prouve ni vacance du poste ni absence de fonction."
+    },
+    {
+      "entity": "Sphere",
+      "role_requested": "COO",
+      "person": null,
+      "exact_title": null,
+      "scope": "groupe",
+      "status": "unknown_after_bounded_search",
+      "confidence": null,
+      "as_of": "2026-09-23",
+      "source_url": null,
+      "note": "Voir companies/sphere/analysis/04_people.md ; pistes filiales non promues au groupe."
+    },
+    {
+      "entity": "Sphere",
+      "role_requested": "DSI",
+      "person": null,
+      "exact_title": null,
+      "scope": "groupe",
+      "status": "unknown_after_bounded_search",
+      "confidence": null,
+      "as_of": "2026-09-23",
+      "source_url": null,
+      "note": "Voir companies/sphere/analysis/04_people.md ; pistes filiales non promues au groupe."
+    }
+  ],
+  "excluded_or_adjacent_signals": [
+    {
+      "entity": "STG",
+      "person": "Laurent Buc",
+      "reason": "Ancien DSI 2010–avril2017 ; exclu des titulaires actuels",
+      "url": "https://m.doyoubuzz.com/buc-laurent"
+    },
+    {
+      "entity": "Novasol Chemicals",
+      "person": "David Adjei",
+      "exact_title": "ERP & IT Expert",
+      "status": "indexed_linkedin_signal_unconfirmed",
+      "reason": "Titre expert, pas DSI ; extrait de post relayé, date/source originale à vérifier",
+      "url": "https://de.linkedin.com/in/erik-forler-674695139"
+    },
+    {
+      "entity": "Hivest Capital Partners",
+      "person": "Clémence Hélary",
+      "exact_title": "Chief Financial Officer",
+      "reason": "Ne pas convertir CFO en COO ou DSI",
+      "url": "https://hivestcapital.com/equipe/"
+    }
+  ],
+  "disambiguation": [
+    "VMI-Jokon = vmi-31.com + jokon.de, pas VMI Holland/TKH/vmi-group.com.",
+    "NV Labs = nvlabs.com nutraceutiques USA selon Hivest ; ne pas assimiler NV Labs Europe, nvlabs.net ou nv-labs.com sans preuve.",
+    "STG = transport Gautier, pas STG Telecom ni baccalauréat STG.",
+    "CCE = Cabin and Cargo Equipment, pas cabinets/centres homonymes."
+  ],
+  "next_actions": [
+    "Rechercher par domaines officiels et filiales pour chaque rôle inconnu lors de l'ouverture du diagnostic de la ligne.",
+    "Recouper LinkedIn individuel, annonce de nomination et organigramme daté ; enregistrer date de début/fin et périmètre.",
+    "Ne pas lancer diagnostics supplémentaires à partir de ce registre."
+  ]
+}

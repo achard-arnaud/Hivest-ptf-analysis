@@ -19,6 +19,8 @@ def check(entity):
         try:
             data = json.loads((ROOT / ref).read_text())
             validate_package(data)
+            if any(s.get('capture_kind') != 'full_original' for s in data['sources']):
+                missing.append('snapshots: originaux non archivés ; extraits sélectionnés seulement')
             if data['version'] != '0.2.0': missing.append('package_ref: contexte marché v0.2 absent')
         except (ValueError, KeyError, ValidationError) as exc:
             missing.append('package_ref: contrat invalide: ' + str(exc))
@@ -31,3 +33,4 @@ if __name__ == '__main__':
         result = check(sys.argv[1]);print(json.dumps(result, ensure_ascii=False));sys.exit(0 if result['status']=='PASS' else 1)
     except (IndexError, OSError, json.JSONDecodeError) as exc:
         print(json.dumps({'status':'FAIL','errors':[{'code':'E_INPUT','message':str(exc)}]}));sys.exit(2)
+

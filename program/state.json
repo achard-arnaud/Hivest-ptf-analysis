@@ -1,8 +1,8 @@
 {
-  "version": "0.1.0",
+  "version": "0.2.0",
   "phase": "PILOTS",
   "design_status": "candidate_for_pilots",
-  "next_action": "Sphere: archiver les sources originales, construire un package JSON validé, puis soumettre le dossier à HITL ; STG ensuite",
+  "next_action": "Sphere: compléter archivage originaux avant HITL ; utiliser bundle v0.2 enrichi et questions ciblées ; STG ensuite",
   "pilots": [
     "sphere",
     "stg"

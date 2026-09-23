@@ -24,3 +24,7 @@ Statut promotion : après deux pilotes contrastés, QA visuelle et décision hum
 
 ## Contrat de contexte externe (v0.2)
 P1 : signaux marché sourcés, concurrents comparables, trois drivers hiérarchisés. P2 : driver_id et KPI reliés aux processus. P3 : chaque cas relie driver, stratégie de valeur, alternative sans IA, sourcing et condition de validation ; distinguer priorité business et ordre de déploiement. BLUE_OCEAN exige nouvelle demande à tester. Ne pas ajouter une quatrième page.
+
+## Contrat v0.2 — business, leadership et ML
+P1 inclut COO/DSI (ou inconnu,périmètre,date),équipe data/IA/ML et stratégie ML observée séparée de la proposition ; segmentation CA datée et pricing power,Porter/4P condensés. P2 comprend pricing/indexation et order-to-cash. P3 relie driver,méthode ML/vision/optimisation/GenAI,baseline,stratégie de valeur,sourcing et gate. BCG non calculable sans croissance marché/part relative.
+Le futur freeze v0.2 exigera hash global et inconnues acceptées dans le GO_DRAFT humain. Le contrat contenu reste0.1 : le gel v0.2 est actuellement refusé, même si le bundle de recherche est valide.

@@ -8,5 +8,13 @@
     "Coût de service et contraintes par flux client ?",
     "Décisions planification/dispatch centralisées ou locales ?"
   ],
-  "diagnostic_status": "not_started"
+  "diagnostic_status": "not_started",
+  "required_pitch_fields": [
+    "COO",
+    "DSI",
+    "data_ai_ml_team",
+    "ml_strategy_observed",
+    "ml_strategy_proposed"
+  ],
+  "leadership_register_ref": "program/leadership_register.json"
 }

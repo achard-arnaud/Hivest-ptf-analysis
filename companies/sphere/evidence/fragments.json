@@ -1,0 +1,142 @@
+[
+  {
+    "id": "F-S02",
+    "source_id": "S02",
+    "locator": "L39 et58, extraits non contigus",
+    "excerpt": "SPHERE has acquired all the shares in the French group Polyex.\n18 production sites\n235,000 tonnes\n814 million euros\n1,800 staff",
+    "sha256": "b67a81405c93aa8ba96b6810c5d40358190a5de474c1e9ea85d4afe93dc6cc1b"
+  },
+  {
+    "id": "F-S03",
+    "source_id": "S03",
+    "locator": "Fragments sélectionnés : p.17 catégories/variation, p.18 achats, p.19–21 BFR/EBITDA, p.25 ERP ; ordre des lignes conservé par sous-fragment",
+    "excerpt": "38% 38%\n20% 20%\n16% 16%\n6% 6%\n- 3,4 %\n782 054\n77 945\n472 660\n125 744\n167,6 M€\nJD Edwards",
+    "sha256": "0ba924b4c5fec1746c9fc986402b915299a36b00d2d43d23720b3fbb5c7d8fc7"
+  },
+  {
+    "id": "F-S05",
+    "source_id": "S05",
+    "locator": "L43 et46",
+    "excerpt": "une organisation commerciale unifiée\nplus de 4 000 références produits",
+    "sha256": "167900cb47e4591f65415ec2b886f2cf45928bb8bf46fb8baaa9da236d48e2c0"
+  },
+  {
+    "id": "F-S06",
+    "source_id": "S06",
+    "locator": "L5–6, extraits non contigus",
+    "excerpt": "a signé un protocole d’accord pour l’acquisition d’une participation majoritaire\n70% de ses ventes en matériaux recyclés ou biosourcés compostables",
+    "sha256": "42605af10b2b60fbb7b40c9c95d708a7a7a946a834ceda02e9def2760c637300"
+  },
+  {
+    "id": "F-JDE-01",
+    "source_id": "JDE-01",
+    "locator": "p.4, lines 100–102",
+    "excerpt": "Release 24 (Tools Release 9.2.8.2).",
+    "sha256": "d4e500ec6f17a433de1351d42b5f2447c55e7559527e5bc312a511d1e4dbdca1"
+  },
+  {
+    "id": "F-JDE-02",
+    "source_id": "JDE-02",
+    "locator": "Introduction",
+    "excerpt": "Every orchestration is, in fact, a REST API",
+    "sha256": "7de28eb5df4e7dd0043a0fe6ac9f82c31783299c2fbe62073984a0fcc65c56dd"
+  },
+  {
+    "id": "F-JDE-04",
+    "source_id": "JDE-04",
+    "locator": "Use, line 59",
+    "excerpt": "Inspecting Components in JD Edwards using OCI AI Vision",
+    "sha256": "186226c6017bea74a07dd1d25b68e5b3ce385cefb8f0d03d6bb92e919ec41d78"
+  },
+  {
+    "id": "F-JDE-05",
+    "source_id": "JDE-05",
+    "locator": "line 39",
+    "excerpt": "Beginning with this release, it will be Applications Update 26 and Tools 9.2.26.",
+    "sha256": "10814193454a9f9521bb7df01198763dd65bc07c1562cf0215b830a8ccc3a36c"
+  },
+  {
+    "id": "F-JDE-07",
+    "source_id": "JDE-07",
+    "locator": "p.4, lines 84–87",
+    "excerpt": "This functionality is not generally available as part of the product",
+    "sha256": "3a7ba2357f029129fbe4e7756b7fb566ca45b771932ce1597f090005520c5c77"
+  },
+  {
+    "id": "F-S-P01",
+    "source_id": "S-P01",
+    "locator": "Mentions légales / Directeur de publication",
+    "excerpt": "Directeur de la publication du site : Françis LUSTMAN, Directeur du Service Informatique",
+    "sha256": "ba7eeb59626fe671368ffe3e2e66a2101096fe0e73626c425d114152862ef67a"
+  },
+  {
+    "id": "F-S-P02",
+    "source_id": "S-P02",
+    "locator": "Employés chez SCHWEITZER",
+    "excerpt": "Thomas BLANC. Directeur Informatique chez Schweitzer.",
+    "sha256": "0a4ea42586ce03f375158740a1bfd101a695cb0a2988e0e05ca0d4c9569cb8d7"
+  },
+  {
+    "id": "F-P01",
+    "source_id": "P01",
+    "locator": "L67 et75, extraits non contigus",
+    "excerpt": "Bernard Doussot, Chief Financial Officer du Groupe SPHERE\nprocessus S&OP structuré\nréduction significative des niveaux de stocks",
+    "sha256": "7a2a72f1d3c8e2142c87ae111d8bf648e72b8f7ec1f38bee86a9551d36a5786a"
+  },
+  {
+    "id": "F-S-P05",
+    "source_id": "S-P05",
+    "locator": "Projet SPHERE mars 2009–décembre 2009",
+    "excerpt": "Data migration with ODI\nOracle Data Integrator 10.1.3, Oracle JD Edwards Enterprise One (version 8.12)",
+    "sha256": "3944d2197761c8eb9f52d2b46326639e336515a4e002123182d96e70cb4c8836"
+  },
+  {
+    "id": "F-M02",
+    "source_id": "M02",
+    "locator": "L116",
+    "excerpt": "Polipak is a leading producer of packaging and plastic bags for household and industrial needs.",
+    "sha256": "69b5b8efc936aecafcd3f92868af3fe9e8871de9378fdd3afb268967d362b81a"
+  },
+  {
+    "id": "F-M03",
+    "source_id": "M03",
+    "locator": "L38",
+    "excerpt": "We also produce bags for councils, local authorities and retail channels.",
+    "sha256": "0f5a15dd9a804749c4ab93173195dc72a107a6ef7c06896e82810cd8d81efd0f"
+  },
+  {
+    "id": "F-M04",
+    "source_id": "M04",
+    "locator": "L7",
+    "excerpt": "As a manufacturer of plastic bags, Weifang Hongyuan Plastic Products Co was established in 1998",
+    "sha256": "ff0d9eec41b153b345e0a3450b970d3e6e7608f1cf30f7f36ff46f47a85b023f"
+  },
+  {
+    "id": "F-M05",
+    "source_id": "M05",
+    "locator": "L63",
+    "excerpt": "food packaging, disposable containers, films for food preservation, and garbage bags",
+    "sha256": "864e0ce4f00d719e47a927d72ac1435c130d5515a389e673b413ead87f290b7c"
+  },
+  {
+    "id": "F-M07",
+    "source_id": "M07",
+    "locator": "L82",
+    "excerpt": "Virosac è parte di SPHERE GROUP",
+    "sha256": "1d253d763cc7f0e33336b0d99797faeccf7d4869d9c56aeb52416d27e0410cd9"
+  },
+  {
+    "id": "F-M06",
+    "source_id": "M06",
+    "excerpt": "MATER-BI shopping bags and produce bags can also be reused for the separate collection of organic waste.",
+    "locator": "Retail,L65",
+    "sha256": "09577297769f34ab46eb2c094b152237642919144ec8f36cd74e86e0c8ee49c5"
+  },
+  {
+    "id": "F-M01P",
+    "source_id": "M01P",
+    "excerpt": "RKW Remy manufactures high-performance films for the processing industry.",
+    "locator": "Site Remy,L103",
+    "sha256": "1deb5e547ce0ff420ce34b66961b55c053c8bc19bba17fddea534237ee32c723"
+  }
+]

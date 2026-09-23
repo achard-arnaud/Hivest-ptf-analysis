@@ -4,5 +4,13 @@
   "stage": "INTAKE",
   "package_ref": null,
   "top_unknowns": [],
-  "diagnostic_status": "not_started"
+  "diagnostic_status": "not_started",
+  "required_pitch_fields": [
+    "COO",
+    "DSI",
+    "data_ai_ml_team",
+    "ml_strategy_observed",
+    "ml_strategy_proposed"
+  ],
+  "leadership_register_ref": "program/leadership_register.json"
 }

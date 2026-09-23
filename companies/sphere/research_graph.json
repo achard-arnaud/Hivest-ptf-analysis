@@ -1,0 +1,220 @@
+{
+  "version": "0.2.0",
+  "entity_id": "sphere",
+  "nodes": [
+    {
+      "id": "evidence",
+      "kind": "analysis",
+      "path": "evidence/claims.json",
+      "depends_on": [],
+      "status": "current",
+      "source_claim_refs": []
+    },
+    {
+      "id": "business",
+      "kind": "analysis",
+      "path": "analysis/01_business.md",
+      "depends_on": [
+        "evidence"
+      ],
+      "status": "current",
+      "source_claim_refs": [
+        "C-finance",
+        "C-ownership"
+      ]
+    },
+    {
+      "id": "market",
+      "kind": "analysis",
+      "path": "analysis/02_market.md",
+      "depends_on": [
+        "evidence"
+      ],
+      "status": "current",
+      "source_claim_refs": [
+        "C-segments",
+        "C-growth",
+        "C-M02",
+        "C-M03",
+        "C-M04",
+        "C-M05"
+      ]
+    },
+    {
+      "id": "drivers",
+      "kind": "analysis",
+      "path": "analysis/03_drivers.md",
+      "depends_on": [
+        "business",
+        "market"
+      ],
+      "status": "current",
+      "source_claim_refs": [
+        "C-thesis",
+        "C-italy"
+      ]
+    },
+    {
+      "id": "people",
+      "kind": "analysis",
+      "path": "analysis/04_people.md",
+      "depends_on": [
+        "evidence"
+      ],
+      "status": "current",
+      "source_claim_refs": [
+        "C-france-it",
+        "C-schweitzer-it",
+        "C-ml-unknown"
+      ]
+    },
+    {
+      "id": "ml",
+      "kind": "analysis",
+      "path": "analysis/05_ml_jde.md",
+      "depends_on": [
+        "evidence",
+        "drivers",
+        "people"
+      ],
+      "status": "current",
+      "source_claim_refs": [
+        "C-JDE-01",
+        "C-JDE-02",
+        "C-ml-unknown"
+      ]
+    },
+    {
+      "id": "organisation",
+      "kind": "analysis",
+      "path": "analysis/06_organisation.md",
+      "depends_on": [
+        "market",
+        "people"
+      ],
+      "status": "current",
+      "source_claim_refs": [
+        "C-italy",
+        "C-ml-unknown"
+      ]
+    },
+    {
+      "id": "usecases",
+      "kind": "analysis",
+      "path": "analysis/07_use_cases.md",
+      "depends_on": [
+        "drivers",
+        "ml"
+      ],
+      "status": "current",
+      "source_claim_refs": [
+        "C-thesis"
+      ]
+    },
+    {
+      "id": "page1",
+      "kind": "output",
+      "path": "analysis/08_page_contract.md",
+      "depends_on": [
+        "business",
+        "market",
+        "people",
+        "organisation"
+      ],
+      "status": "current",
+      "source_claim_refs": [
+        "C-segments"
+      ]
+    },
+    {
+      "id": "page2",
+      "kind": "output",
+      "path": "analysis/08_page_contract.md",
+      "depends_on": [
+        "drivers",
+        "usecases"
+      ],
+      "status": "current",
+      "source_claim_refs": [
+        "C-thesis"
+      ]
+    },
+    {
+      "id": "page3",
+      "kind": "output",
+      "path": "analysis/08_page_contract.md",
+      "depends_on": [
+        "usecases",
+        "organisation"
+      ],
+      "status": "current",
+      "source_claim_refs": [
+        "C-ml-unknown"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "Q-pricing",
+      "question": "Mix achats par grade, clauses hausses/baisses et marge perdue ?",
+      "status": "open",
+      "affects": [
+        "drivers",
+        "usecases",
+        "page3"
+      ],
+      "owner": "finance/achats",
+      "trigger": "Avant classer D01 en gains durables",
+      "budget_queries": 3,
+      "stop_condition": "Source primaire disponible ou réponse interne ; sinon unknown et arrêt après budget",
+      "next_action": "targeted_research_or_hitl"
+    },
+    {
+      "id": "Q-data",
+      "question": "Baseline S&OP Italie, qualité SKU/site,labels et parc JDE ?",
+      "status": "open",
+      "affects": [
+        "ml",
+        "usecases",
+        "page3"
+      ],
+      "owner": "DSI/supply chain",
+      "trigger": "Avant choisir pilote ML",
+      "budget_queries": 3,
+      "stop_condition": "Source primaire disponible ou réponse interne ; sinon unknown et arrêt après budget",
+      "next_action": "targeted_research_or_hitl"
+    },
+    {
+      "id": "Q-leaders",
+      "question": "COO/DSI groupe et équipe data/ML,mandats ?",
+      "status": "open",
+      "affects": [
+        "people",
+        "organisation",
+        "page1",
+        "page3"
+      ],
+      "owner": "direction",
+      "trigger": "Nouvelle nomination ou préparation HITL",
+      "budget_queries": 3,
+      "stop_condition": "Source primaire disponible ou réponse interne ; sinon unknown et arrêt après budget",
+      "next_action": "targeted_research_or_hitl"
+    },
+    {
+      "id": "Q-segments",
+      "question": "CA2025, cash/marge par catégorie, croissance marché et parts relatives ?",
+      "status": "open",
+      "affects": [
+        "market",
+        "page1",
+        "page3"
+      ],
+      "owner": "finance/commercial",
+      "trigger": "Avant BCG ou investissement segment",
+      "budget_queries": 3,
+      "stop_condition": "Source primaire disponible ou réponse interne ; sinon unknown et arrêt après budget",
+      "next_action": "targeted_research_or_hitl"
+    }
+  ],
+  "default_budget": 12
+}

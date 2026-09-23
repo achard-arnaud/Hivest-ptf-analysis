@@ -24,3 +24,5 @@ DONE entreprise : identité/roster, signalétique/finance sourcées ou explicite
 DONE portefeuille : onze DONE, comparabilité contrôlée, heatmap avec couverture, mutualisations argumentées avec lineage vers au moins deux entreprises indépendantes et spécificités locales conservées. Deux occurrences seules ne prouvent pas une économie de mutualisation.
 
 Gate marché : la revue pré-HITL contient une segmentation, une couverture sectorielle avec manques, des pairs comparables, une matrice drivers sourcée et le mapping vers les trois pages. Le gate est une revue sémantique humaine ; les schémas existants seuls ne le certifient pas.
+
+Nouveaux dossiers : bundle v0.2 requis. Exécuter validate_bundle avec archive d’extraits pour intégrité ; les captures déclarent leur nature. Les reviews doivent toutes survivre avant freeze ; validation humaine inclut bundle_sha256 et accepted_unknown_ids. Segments/4P/Porter,COO/DSI et stratégie ML obligatoires même inconnus.

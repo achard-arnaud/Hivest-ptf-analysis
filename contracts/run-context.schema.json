@@ -145,6 +145,16 @@
             "package_sha256": {
               "type": "string",
               "pattern": "^[a-f0-9]{64}$"
+            },
+            "bundle_sha256": {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            },
+            "accepted_unknown_ids": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
             }
           },
           "required": [

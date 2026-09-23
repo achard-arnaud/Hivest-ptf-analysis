@@ -1,0 +1,2797 @@
+{
+  "version": "0.2.0",
+  "entity_id": "sphere",
+  "cutoff": "2026-09-23",
+  "sources": [
+    {
+      "id": "S02",
+      "url": "https://www.sphere.eu/en/the-sphere-group-expands-its-operations-in-the-industrial-film-market-through-the-acquisition-of-polyex/",
+      "scope": "company",
+      "entity_ids": [
+        "sphere"
+      ],
+      "published_at": "2026-09-07",
+      "accessed_at": "2026-09-23",
+      "grade": "B",
+      "origin_id": "https://www.sphere.eu/en/the-sphere-group-expands-its-operations-in-the-industrial-film-market-through-the-acquisition-of-polyex/",
+      "source_type": "corporate",
+      "access_status": "read",
+      "rights": "Public reference; short selected excerpts only; no full reproduction or raw HTML claim",
+      "snapshot_uri": "oai-library://libfile_b99e2e770728819188adc0ce7d48a3ce#S02",
+      "sha256": "b67a81405c93aa8ba96b6810c5d40358190a5de474c1e9ea85d4afe93dc6cc1b",
+      "capture_kind": "selected_excerpt",
+      "hash_scope": "excerpt_utf8"
+    },
+    {
+      "id": "S03",
+      "url": "https://uploads1.craft.co/uploads/unified_record/source/document/2165394/f71eb45b0ee203cf.pdf",
+      "scope": "company",
+      "entity_ids": [
+        "sphere"
+      ],
+      "published_at": "2025-03-27",
+      "accessed_at": "2026-09-23",
+      "grade": "B",
+      "origin_id": "https://uploads1.craft.co/uploads/unified_record/source/document/2165394/f71eb45b0ee203cf.pdf",
+      "source_type": "filing",
+      "access_status": "read",
+      "rights": "Public reference; short selected excerpts only; no full reproduction or raw HTML claim",
+      "snapshot_uri": "oai-library://libfile_b99e2e770728819188adc0ce7d48a3ce#S03",
+      "sha256": "0ba924b4c5fec1746c9fc986402b915299a36b00d2d43d23720b3fbb5c7d8fc7",
+      "capture_kind": "selected_excerpt",
+      "hash_scope": "excerpt_utf8"
+    },
+    {
+      "id": "S05",
+      "url": "https://www.sphere.eu/fr/le-groupe-sphere-presente-au-salon-interclean-2026-sa-nouvelle-division-europeenne-sphere-pro/",
+      "scope": "company",
+      "entity_ids": [
+        "sphere"
+      ],
+      "published_at": "2026-04-14",
+      "accessed_at": "2026-09-23",
+      "grade": "B",
+      "origin_id": "https://www.sphere.eu/fr/le-groupe-sphere-presente-au-salon-interclean-2026-sa-nouvelle-division-europeenne-sphere-pro/",
+      "source_type": "corporate",
+      "access_status": "read",
+      "rights": "Public reference; short selected excerpts only; no full reproduction or raw HTML claim",
+      "snapshot_uri": "oai-library://libfile_b99e2e770728819188adc0ce7d48a3ce#S05",
+      "sha256": "167900cb47e4591f65415ec2b886f2cf45928bb8bf46fb8baaa9da236d48e2c0",
+      "capture_kind": "selected_excerpt",
+      "hash_scope": "excerpt_utf8"
+    },
+    {
+      "id": "S06",
+      "url": "https://hivestcapital.com/hivest-capital-partners-mene-la-reconfiguration-capitalistique-du-groupe-sphere-leader-europeen-des-emballages-menagers-durables/",
+      "scope": "company",
+      "entity_ids": [
+        "sphere"
+      ],
+      "published_at": "2024-10-24",
+      "accessed_at": "2026-09-23",
+      "grade": "B",
+      "origin_id": "https://hivestcapital.com/hivest-capital-partners-mene-la-reconfiguration-capitalistique-du-groupe-sphere-leader-europeen-des-emballages-menagers-durables/",
+      "source_type": "corporate",
+      "access_status": "read",
+      "rights": "Public reference; short selected excerpts only; no full reproduction or raw HTML claim",
+      "snapshot_uri": "oai-library://libfile_b99e2e770728819188adc0ce7d48a3ce#S06",
+      "sha256": "42605af10b2b60fbb7b40c9c95d708a7a7a946a834ceda02e9def2760c637300",
+      "capture_kind": "selected_excerpt",
+      "hash_scope": "excerpt_utf8"
+    },
+    {
+      "id": "JDE-01",
+      "url": "https://www.oracle.com/webfolder/technetwork/tutorials/jdedwards/FAQ/FAQ-Oracle-AI-JDE.pdf",
+      "scope": "sector",
+      "entity_ids": [],
+      "published_at": null,
+      "accessed_at": "2026-09-23",
+      "grade": "B",
+      "origin_id": "https://www.oracle.com/webfolder/technetwork/tutorials/jdedwards/FAQ/FAQ-Oracle-AI-JDE.pdf",
+      "source_type": "corporate",
+      "access_status": "read",
+      "rights": "Public reference; short selected excerpts only; no full reproduction or raw HTML claim",
+      "snapshot_uri": "oai-library://libfile_b99e2e770728819188adc0ce7d48a3ce#JDE-01",
+      "sha256": "d4e500ec6f17a433de1351d42b5f2447c55e7559527e5bc312a511d1e4dbdca1",
+      "capture_kind": "selected_excerpt",
+      "hash_scope": "excerpt_utf8"
+    },
+    {
+      "id": "JDE-02",
+      "url": "https://docs.oracle.com/cd/E84502_01/learnjde/orchestrator-integration.html",
+      "scope": "sector",
+      "entity_ids": [],
+      "published_at": null,
+      "accessed_at": "2026-09-23",
+      "grade": "B",
+      "origin_id": "https://docs.oracle.com/cd/E84502_01/learnjde/orchestrator-integration.html",
+      "source_type": "corporate",
+      "access_status": "partial",
+      "rights": "Public reference; short selected excerpts only; no full reproduction or raw HTML claim",
+      "snapshot_uri": "oai-library://libfile_b99e2e770728819188adc0ce7d48a3ce#JDE-02",
+      "sha256": "7de28eb5df4e7dd0043a0fe6ac9f82c31783299c2fbe62073984a0fcc65c56dd",
+      "capture_kind": "selected_excerpt",
+      "hash_scope": "excerpt_utf8"
+    },
+    {
+      "id": "JDE-04",
+      "url": "https://docs.oracle.com/cd/E84502_01/learnjde/jde-ai.html",
+      "scope": "sector",
+      "entity_ids": [],
+      "published_at": null,
+      "accessed_at": "2026-09-23",
+      "grade": "B",
+      "origin_id": "https://docs.oracle.com/cd/E84502_01/learnjde/jde-ai.html",
+      "source_type": "corporate",
+      "access_status": "read",
+      "rights": "Public reference; short selected excerpts only; no full reproduction or raw HTML claim",
+      "snapshot_uri": "oai-library://libfile_b99e2e770728819188adc0ce7d48a3ce#JDE-04",
+      "sha256": "186226c6017bea74a07dd1d25b68e5b3ce385cefb8f0d03d6bb92e919ec41d78",
+      "capture_kind": "selected_excerpt",
+      "hash_scope": "excerpt_utf8"
+    },
+    {
+      "id": "JDE-05",
+      "url": "https://docs.oracle.com/cd/E84502_01/learnjde/release26.html",
+      "scope": "sector",
+      "entity_ids": [],
+      "published_at": null,
+      "accessed_at": "2026-09-23",
+      "grade": "B",
+      "origin_id": "https://docs.oracle.com/cd/E84502_01/learnjde/release26.html",
+      "source_type": "corporate",
+      "access_status": "read",
+      "rights": "Public reference; short selected excerpts only; no full reproduction or raw HTML claim",
+      "snapshot_uri": "oai-library://libfile_b99e2e770728819188adc0ce7d48a3ce#JDE-05",
+      "sha256": "10814193454a9f9521bb7df01198763dd65bc07c1562cf0215b830a8ccc3a36c",
+      "capture_kind": "selected_excerpt",
+      "hash_scope": "excerpt_utf8"
+    },
+    {
+      "id": "JDE-07",
+      "url": "https://www.oracle.com/webfolder/technetwork/tutorials/jdedwards/White%20Papers/ChatbotforCNCAdministrationUsingServerManager_TechBrief.pdf",
+      "scope": "sector",
+      "entity_ids": [],
+      "published_at": null,
+      "accessed_at": "2026-09-23",
+      "grade": "B",
+      "origin_id": "https://www.oracle.com/webfolder/technetwork/tutorials/jdedwards/White%20Papers/ChatbotforCNCAdministrationUsingServerManager_TechBrief.pdf",
+      "source_type": "corporate",
+      "access_status": "read",
+      "rights": "Public reference; short selected excerpts only; no full reproduction or raw HTML claim",
+      "snapshot_uri": "oai-library://libfile_b99e2e770728819188adc0ce7d48a3ce#JDE-07",
+      "sha256": "3a7ba2357f029129fbe4e7756b7fb566ca45b771932ce1597f090005520c5c77",
+      "capture_kind": "selected_excerpt",
+      "hash_scope": "excerpt_utf8"
+    },
+    {
+      "id": "S-P01",
+      "url": "https://www.alfapac.eu/mentions-legales/",
+      "scope": "company",
+      "entity_ids": [
+        "sphere"
+      ],
+      "published_at": null,
+      "accessed_at": "2026-09-23",
+      "grade": "D",
+      "origin_id": "https://www.alfapac.eu/mentions-legales/",
+      "source_type": "corporate",
+      "access_status": "partial",
+      "rights": "Public reference; short selected excerpts only; no full reproduction or raw HTML claim",
+      "snapshot_uri": "oai-library://libfile_b99e2e770728819188adc0ce7d48a3ce#S-P01",
+      "sha256": "ba7eeb59626fe671368ffe3e2e66a2101096fe0e73626c425d114152862ef67a",
+      "capture_kind": "selected_excerpt",
+      "hash_scope": "excerpt_utf8"
+    },
+    {
+      "id": "S-P02",
+      "url": "https://fr.linkedin.com/company/schweitzer-groupe-sphere",
+      "scope": "company",
+      "entity_ids": [
+        "sphere"
+      ],
+      "published_at": null,
+      "accessed_at": "2026-09-23",
+      "grade": "D",
+      "origin_id": "https://fr.linkedin.com/company/schweitzer-groupe-sphere",
+      "source_type": "social",
+      "access_status": "partial",
+      "rights": "Public reference; short selected excerpts only; no full reproduction or raw HTML claim",
+      "snapshot_uri": "oai-library://libfile_b99e2e770728819188adc0ce7d48a3ce#S-P02",
+      "sha256": "0a4ea42586ce03f375158740a1bfd101a695cb0a2988e0e05ca0d4c9569cb8d7",
+      "capture_kind": "selected_excerpt",
+      "hash_scope": "excerpt_utf8"
+    },
+    {
+      "id": "P01",
+      "url": "https://www.valtus.fr/blog/2026/07/10/groupe-sphere-structurer-et-transformer-la-filiale-italienne-du-leader-europeen-des-emballages-menagers/",
+      "scope": "company",
+      "entity_ids": [
+        "sphere"
+      ],
+      "published_at": "2026-07-10",
+      "accessed_at": "2026-09-23",
+      "grade": "C",
+      "origin_id": "https://www.valtus.fr/blog/2026/07/10/groupe-sphere-structurer-et-transformer-la-filiale-italienne-du-leader-europeen-des-emballages-menagers/",
+      "source_type": "customer_case",
+      "access_status": "read",
+      "rights": "Public reference; short selected excerpts only; no full reproduction or raw HTML claim",
+      "snapshot_uri": "oai-library://libfile_b99e2e770728819188adc0ce7d48a3ce#P01",
+      "sha256": "7a2a72f1d3c8e2142c87ae111d8bf648e72b8f7ec1f38bee86a9551d36a5786a",
+      "capture_kind": "selected_excerpt",
+      "hash_scope": "excerpt_utf8"
+    },
+    {
+      "id": "S-P05",
+      "url": "https://fr.linkedin.com/in/guillaume-estocq-83014b82",
+      "scope": "company",
+      "entity_ids": [
+        "sphere"
+      ],
+      "published_at": null,
+      "accessed_at": "2026-09-23",
+      "grade": "D",
+      "origin_id": "https://fr.linkedin.com/in/guillaume-estocq-83014b82",
+      "source_type": "social",
+      "access_status": "partial",
+      "rights": "Public reference; short selected excerpts only; no full reproduction or raw HTML claim",
+      "snapshot_uri": "oai-library://libfile_b99e2e770728819188adc0ce7d48a3ce#S-P05",
+      "sha256": "3944d2197761c8eb9f52d2b46326639e336515a4e002123182d96e70cb4c8836",
+      "capture_kind": "selected_excerpt",
+      "hash_scope": "excerpt_utf8"
+    },
+    {
+      "id": "M02",
+      "url": "https://polipak.sarantisgroup.com/en/",
+      "scope": "sector",
+      "entity_ids": [],
+      "published_at": null,
+      "accessed_at": "2026-09-23",
+      "grade": "B",
+      "origin_id": "https://polipak.sarantisgroup.com/en/",
+      "source_type": "corporate",
+      "access_status": "read",
+      "rights": "Public reference; short selected excerpts only; no full reproduction or raw HTML claim",
+      "snapshot_uri": "oai-library://libfile_b99e2e770728819188adc0ce7d48a3ce#M02",
+      "sha256": "69b5b8efc936aecafcd3f92868af3fe9e8871de9378fdd3afb268967d362b81a",
+      "capture_kind": "selected_excerpt",
+      "hash_scope": "excerpt_utf8"
+    },
+    {
+      "id": "M03",
+      "url": "https://www.ersoplast.com/en/corporate.html",
+      "scope": "sector",
+      "entity_ids": [],
+      "published_at": null,
+      "accessed_at": "2026-09-23",
+      "grade": "B",
+      "origin_id": "https://www.ersoplast.com/en/corporate.html",
+      "source_type": "corporate",
+      "access_status": "read",
+      "rights": "Public reference; short selected excerpts only; no full reproduction or raw HTML claim",
+      "snapshot_uri": "oai-library://libfile_b99e2e770728819188adc0ce7d48a3ce#M03",
+      "sha256": "0f5a15dd9a804749c4ab93173195dc72a107a6ef7c06896e82810cd8d81efd0f",
+      "capture_kind": "selected_excerpt",
+      "hash_scope": "excerpt_utf8"
+    },
+    {
+      "id": "M04",
+      "url": "https://www.hongyuanplastic.com/about/intro/",
+      "scope": "sector",
+      "entity_ids": [],
+      "published_at": null,
+      "accessed_at": "2026-09-23",
+      "grade": "B",
+      "origin_id": "https://www.hongyuanplastic.com/about/intro/",
+      "source_type": "corporate",
+      "access_status": "read",
+      "rights": "Public reference; short selected excerpts only; no full reproduction or raw HTML claim",
+      "snapshot_uri": "oai-library://libfile_b99e2e770728819188adc0ce7d48a3ce#M04",
+      "sha256": "ff0d9eec41b153b345e0a3450b970d3e6e7608f1cf30f7f36ff46f47a85b023f",
+      "capture_kind": "selected_excerpt",
+      "hash_scope": "excerpt_utf8"
+    },
+    {
+      "id": "M05",
+      "url": "https://www.melitta-group.com/en/unternehmen/about-us/melitta-group/cuki-cofresco",
+      "scope": "sector",
+      "entity_ids": [],
+      "published_at": null,
+      "accessed_at": "2026-09-23",
+      "grade": "B",
+      "origin_id": "https://www.melitta-group.com/en/unternehmen/about-us/melitta-group/cuki-cofresco",
+      "source_type": "corporate",
+      "access_status": "read",
+      "rights": "Public reference; short selected excerpts only; no full reproduction or raw HTML claim",
+      "snapshot_uri": "oai-library://libfile_b99e2e770728819188adc0ce7d48a3ce#M05",
+      "sha256": "864e0ce4f00d719e47a927d72ac1435c130d5515a389e673b413ead87f290b7c",
+      "capture_kind": "selected_excerpt",
+      "hash_scope": "excerpt_utf8"
+    },
+    {
+      "id": "M07",
+      "url": "https://www.virosac.com/",
+      "scope": "company",
+      "entity_ids": [
+        "sphere"
+      ],
+      "published_at": null,
+      "accessed_at": "2026-09-23",
+      "grade": "B",
+      "origin_id": "https://www.virosac.com/",
+      "source_type": "corporate",
+      "access_status": "read",
+      "rights": "Public reference; short selected excerpts only; no full reproduction or raw HTML claim",
+      "snapshot_uri": "oai-library://libfile_b99e2e770728819188adc0ce7d48a3ce#M07",
+      "sha256": "1d253d763cc7f0e33336b0d99797faeccf7d4869d9c56aeb52416d27e0410cd9",
+      "capture_kind": "selected_excerpt",
+      "hash_scope": "excerpt_utf8"
+    },
+    {
+      "id": "M06",
+      "url": "https://www.novamont.com/eng/mater-bi-sectors-of-application",
+      "scope": "sector",
+      "entity_ids": [],
+      "published_at": null,
+      "accessed_at": "2026-09-23",
+      "grade": "B",
+      "origin_id": "https://www.novamont.com/eng/mater-bi-sectors-of-application",
+      "source_type": "corporate",
+      "access_status": "read",
+      "rights": "Public reference; short selected excerpts only; no full reproduction or raw HTML claim",
+      "snapshot_uri": "oai-library://libfile_b99e2e770728819188adc0ce7d48a3ce#M06",
+      "sha256": "09577297769f34ab46eb2c094b152237642919144ec8f36cd74e86e0c8ee49c5",
+      "capture_kind": "selected_excerpt",
+      "hash_scope": "excerpt_utf8"
+    },
+    {
+      "id": "M01P",
+      "url": "https://rkw-group.com/company/corporate-profile/",
+      "scope": "sector",
+      "entity_ids": [],
+      "published_at": null,
+      "accessed_at": "2026-09-23",
+      "grade": "B",
+      "origin_id": "https://rkw-group.com/company/corporate-profile/",
+      "source_type": "corporate",
+      "access_status": "read",
+      "rights": "Public short excerpt only",
+      "snapshot_uri": "oai-library://libfile_b99e2e770728819188adc0ce7d48a3ce#M01P",
+      "sha256": "1deb5e547ce0ff420ce34b66961b55c053c8bc19bba17fddea534237ee32c723",
+      "capture_kind": "selected_excerpt",
+      "hash_scope": "excerpt_utf8"
+    }
+  ],
+  "fragments": [
+    {
+      "id": "F-S02",
+      "source_id": "S02",
+      "locator": "L39 et58, extraits non contigus",
+      "excerpt": "SPHERE has acquired all the shares in the French group Polyex.\n18 production sites\n235,000 tonnes\n814 million euros\n1,800 staff",
+      "sha256": "b67a81405c93aa8ba96b6810c5d40358190a5de474c1e9ea85d4afe93dc6cc1b"
+    },
+    {
+      "id": "F-S03",
+      "source_id": "S03",
+      "locator": "Fragments sélectionnés : p.17 catégories/variation, p.18 achats, p.19–21 BFR/EBITDA, p.25 ERP ; ordre des lignes conservé par sous-fragment",
+      "excerpt": "38% 38%\n20% 20%\n16% 16%\n6% 6%\n- 3,4 %\n782 054\n77 945\n472 660\n125 744\n167,6 M€\nJD Edwards",
+      "sha256": "0ba924b4c5fec1746c9fc986402b915299a36b00d2d43d23720b3fbb5c7d8fc7"
+    },
+    {
+      "id": "F-S05",
+      "source_id": "S05",
+      "locator": "L43 et46",
+      "excerpt": "une organisation commerciale unifiée\nplus de 4 000 références produits",
+      "sha256": "167900cb47e4591f65415ec2b886f2cf45928bb8bf46fb8baaa9da236d48e2c0"
+    },
+    {
+      "id": "F-S06",
+      "source_id": "S06",
+      "locator": "L5–6, extraits non contigus",
+      "excerpt": "a signé un protocole d’accord pour l’acquisition d’une participation majoritaire\n70% de ses ventes en matériaux recyclés ou biosourcés compostables",
+      "sha256": "42605af10b2b60fbb7b40c9c95d708a7a7a946a834ceda02e9def2760c637300"
+    },
+    {
+      "id": "F-JDE-01",
+      "source_id": "JDE-01",
+      "locator": "p.4, lines 100–102",
+      "excerpt": "Release 24 (Tools Release 9.2.8.2).",
+      "sha256": "d4e500ec6f17a433de1351d42b5f2447c55e7559527e5bc312a511d1e4dbdca1"
+    },
+    {
+      "id": "F-JDE-02",
+      "source_id": "JDE-02",
+      "locator": "Introduction",
+      "excerpt": "Every orchestration is, in fact, a REST API",
+      "sha256": "7de28eb5df4e7dd0043a0fe6ac9f82c31783299c2fbe62073984a0fcc65c56dd"
+    },
+    {
+      "id": "F-JDE-04",
+      "source_id": "JDE-04",
+      "locator": "Use, line 59",
+      "excerpt": "Inspecting Components in JD Edwards using OCI AI Vision",
+      "sha256": "186226c6017bea74a07dd1d25b68e5b3ce385cefb8f0d03d6bb92e919ec41d78"
+    },
+    {
+      "id": "F-JDE-05",
+      "source_id": "JDE-05",
+      "locator": "line 39",
+      "excerpt": "Beginning with this release, it will be Applications Update 26 and Tools 9.2.26.",
+      "sha256": "10814193454a9f9521bb7df01198763dd65bc07c1562cf0215b830a8ccc3a36c"
+    },
+    {
+      "id": "F-JDE-07",
+      "source_id": "JDE-07",
+      "locator": "p.4, lines 84–87",
+      "excerpt": "This functionality is not generally available as part of the product",
+      "sha256": "3a7ba2357f029129fbe4e7756b7fb566ca45b771932ce1597f090005520c5c77"
+    },
+    {
+      "id": "F-S-P01",
+      "source_id": "S-P01",
+      "locator": "Mentions légales / Directeur de publication",
+      "excerpt": "Directeur de la publication du site : Françis LUSTMAN, Directeur du Service Informatique",
+      "sha256": "ba7eeb59626fe671368ffe3e2e66a2101096fe0e73626c425d114152862ef67a"
+    },
+    {
+      "id": "F-S-P02",
+      "source_id": "S-P02",
+      "locator": "Employés chez SCHWEITZER",
+      "excerpt": "Thomas BLANC. Directeur Informatique chez Schweitzer.",
+      "sha256": "0a4ea42586ce03f375158740a1bfd101a695cb0a2988e0e05ca0d4c9569cb8d7"
+    },
+    {
+      "id": "F-P01",
+      "source_id": "P01",
+      "locator": "L67 et75, extraits non contigus",
+      "excerpt": "Bernard Doussot, Chief Financial Officer du Groupe SPHERE\nprocessus S&OP structuré\nréduction significative des niveaux de stocks",
+      "sha256": "7a2a72f1d3c8e2142c87ae111d8bf648e72b8f7ec1f38bee86a9551d36a5786a"
+    },
+    {
+      "id": "F-S-P05",
+      "source_id": "S-P05",
+      "locator": "Projet SPHERE mars 2009–décembre 2009",
+      "excerpt": "Data migration with ODI\nOracle Data Integrator 10.1.3, Oracle JD Edwards Enterprise One (version 8.12)",
+      "sha256": "3944d2197761c8eb9f52d2b46326639e336515a4e002123182d96e70cb4c8836"
+    },
+    {
+      "id": "F-M02",
+      "source_id": "M02",
+      "locator": "L116",
+      "excerpt": "Polipak is a leading producer of packaging and plastic bags for household and industrial needs.",
+      "sha256": "69b5b8efc936aecafcd3f92868af3fe9e8871de9378fdd3afb268967d362b81a"
+    },
+    {
+      "id": "F-M03",
+      "source_id": "M03",
+      "locator": "L38",
+      "excerpt": "We also produce bags for councils, local authorities and retail channels.",
+      "sha256": "0f5a15dd9a804749c4ab93173195dc72a107a6ef7c06896e82810cd8d81efd0f"
+    },
+    {
+      "id": "F-M04",
+      "source_id": "M04",
+      "locator": "L7",
+      "excerpt": "As a manufacturer of plastic bags, Weifang Hongyuan Plastic Products Co was established in 1998",
+      "sha256": "ff0d9eec41b153b345e0a3450b970d3e6e7608f1cf30f7f36ff46f47a85b023f"
+    },
+    {
+      "id": "F-M05",
+      "source_id": "M05",
+      "locator": "L63",
+      "excerpt": "food packaging, disposable containers, films for food preservation, and garbage bags",
+      "sha256": "864e0ce4f00d719e47a927d72ac1435c130d5515a389e673b413ead87f290b7c"
+    },
+    {
+      "id": "F-M07",
+      "source_id": "M07",
+      "locator": "L82",
+      "excerpt": "Virosac è parte di SPHERE GROUP",
+      "sha256": "1d253d763cc7f0e33336b0d99797faeccf7d4869d9c56aeb52416d27e0410cd9"
+    },
+    {
+      "id": "F-M06",
+      "source_id": "M06",
+      "excerpt": "MATER-BI shopping bags and produce bags can also be reused for the separate collection of organic waste.",
+      "locator": "Retail,L65",
+      "sha256": "09577297769f34ab46eb2c094b152237642919144ec8f36cd74e86e0c8ee49c5"
+    },
+    {
+      "id": "F-M01P",
+      "source_id": "M01P",
+      "excerpt": "RKW Remy manufactures high-performance films for the processing industry.",
+      "locator": "Site Remy,L103",
+      "sha256": "1deb5e547ce0ff420ce34b66961b55c053c8bc19bba17fddea534237ee32c723"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C-ownership",
+      "entity_id": "sphere",
+      "scope": "company",
+      "statement": "Accord majoritaire Hivest annoncé en2024 ; ventes recyclées/biosourcées annoncées environ70 %, pas mix achats.",
+      "status": "fact",
+      "confidence": "medium",
+      "fragment_refs": [
+        "F-S06"
+      ],
+      "basis_claim_refs": [],
+      "contradiction_refs": [],
+      "observed_at": "2026-09-23",
+      "valid_until": null,
+      "owner": "research",
+      "validation_question": "Confirmer périmètre et actualité au prochain refresh",
+      "deployment_stage": "not_applicable"
+    },
+    {
+      "id": "C-polyex",
+      "entity_id": "sphere",
+      "scope": "company",
+      "statement": "SPHERE annonce avoir acquis toutes les actions Polyex ; date juridique séparée inconnue.",
+      "status": "fact",
+      "confidence": "medium",
+      "fragment_refs": [
+        "F-S02"
+      ],
+      "basis_claim_refs": [],
+      "contradiction_refs": [],
+      "observed_at": "2026-09-23",
+      "valid_until": null,
+      "owner": "research",
+      "validation_question": "Confirmer périmètre et actualité au prochain refresh",
+      "deployment_stage": "not_applicable"
+    },
+    {
+      "id": "C-finance",
+      "entity_id": "sphere",
+      "scope": "company",
+      "statement": "CA2024 782,054 M€, EBITDA77,945 M€, achats472,660 M€, stock167,6 M€, BFR125,744 M€ ; source tiers et périmètre2024.",
+      "status": "fact",
+      "confidence": "medium",
+      "fragment_refs": [
+        "F-S03"
+      ],
+      "basis_claim_refs": [],
+      "contradiction_refs": [],
+      "observed_at": "2026-09-23",
+      "valid_until": null,
+      "owner": "research",
+      "validation_question": "Confirmer périmètre et actualité au prochain refresh",
+      "deployment_stage": "not_applicable"
+    },
+    {
+      "id": "C-segments",
+      "entity_id": "sphere",
+      "scope": "company",
+      "statement": "Produits2024 :38 % PE,20 % biosourcés,20 % façonnés,16 % négoce,6 % autres. Parts arrondies.",
+      "status": "fact",
+      "confidence": "medium",
+      "fragment_refs": [
+        "F-S03"
+      ],
+      "basis_claim_refs": [],
+      "contradiction_refs": [],
+      "observed_at": "2026-09-23",
+      "valid_until": null,
+      "owner": "research",
+      "validation_question": "Confirmer périmètre et actualité au prochain refresh",
+      "deployment_stage": "not_applicable"
+    },
+    {
+      "id": "C-growth",
+      "entity_id": "sphere",
+      "scope": "company",
+      "statement": "CA2024 −3,4 % à change et périmètre constants ; ne renseigne pas2025 ni croissance du marché.",
+      "status": "fact",
+      "confidence": "medium",
+      "fragment_refs": [
+        "F-S03"
+      ],
+      "basis_claim_refs": [],
+      "contradiction_refs": [],
+      "observed_at": "2026-09-23",
+      "valid_until": null,
+      "owner": "research",
+      "validation_question": "Confirmer périmètre et actualité au prochain refresh",
+      "deployment_stage": "not_applicable"
+    },
+    {
+      "id": "C-erp",
+      "entity_id": "sphere",
+      "scope": "company",
+      "statement": "ERP JD Edwards décrit chez Comset/Flexopack en2024 ; version et Orchestrator2026 inconnus.",
+      "status": "fact",
+      "confidence": "medium",
+      "fragment_refs": [
+        "F-S03"
+      ],
+      "basis_claim_refs": [],
+      "contradiction_refs": [],
+      "observed_at": "2026-09-23",
+      "valid_until": null,
+      "owner": "research",
+      "validation_question": "Confirmer périmètre et actualité au prochain refresh",
+      "deployment_stage": "not_applicable"
+    },
+    {
+      "id": "C-pro",
+      "entity_id": "sphere",
+      "scope": "company",
+      "statement": "Division SPHERE PRO annoncée ; capacité IA non démontrée.",
+      "status": "fact",
+      "confidence": "medium",
+      "fragment_refs": [
+        "F-S05"
+      ],
+      "basis_claim_refs": [],
+      "contradiction_refs": [],
+      "observed_at": "2026-09-23",
+      "valid_until": null,
+      "owner": "research",
+      "validation_question": "Confirmer périmètre et actualité au prochain refresh",
+      "deployment_stage": "not_applicable"
+    },
+    {
+      "id": "C-italy",
+      "entity_id": "sphere",
+      "scope": "company",
+      "statement": "Cas prestataire Valtus décrit stocks élevés en Italie et cite CFO groupe Bernard Doussot ; résultats S&OP décrits sans preuve IA.",
+      "status": "fact",
+      "confidence": "medium",
+      "fragment_refs": [
+        "F-P01"
+      ],
+      "basis_claim_refs": [],
+      "contradiction_refs": [],
+      "observed_at": "2026-09-23",
+      "valid_until": null,
+      "owner": "research",
+      "validation_question": "Confirmer périmètre et actualité au prochain refresh",
+      "deployment_stage": "not_applicable"
+    },
+    {
+      "id": "C-france-it",
+      "entity_id": "sphere",
+      "scope": "company",
+      "statement": "Francis Lustman figure comme Directeur du Service Informatique sur mentions Alfapac/SPHERE France non datées ; groupe non confirmé.",
+      "status": "fact",
+      "confidence": "medium",
+      "fragment_refs": [
+        "F-S-P01"
+      ],
+      "basis_claim_refs": [],
+      "contradiction_refs": [],
+      "observed_at": "2026-09-23",
+      "valid_until": null,
+      "owner": "research",
+      "validation_question": "Confirmer périmètre et actualité au prochain refresh",
+      "deployment_stage": "not_applicable"
+    },
+    {
+      "id": "C-schweitzer-it",
+      "entity_id": "sphere",
+      "scope": "company",
+      "statement": "LinkedIn indexe Thomas Blanc, Directeur Informatique Schweitzer ; pas DSI groupe.",
+      "status": "fact",
+      "confidence": "medium",
+      "fragment_refs": [
+        "F-S-P02"
+      ],
+      "basis_claim_refs": [],
+      "contradiction_refs": [],
+      "observed_at": "2026-09-23",
+      "valid_until": null,
+      "owner": "research",
+      "validation_question": "Confirmer périmètre et actualité au prochain refresh",
+      "deployment_stage": "not_applicable"
+    },
+    {
+      "id": "C-virosac",
+      "entity_id": "sphere",
+      "scope": "company",
+      "statement": "Virosac se déclare membre du groupe SPHERE ; ne pas la compter comme concurrent.",
+      "status": "fact",
+      "confidence": "medium",
+      "fragment_refs": [
+        "F-M07"
+      ],
+      "basis_claim_refs": [],
+      "contradiction_refs": [],
+      "observed_at": "2026-09-23",
+      "valid_until": null,
+      "owner": "research",
+      "validation_question": "Confirmer périmètre et actualité au prochain refresh",
+      "deployment_stage": "not_applicable"
+    },
+    {
+      "id": "C-M02",
+      "entity_id": "packaging",
+      "scope": "sector",
+      "statement": "Polipak : sacs ménagers/industrie, pas rang marché indépendant",
+      "status": "fact",
+      "confidence": "medium",
+      "fragment_refs": [
+        "F-M02"
+      ],
+      "basis_claim_refs": [],
+      "contradiction_refs": [],
+      "observed_at": "2026-09-23",
+      "valid_until": null,
+      "owner": "research",
+      "validation_question": "Confirmer périmètre et actualité au prochain refresh",
+      "deployment_stage": "not_applicable"
+    },
+    {
+      "id": "C-M03",
+      "entity_id": "packaging",
+      "scope": "sector",
+      "statement": "Ersoplast : offre sacs collectivités/retail ; prix rendu inconnu",
+      "status": "fact",
+      "confidence": "medium",
+      "fragment_refs": [
+        "F-M03"
+      ],
+      "basis_claim_refs": [],
+      "contradiction_refs": [],
+      "observed_at": "2026-09-23",
+      "valid_until": null,
+      "owner": "research",
+      "validation_question": "Confirmer périmètre et actualité au prochain refresh",
+      "deployment_stage": "not_applicable"
+    },
+    {
+      "id": "C-M04",
+      "entity_id": "packaging",
+      "scope": "sector",
+      "statement": "Hongyuan : fabricant sacs déclaré, parts export inconnues",
+      "status": "fact",
+      "confidence": "medium",
+      "fragment_refs": [
+        "F-M04"
+      ],
+      "basis_claim_refs": [],
+      "contradiction_refs": [],
+      "observed_at": "2026-09-23",
+      "valid_until": null,
+      "owner": "research",
+      "validation_question": "Confirmer périmètre et actualité au prochain refresh",
+      "deployment_stage": "not_applicable"
+    },
+    {
+      "id": "C-M05",
+      "entity_id": "packaging",
+      "scope": "sector",
+      "statement": "Cuki Cofresco : offre emballages alimentaires et sacs déchets",
+      "status": "fact",
+      "confidence": "medium",
+      "fragment_refs": [
+        "F-M05"
+      ],
+      "basis_claim_refs": [],
+      "contradiction_refs": [],
+      "observed_at": "2026-09-23",
+      "valid_until": null,
+      "owner": "research",
+      "validation_question": "Confirmer périmètre et actualité au prochain refresh",
+      "deployment_stage": "not_applicable"
+    },
+    {
+      "id": "C-JDE-01",
+      "entity_id": "packaging",
+      "scope": "sector",
+      "statement": "Oracle documente connexion OCI AI via Orchestrator dès Release24/Tools9.2.8.2",
+      "status": "fact",
+      "confidence": "medium",
+      "fragment_refs": [
+        "F-JDE-01"
+      ],
+      "basis_claim_refs": [],
+      "contradiction_refs": [],
+      "observed_at": "2026-09-23",
+      "valid_until": null,
+      "owner": "research",
+      "validation_question": "Confirmer périmètre et actualité au prochain refresh",
+      "deployment_stage": "not_applicable"
+    },
+    {
+      "id": "C-JDE-02",
+      "entity_id": "packaging",
+      "scope": "sector",
+      "statement": "Orchestration exposée comme API REST selon Oracle",
+      "status": "fact",
+      "confidence": "medium",
+      "fragment_refs": [
+        "F-JDE-02"
+      ],
+      "basis_claim_refs": [],
+      "contradiction_refs": [],
+      "observed_at": "2026-09-23",
+      "valid_until": null,
+      "owner": "research",
+      "validation_question": "Confirmer périmètre et actualité au prochain refresh",
+      "deployment_stage": "not_applicable"
+    },
+    {
+      "id": "C-JDE-04",
+      "entity_id": "packaging",
+      "scope": "sector",
+      "statement": "Oracle documente un parcours inspection composants OCI Vision",
+      "status": "fact",
+      "confidence": "medium",
+      "fragment_refs": [
+        "F-JDE-04"
+      ],
+      "basis_claim_refs": [],
+      "contradiction_refs": [],
+      "observed_at": "2026-09-23",
+      "valid_until": null,
+      "owner": "research",
+      "validation_question": "Confirmer périmètre et actualité au prochain refresh",
+      "deployment_stage": "not_applicable"
+    },
+    {
+      "id": "C-JDE-05",
+      "entity_id": "packaging",
+      "scope": "sector",
+      "statement": "Release26 distingue Applications Update26 et Tools9.2.26",
+      "status": "fact",
+      "confidence": "medium",
+      "fragment_refs": [
+        "F-JDE-05"
+      ],
+      "basis_claim_refs": [],
+      "contradiction_refs": [],
+      "observed_at": "2026-09-23",
+      "valid_until": null,
+      "owner": "research",
+      "validation_question": "Confirmer périmètre et actualité au prochain refresh",
+      "deployment_stage": "not_applicable"
+    },
+    {
+      "id": "C-JDE-07",
+      "entity_id": "packaging",
+      "scope": "sector",
+      "statement": "Guide chatbot CNC : fonctionnalité hors disponibilité générale produit",
+      "status": "fact",
+      "confidence": "medium",
+      "fragment_refs": [
+        "F-JDE-07"
+      ],
+      "basis_claim_refs": [],
+      "contradiction_refs": [],
+      "observed_at": "2026-09-23",
+      "valid_until": null,
+      "owner": "research",
+      "validation_question": "Confirmer périmètre et actualité au prochain refresh",
+      "deployment_stage": "not_applicable"
+    },
+    {
+      "id": "C-thesis",
+      "entity_id": "sphere",
+      "scope": "company",
+      "statement": "Priorité de recherche marge/rendement/cash ; intégration transverse ; Italie candidat après mesure baseline S&OP.",
+      "status": "inference",
+      "confidence": "low",
+      "fragment_refs": [],
+      "basis_claim_refs": [
+        "C-finance",
+        "C-italy",
+        "C-ownership"
+      ],
+      "contradiction_refs": [],
+      "observed_at": "2026-09-23",
+      "valid_until": null,
+      "owner": "research",
+      "validation_question": "Confirmer périmètre et actualité au prochain refresh",
+      "deployment_stage": "not_applicable"
+    },
+    {
+      "id": "C-ml-unknown",
+      "entity_id": "sphere",
+      "scope": "company",
+      "statement": "Stratégie/équipe ML actuelles non établies dans recherche publique bornée.",
+      "status": "unknown",
+      "confidence": "low",
+      "fragment_refs": [],
+      "basis_claim_refs": [],
+      "contradiction_refs": [],
+      "observed_at": "2026-09-23",
+      "valid_until": null,
+      "owner": "research",
+      "validation_question": "Inventaire modèles, organigramme data/IA/ML et owner ?",
+      "deployment_stage": "not_applicable"
+    },
+    {
+      "id": "C-bcg-unknown",
+      "entity_id": "sphere",
+      "scope": "company",
+      "statement": "Part relative et croissance du marché par catégorie inconnues ; BCG non calculable.",
+      "status": "unknown",
+      "confidence": "low",
+      "fragment_refs": [],
+      "basis_claim_refs": [],
+      "contradiction_refs": [],
+      "observed_at": "2026-09-23",
+      "valid_until": null,
+      "owner": "research",
+      "validation_question": "Données comparables marché, parts et contribution cash par catégorie ?",
+      "deployment_stage": "not_applicable"
+    },
+    {
+      "id": "C-M01P",
+      "entity_id": "packaging",
+      "scope": "sector",
+      "statement": "RKW publie une offre de films industriels haute performance ; pricing power et part de marché inconnus.",
+      "status": "fact",
+      "confidence": "medium",
+      "fragment_refs": [
+        "F-M01P"
+      ],
+      "basis_claim_refs": [],
+      "contradiction_refs": [],
+      "observed_at": "2026-09-23",
+      "valid_until": null,
+      "owner": "research",
+      "validation_question": "Comparer grades/usages, pas revenus consolidés",
+      "deployment_stage": "not_applicable"
+    },
+    {
+      "id": "C-M06",
+      "entity_id": "packaging",
+      "scope": "sector",
+      "statement": "Novamont publie applications Mater-Bi sacs et collecte organique ; comparable amont distinct du groupe Sphere.",
+      "status": "fact",
+      "confidence": "medium",
+      "fragment_refs": [
+        "F-M06"
+      ],
+      "basis_claim_refs": [],
+      "contradiction_refs": [],
+      "observed_at": "2026-09-23",
+      "valid_until": null,
+      "owner": "research",
+      "validation_question": "Comparer grades/usages, pas revenus consolidés",
+      "deployment_stage": "not_applicable"
+    }
+  ],
+  "maturity": {
+    "dimensions": [
+      {
+        "id": "strategy_value",
+        "score": null,
+        "status": "unknown",
+        "confidence": "low",
+        "claim_refs": [
+          "C-ml-unknown"
+        ],
+        "counter_evidence": [],
+        "unknowns": [
+          "Preuve IA spécifique et périmètre manquants"
+        ],
+        "rationale": "ERP/S&OP/titre IT ne prouvent pas une maturité IA",
+        "scope": "groupe"
+      },
+      {
+        "id": "operating_model",
+        "score": null,
+        "status": "unknown",
+        "confidence": "low",
+        "claim_refs": [
+          "C-ml-unknown"
+        ],
+        "counter_evidence": [],
+        "unknowns": [
+          "Preuve IA spécifique et périmètre manquants"
+        ],
+        "rationale": "ERP/S&OP/titre IT ne prouvent pas une maturité IA",
+        "scope": "groupe"
+      },
+      {
+        "id": "data_knowledge",
+        "score": null,
+        "status": "unknown",
+        "confidence": "low",
+        "claim_refs": [
+          "C-ml-unknown"
+        ],
+        "counter_evidence": [],
+        "unknowns": [
+          "Preuve IA spécifique et périmètre manquants"
+        ],
+        "rationale": "ERP/S&OP/titre IT ne prouvent pas une maturité IA",
+        "scope": "groupe"
+      },
+      {
+        "id": "technology_platform",
+        "score": null,
+        "status": "unknown",
+        "confidence": "low",
+        "claim_refs": [
+          "C-ml-unknown"
+        ],
+        "counter_evidence": [],
+        "unknowns": [
+          "Preuve IA spécifique et périmètre manquants"
+        ],
+        "rationale": "ERP/S&OP/titre IT ne prouvent pas une maturité IA",
+        "scope": "groupe"
+      },
+      {
+        "id": "delivery",
+        "score": null,
+        "status": "unknown",
+        "confidence": "low",
+        "claim_refs": [
+          "C-ml-unknown"
+        ],
+        "counter_evidence": [],
+        "unknowns": [
+          "Preuve IA spécifique et périmètre manquants"
+        ],
+        "rationale": "ERP/S&OP/titre IT ne prouvent pas une maturité IA",
+        "scope": "groupe"
+      },
+      {
+        "id": "people_adoption",
+        "score": null,
+        "status": "unknown",
+        "confidence": "low",
+        "claim_refs": [
+          "C-ml-unknown"
+        ],
+        "counter_evidence": [],
+        "unknowns": [
+          "Preuve IA spécifique et périmètre manquants"
+        ],
+        "rationale": "ERP/S&OP/titre IT ne prouvent pas une maturité IA",
+        "scope": "groupe"
+      },
+      {
+        "id": "security_risk",
+        "score": null,
+        "status": "unknown",
+        "confidence": "low",
+        "claim_refs": [
+          "C-ml-unknown"
+        ],
+        "counter_evidence": [],
+        "unknowns": [
+          "Preuve IA spécifique et périmètre manquants"
+        ],
+        "rationale": "ERP/S&OP/titre IT ne prouvent pas une maturité IA",
+        "scope": "groupe"
+      },
+      {
+        "id": "breadth",
+        "score": null,
+        "status": "unknown",
+        "confidence": "low",
+        "claim_refs": [
+          "C-ml-unknown"
+        ],
+        "counter_evidence": [],
+        "unknowns": [
+          "Preuve IA spécifique et périmètre manquants"
+        ],
+        "rationale": "ERP/S&OP/titre IT ne prouvent pas une maturité IA",
+        "scope": "groupe"
+      }
+    ],
+    "summary": "Maturité IA non établie publiquement",
+    "bottlenecks": [
+      "Baselines, organisation et parc installés à vérifier"
+    ],
+    "applicable_domains": [
+      "operations",
+      "engineering",
+      "revenue",
+      "workspace"
+    ],
+    "excluded_domains_rationale": []
+  },
+  "value_chain": [
+    {
+      "id": "A-02",
+      "name": "Vente",
+      "claim_refs": [
+        "C-pro"
+      ],
+      "value_creation": "DIFFERENTIATION_GROWTH ; Taux de conversion/marge nette ; validation du devis",
+      "friction": "Gisement à confirmer : Taux de conversion/marge nette ; validation du devis",
+      "control_points": [
+        "Validation métier",
+        "Traçabilité lot/SKU/client adaptée au cas"
+      ],
+      "vrio": "Valeur potentielle ; rareté et avantage durable non établis",
+      "digitalisation": "ERP ou processus documenté seulement au périmètre de la preuve ; installation site à confirmer",
+      "ai_opportunity_refs": [
+        "UC-S02"
+      ],
+      "constraints": [
+        "Catalogue certifié, règles substitutions",
+        "Aucun write-back non validé"
+      ]
+    },
+    {
+      "id": "A-03",
+      "name": "Stocks et service",
+      "claim_refs": [
+        "C-italy"
+      ],
+      "value_creation": "CAPITAL_PRODUCTIVITY ; DIO moyen+OTIF ; backtest temporel puis pilote",
+      "friction": "Gisement à confirmer : DIO moyen+OTIF ; backtest temporel puis pilote",
+      "control_points": [
+        "Validation métier",
+        "Traçabilité lot/SKU/client adaptée au cas"
+      ],
+      "vrio": "Valeur potentielle ; rareté et avantage durable non établis",
+      "digitalisation": "ERP ou processus documenté seulement au périmètre de la preuve ; installation site à confirmer",
+      "ai_opportunity_refs": [
+        "UC-S03"
+      ],
+      "constraints": [
+        "SKU/site, demande corrigée ruptures, délais",
+        "Aucun write-back non validé"
+      ]
+    },
+    {
+      "id": "A-04",
+      "name": "Achats",
+      "claim_refs": [
+        "C-ownership"
+      ],
+      "value_creation": "COST_REDUCTION ; Coût/t conforme ; essais physiques et contraintes produit",
+      "friction": "Gisement à confirmer : Coût/t conforme ; essais physiques et contraintes produit",
+      "control_points": [
+        "Validation métier",
+        "Traçabilité lot/SKU/client adaptée au cas"
+      ],
+      "vrio": "Valeur potentielle ; rareté et avantage durable non établis",
+      "digitalisation": "ERP ou processus documenté seulement au périmètre de la preuve ; installation site à confirmer",
+      "ai_opportunity_refs": [
+        "UC-S04"
+      ],
+      "constraints": [
+        "Grades, prix, tests matière, recettes",
+        "Aucun write-back non validé"
+      ]
+    },
+    {
+      "id": "A-05",
+      "name": "Extrusion qualité",
+      "claim_refs": [
+        "C-polyex"
+      ],
+      "value_creation": "COST_REDUCTION ; Défauts échappés, faux rejets, scrap évitable",
+      "friction": "Gisement à confirmer : Défauts échappés, faux rejets, scrap évitable",
+      "control_points": [
+        "Validation métier",
+        "Traçabilité lot/SKU/client adaptée au cas"
+      ],
+      "vrio": "Valeur potentielle ; rareté et avantage durable non établis",
+      "digitalisation": "ERP ou processus documenté seulement au périmètre de la preuve ; installation site à confirmer",
+      "ai_opportunity_refs": [
+        "UC-S05"
+      ],
+      "constraints": [
+        "Images représentatives, labels et lots",
+        "Aucun write-back non validé"
+      ]
+    },
+    {
+      "id": "A-06",
+      "name": "Extrusion qualité",
+      "claim_refs": [
+        "C-polyex"
+      ],
+      "value_creation": "COST_REDUCTION ; kg rebut/t et kWh/t conforme ; contrôle intersites",
+      "friction": "Gisement à confirmer : kg rebut/t et kWh/t conforme ; contrôle intersites",
+      "control_points": [
+        "Validation métier",
+        "Traçabilité lot/SKU/client adaptée au cas"
+      ],
+      "vrio": "Valeur potentielle ; rareté et avantage durable non établis",
+      "digitalisation": "ERP ou processus documenté seulement au périmètre de la preuve ; installation site à confirmer",
+      "ai_opportunity_refs": [
+        "UC-S06"
+      ],
+      "constraints": [
+        "Historian, paramètres, lots, qualité, énergie",
+        "Aucun write-back non validé"
+      ]
+    },
+    {
+      "id": "A-07",
+      "name": "Planification",
+      "claim_refs": [
+        "C-italy"
+      ],
+      "value_creation": "COST_AVOIDANCE ; Délais/capacité utile ; goulot prouvé avant capex évité",
+      "friction": "Gisement à confirmer : Délais/capacité utile ; goulot prouvé avant capex évité",
+      "control_points": [
+        "Validation métier",
+        "Traçabilité lot/SKU/client adaptée au cas"
+      ],
+      "vrio": "Valeur potentielle ; rareté et avantage durable non établis",
+      "digitalisation": "ERP ou processus documenté seulement au périmètre de la preuve ; installation site à confirmer",
+      "ai_opportunity_refs": [
+        "UC-S07"
+      ],
+      "constraints": [
+        "Contraintes, qualifications,temps de setup",
+        "Aucun write-back non validé"
+      ]
+    },
+    {
+      "id": "A-08",
+      "name": "Conformité",
+      "claim_refs": [
+        "C-pro"
+      ],
+      "value_creation": "RISK_RESILIENCE ; Erreurs dossier et délai ; validation expert",
+      "friction": "Gisement à confirmer : Erreurs dossier et délai ; validation expert",
+      "control_points": [
+        "Validation métier",
+        "Traçabilité lot/SKU/client adaptée au cas"
+      ],
+      "vrio": "Valeur potentielle ; rareté et avantage durable non établis",
+      "digitalisation": "ERP ou processus documenté seulement au périmètre de la preuve ; installation site à confirmer",
+      "ai_opportunity_refs": [
+        "UC-S08"
+      ],
+      "constraints": [
+        "Corpus autorisé versionné, règles et droits",
+        "Aucun write-back non validé"
+      ]
+    },
+    {
+      "id": "A-09",
+      "name": "Pricing indexation",
+      "claim_refs": [
+        "C-finance"
+      ],
+      "value_creation": "RISK_RESILIENCE ; Asymétrie pass-through ; marge durable distincte du timing",
+      "friction": "Gisement à confirmer : Asymétrie pass-through ; marge durable distincte du timing",
+      "control_points": [
+        "Validation métier",
+        "Traçabilité lot/SKU/client adaptée au cas"
+      ],
+      "vrio": "Valeur potentielle ; rareté et avantage durable non établis",
+      "digitalisation": "ERP ou processus documenté seulement au périmètre de la preuve ; installation site à confirmer",
+      "ai_opportunity_refs": [
+        "UC-S09"
+      ],
+      "constraints": [
+        "Prix nets, clauses hausses/baisses,grades,cost-to-serve",
+        "Aucun write-back non validé"
+      ]
+    },
+    {
+      "id": "A-10",
+      "name": "R&D",
+      "claim_refs": [
+        "C-ownership"
+      ],
+      "value_creation": "DIFFERENTIATION_GROWTH ; Nombre essais et performance validée ; pas de recette auto-libérée",
+      "friction": "Gisement à confirmer : Nombre essais et performance validée ; pas de recette auto-libérée",
+      "control_points": [
+        "Validation métier",
+        "Traçabilité lot/SKU/client adaptée au cas"
+      ],
+      "vrio": "Valeur potentielle ; rareté et avantage durable non établis",
+      "digitalisation": "ERP ou processus documenté seulement au périmètre de la preuve ; installation site à confirmer",
+      "ai_opportunity_refs": [
+        "UC-S10"
+      ],
+      "constraints": [
+        "Essais comparables,propriétés,recettes,IP",
+        "Aucun write-back non validé"
+      ]
+    },
+    {
+      "id": "A-11",
+      "name": "Order to cash",
+      "claim_refs": [
+        "C-finance"
+      ],
+      "value_creation": "CAPITAL_PRODUCTIVITY ; DSO et cash incrémental par cohortes ; envoi humain",
+      "friction": "Gisement à confirmer : DSO et cash incrémental par cohortes ; envoi humain",
+      "control_points": [
+        "Validation métier",
+        "Traçabilité lot/SKU/client adaptée au cas"
+      ],
+      "vrio": "Valeur potentielle ; rareté et avantage durable non établis",
+      "digitalisation": "ERP ou processus documenté seulement au périmètre de la preuve ; installation site à confirmer",
+      "ai_opportunity_refs": [
+        "UC-S11"
+      ],
+      "constraints": [
+        "Échéances,litiges,actions,encaissements",
+        "Aucun write-back non validé"
+      ]
+    },
+    {
+      "id": "A-12",
+      "name": "Achats et livraison",
+      "claim_refs": [
+        "C-finance"
+      ],
+      "value_creation": "CAPITAL_PRODUCTIVITY ; Coût total livré et OTIF ; pas transport gagné contre surstock",
+      "friction": "Gisement à confirmer : Coût total livré et OTIF ; pas transport gagné contre surstock",
+      "control_points": [
+        "Validation métier",
+        "Traçabilité lot/SKU/client adaptée au cas"
+      ],
+      "vrio": "Valeur potentielle ; rareté et avantage durable non établis",
+      "digitalisation": "ERP ou processus documenté seulement au périmètre de la preuve ; installation site à confirmer",
+      "ai_opportunity_refs": [
+        "UC-S12"
+      ],
+      "constraints": [
+        "MOQ,tarifs,transport,capacités,service,stocks",
+        "Aucun write-back non validé"
+      ]
+    }
+  ],
+  "use_cases": [
+    {
+      "id": "UC-S02",
+      "title": "Configuration catalogue assistée",
+      "vertical": "revenue",
+      "workflow": "Vente",
+      "problem": "Gisement à confirmer : Taux de conversion/marge nette ; validation du devis",
+      "value_mechanism": "DIFFERENTIATION_GROWTH ; Taux de conversion/marge nette ; validation du devis",
+      "status": "hypothesis",
+      "company_claim_refs": [
+        "C-pro"
+      ],
+      "sector_claim_refs": [
+        "C-JDE-02"
+      ],
+      "business_owner_hypothesis": "commercial (mandat non confirmé)",
+      "data_dependencies": [
+        "Catalogue certifié, règles substitutions"
+      ],
+      "technology_dependencies": [
+        "Parc JDE/OT, interfaces et version installée inconnus"
+      ],
+      "adoption_dependencies": [
+        "Owner métier, utilisateurs pilotes et processus de validation à confirmer"
+      ],
+      "gates": [
+        {
+          "name": "data_rights",
+          "status": "unknown",
+          "claim_refs": [],
+          "reason": "Droits et qualité de Catalogue certifié, règles substitutions non vérifiés"
+        },
+        {
+          "name": "security_ot",
+          "status": "unknown",
+          "claim_refs": [],
+          "reason": "Architecture, accès et réversibilité technique non validés"
+        },
+        {
+          "name": "human_control",
+          "status": "unknown",
+          "claim_refs": [],
+          "reason": "Circuit de validation et limites d’action à approuver"
+        },
+        {
+          "name": "ownership",
+          "status": "unknown",
+          "claim_refs": [],
+          "reason": "Mandat commercial à confirmer"
+        },
+        {
+          "name": "feasibility",
+          "status": "unknown",
+          "claim_refs": [],
+          "reason": "Baseline, labels, budget et gain additionnel inconnus"
+        }
+      ],
+      "priority_state": "validation_required",
+      "ratings": {
+        "economic_value": "unknown",
+        "strategic_value": "unknown",
+        "feasibility": "unknown",
+        "time_to_value": "unknown",
+        "repeatability": "unknown",
+        "adoption": "unknown",
+        "risk": "unknown",
+        "portfolio_reuse": "unknown"
+      },
+      "family": "structural",
+      "horizon": "6-18",
+      "sourcing_posture": "BUY",
+      "baseline_without_ai": "Recherche catalogue et règles de compatibilité",
+      "reversibility": "Lecture seule/offline ; retour au workflow courant avant écriture ERP",
+      "unknowns": [
+        "Catalogue certifié, règles substitutions",
+        "Baseline,owner et coût complet"
+      ],
+      "validation_question": "Le gain net dépasse-t-il Recherche catalogue et règles de compatibilité sur Taux de conversion/marge nette ; validation du devis ?",
+      "driver_refs": [
+        "DRV-08"
+      ],
+      "value_strategy": "DIFFERENTIATION_GROWTH",
+      "technique_class": "genai_rag",
+      "kpi": "Taux de conversion/marge nette ; validation du devis",
+      "stop_condition": "Arrêter si absence de gain métier net versus baseline, données insuffisantes ou gate bloquant",
+      "cost_base_id": null,
+      "is_prerequisite": false,
+      "double_count_justification": null,
+      "new_demand_hypothesis": null,
+      "customer_test": null
+    },
+    {
+      "id": "UC-S03",
+      "title": "Prévision et politiques de stock",
+      "vertical": "operations",
+      "workflow": "Stocks et service",
+      "problem": "Gisement à confirmer : DIO moyen+OTIF ; backtest temporel puis pilote",
+      "value_mechanism": "CAPITAL_PRODUCTIVITY ; DIO moyen+OTIF ; backtest temporel puis pilote",
+      "status": "hypothesis",
+      "company_claim_refs": [
+        "C-italy"
+      ],
+      "sector_claim_refs": [
+        "C-JDE-02"
+      ],
+      "business_owner_hypothesis": "supply chain (mandat non confirmé)",
+      "data_dependencies": [
+        "SKU/site, demande corrigée ruptures, délais"
+      ],
+      "technology_dependencies": [
+        "Parc JDE/OT, interfaces et version installée inconnus"
+      ],
+      "adoption_dependencies": [
+        "Owner métier, utilisateurs pilotes et processus de validation à confirmer"
+      ],
+      "gates": [
+        {
+          "name": "data_rights",
+          "status": "unknown",
+          "claim_refs": [],
+          "reason": "Droits et qualité de SKU/site, demande corrigée ruptures, délais non vérifiés"
+        },
+        {
+          "name": "security_ot",
+          "status": "unknown",
+          "claim_refs": [],
+          "reason": "Architecture, accès et réversibilité technique non validés"
+        },
+        {
+          "name": "human_control",
+          "status": "unknown",
+          "claim_refs": [],
+          "reason": "Circuit de validation et limites d’action à approuver"
+        },
+        {
+          "name": "ownership",
+          "status": "unknown",
+          "claim_refs": [],
+          "reason": "Mandat supply chain à confirmer"
+        },
+        {
+          "name": "feasibility",
+          "status": "unknown",
+          "claim_refs": [],
+          "reason": "Baseline, labels, budget et gain additionnel inconnus"
+        }
+      ],
+      "priority_state": "validation_required",
+      "ratings": {
+        "economic_value": "unknown",
+        "strategic_value": "unknown",
+        "feasibility": "unknown",
+        "time_to_value": "unknown",
+        "repeatability": "unknown",
+        "adoption": "unknown",
+        "risk": "unknown",
+        "portfolio_reuse": "unknown"
+      },
+      "family": "structural",
+      "horizon": "6-18",
+      "sourcing_posture": "BUY",
+      "baseline_without_ai": "S&OP actuel, saisonnier naïf,ABC/XYZ",
+      "reversibility": "Lecture seule/offline ; retour au workflow courant avant écriture ERP",
+      "unknowns": [
+        "SKU/site, demande corrigée ruptures, délais",
+        "Baseline,owner et coût complet"
+      ],
+      "validation_question": "Le gain net dépasse-t-il S&OP actuel, saisonnier naïf,ABC/XYZ sur DIO moyen+OTIF ; backtest temporel puis pilote ?",
+      "driver_refs": [
+        "DRV-04"
+      ],
+      "value_strategy": "CAPITAL_PRODUCTIVITY",
+      "technique_class": "classical_ml",
+      "kpi": "DIO moyen+OTIF ; backtest temporel puis pilote",
+      "stop_condition": "Arrêter si absence de gain métier net versus baseline, données insuffisantes ou gate bloquant",
+      "cost_base_id": null,
+      "is_prerequisite": false,
+      "double_count_justification": null,
+      "new_demand_hypothesis": null,
+      "customer_test": null
+    },
+    {
+      "id": "UC-S04",
+      "title": "Allocation et mix matière",
+      "vertical": "operations",
+      "workflow": "Achats",
+      "problem": "Gisement à confirmer : Coût/t conforme ; essais physiques et contraintes produit",
+      "value_mechanism": "COST_REDUCTION ; Coût/t conforme ; essais physiques et contraintes produit",
+      "status": "hypothesis",
+      "company_claim_refs": [
+        "C-ownership"
+      ],
+      "sector_claim_refs": [
+        "C-JDE-02"
+      ],
+      "business_owner_hypothesis": "achats/qualité (mandat non confirmé)",
+      "data_dependencies": [
+        "Grades, prix, tests matière, recettes"
+      ],
+      "technology_dependencies": [
+        "Parc JDE/OT, interfaces et version installée inconnus"
+      ],
+      "adoption_dependencies": [
+        "Owner métier, utilisateurs pilotes et processus de validation à confirmer"
+      ],
+      "gates": [
+        {
+          "name": "data_rights",
+          "status": "unknown",
+          "claim_refs": [],
+          "reason": "Droits et qualité de Grades, prix, tests matière, recettes non vérifiés"
+        },
+        {
+          "name": "security_ot",
+          "status": "unknown",
+          "claim_refs": [],
+          "reason": "Architecture, accès et réversibilité technique non validés"
+        },
+        {
+          "name": "human_control",
+          "status": "unknown",
+          "claim_refs": [],
+          "reason": "Circuit de validation et limites d’action à approuver"
+        },
+        {
+          "name": "ownership",
+          "status": "unknown",
+          "claim_refs": [],
+          "reason": "Mandat achats/qualité à confirmer"
+        },
+        {
+          "name": "feasibility",
+          "status": "unknown",
+          "claim_refs": [],
+          "reason": "Baseline, labels, budget et gain additionnel inconnus"
+        }
+      ],
+      "priority_state": "validation_required",
+      "ratings": {
+        "economic_value": "unknown",
+        "strategic_value": "unknown",
+        "feasibility": "unknown",
+        "time_to_value": "unknown",
+        "repeatability": "unknown",
+        "adoption": "unknown",
+        "risk": "unknown",
+        "portfolio_reuse": "unknown"
+      },
+      "family": "structural",
+      "horizon": "6-18",
+      "sourcing_posture": "PARTNER",
+      "baseline_without_ai": "Formulation/règles et optimisation classique",
+      "reversibility": "Lecture seule/offline ; retour au workflow courant avant écriture ERP",
+      "unknowns": [
+        "Grades, prix, tests matière, recettes",
+        "Baseline,owner et coût complet"
+      ],
+      "validation_question": "Le gain net dépasse-t-il Formulation/règles et optimisation classique sur Coût/t conforme ; essais physiques et contraintes produit ?",
+      "driver_refs": [
+        "DRV-02"
+      ],
+      "value_strategy": "COST_REDUCTION",
+      "technique_class": "optimisation_or",
+      "kpi": "Coût/t conforme ; essais physiques et contraintes produit",
+      "stop_condition": "Arrêter si absence de gain métier net versus baseline, données insuffisantes ou gate bloquant",
+      "cost_base_id": "matiere_evitable",
+      "is_prerequisite": false,
+      "double_count_justification": "Scénarios matière/qualité mutuellement exclusifs dans agrégat ; ne pas additionner le même kg évité",
+      "new_demand_hypothesis": null,
+      "customer_test": null
+    },
+    {
+      "id": "UC-S05",
+      "title": "Inspection visuelle qualité",
+      "vertical": "operations",
+      "workflow": "Extrusion qualité",
+      "problem": "Gisement à confirmer : Défauts échappés, faux rejets, scrap évitable",
+      "value_mechanism": "COST_REDUCTION ; Défauts échappés, faux rejets, scrap évitable",
+      "status": "hypothesis",
+      "company_claim_refs": [
+        "C-polyex"
+      ],
+      "sector_claim_refs": [
+        "C-JDE-04"
+      ],
+      "business_owner_hypothesis": "qualité (mandat non confirmé)",
+      "data_dependencies": [
+        "Images représentatives, labels et lots"
+      ],
+      "technology_dependencies": [
+        "Parc JDE/OT, interfaces et version installée inconnus"
+      ],
+      "adoption_dependencies": [
+        "Owner métier, utilisateurs pilotes et processus de validation à confirmer"
+      ],
+      "gates": [
+        {
+          "name": "data_rights",
+          "status": "unknown",
+          "claim_refs": [],
+          "reason": "Droits et qualité de Images représentatives, labels et lots non vérifiés"
+        },
+        {
+          "name": "security_ot",
+          "status": "unknown",
+          "claim_refs": [],
+          "reason": "Architecture, accès et réversibilité technique non validés"
+        },
+        {
+          "name": "human_control",
+          "status": "unknown",
+          "claim_refs": [],
+          "reason": "Circuit de validation et limites d’action à approuver"
+        },
+        {
+          "name": "ownership",
+          "status": "unknown",
+          "claim_refs": [],
+          "reason": "Mandat qualité à confirmer"
+        },
+        {
+          "name": "feasibility",
+          "status": "unknown",
+          "claim_refs": [],
+          "reason": "Baseline, labels, budget et gain additionnel inconnus"
+        }
+      ],
+      "priority_state": "validation_required",
+      "ratings": {
+        "economic_value": "unknown",
+        "strategic_value": "unknown",
+        "feasibility": "unknown",
+        "time_to_value": "unknown",
+        "repeatability": "unknown",
+        "adoption": "unknown",
+        "risk": "unknown",
+        "portfolio_reuse": "unknown"
+      },
+      "family": "structural",
+      "horizon": "6-18",
+      "sourcing_posture": "PARTNER",
+      "baseline_without_ai": "Contrôle humain, capteurs,SPC",
+      "reversibility": "Lecture seule/offline ; retour au workflow courant avant écriture ERP",
+      "unknowns": [
+        "Images représentatives, labels et lots",
+        "Baseline,owner et coût complet"
+      ],
+      "validation_question": "Le gain net dépasse-t-il Contrôle humain, capteurs,SPC sur Défauts échappés, faux rejets, scrap évitable ?",
+      "driver_refs": [
+        "DRV-03"
+      ],
+      "value_strategy": "COST_REDUCTION",
+      "technique_class": "computer_vision",
+      "kpi": "Défauts échappés, faux rejets, scrap évitable",
+      "stop_condition": "Arrêter si absence de gain métier net versus baseline, données insuffisantes ou gate bloquant",
+      "cost_base_id": "matiere_evitable",
+      "is_prerequisite": false,
+      "double_count_justification": "Scénarios matière/qualité mutuellement exclusifs dans agrégat ; ne pas additionner le même kg évité",
+      "new_demand_hypothesis": null,
+      "customer_test": null
+    },
+    {
+      "id": "UC-S06",
+      "title": "Dérives process et énergie",
+      "vertical": "operations",
+      "workflow": "Extrusion qualité",
+      "problem": "Gisement à confirmer : kg rebut/t et kWh/t conforme ; contrôle intersites",
+      "value_mechanism": "COST_REDUCTION ; kg rebut/t et kWh/t conforme ; contrôle intersites",
+      "status": "hypothesis",
+      "company_claim_refs": [
+        "C-polyex"
+      ],
+      "sector_claim_refs": [
+        "C-JDE-04"
+      ],
+      "business_owner_hypothesis": "industriel (mandat non confirmé)",
+      "data_dependencies": [
+        "Historian, paramètres, lots, qualité, énergie"
+      ],
+      "technology_dependencies": [
+        "Parc JDE/OT, interfaces et version installée inconnus"
+      ],
+      "adoption_dependencies": [
+        "Owner métier, utilisateurs pilotes et processus de validation à confirmer"
+      ],
+      "gates": [
+        {
+          "name": "data_rights",
+          "status": "unknown",
+          "claim_refs": [],
+          "reason": "Droits et qualité de Historian, paramètres, lots, qualité, énergie non vérifiés"
+        },
+        {
+          "name": "security_ot",
+          "status": "unknown",
+          "claim_refs": [],
+          "reason": "Architecture, accès et réversibilité technique non validés"
+        },
+        {
+          "name": "human_control",
+          "status": "unknown",
+          "claim_refs": [],
+          "reason": "Circuit de validation et limites d’action à approuver"
+        },
+        {
+          "name": "ownership",
+          "status": "unknown",
+          "claim_refs": [],
+          "reason": "Mandat industriel à confirmer"
+        },
+        {
+          "name": "feasibility",
+          "status": "unknown",
+          "claim_refs": [],
+          "reason": "Baseline, labels, budget et gain additionnel inconnus"
+        }
+      ],
+      "priority_state": "validation_required",
+      "ratings": {
+        "economic_value": "unknown",
+        "strategic_value": "unknown",
+        "feasibility": "unknown",
+        "time_to_value": "unknown",
+        "repeatability": "unknown",
+        "adoption": "unknown",
+        "risk": "unknown",
+        "portfolio_reuse": "unknown"
+      },
+      "family": "structural",
+      "horizon": "6-18",
+      "sourcing_posture": "PARTNER",
+      "baseline_without_ai": "SPC, alarmes, standard réglages",
+      "reversibility": "Lecture seule/offline ; retour au workflow courant avant écriture ERP",
+      "unknowns": [
+        "Historian, paramètres, lots, qualité, énergie",
+        "Baseline,owner et coût complet"
+      ],
+      "validation_question": "Le gain net dépasse-t-il SPC, alarmes, standard réglages sur kg rebut/t et kWh/t conforme ; contrôle intersites ?",
+      "driver_refs": [
+        "DRV-03"
+      ],
+      "value_strategy": "COST_REDUCTION",
+      "technique_class": "classical_ml",
+      "kpi": "kg rebut/t et kWh/t conforme ; contrôle intersites",
+      "stop_condition": "Arrêter si absence de gain métier net versus baseline, données insuffisantes ou gate bloquant",
+      "cost_base_id": "matiere_evitable",
+      "is_prerequisite": false,
+      "double_count_justification": "Scénarios matière/qualité mutuellement exclusifs dans agrégat ; ne pas additionner le même kg évité",
+      "new_demand_hypothesis": null,
+      "customer_test": null
+    },
+    {
+      "id": "UC-S07",
+      "title": "Ordonnancement multisites",
+      "vertical": "operations",
+      "workflow": "Planification",
+      "problem": "Gisement à confirmer : Délais/capacité utile ; goulot prouvé avant capex évité",
+      "value_mechanism": "COST_AVOIDANCE ; Délais/capacité utile ; goulot prouvé avant capex évité",
+      "status": "hypothesis",
+      "company_claim_refs": [
+        "C-italy"
+      ],
+      "sector_claim_refs": [
+        "C-JDE-02"
+      ],
+      "business_owner_hypothesis": "opérations (mandat non confirmé)",
+      "data_dependencies": [
+        "Contraintes, qualifications,temps de setup"
+      ],
+      "technology_dependencies": [
+        "Parc JDE/OT, interfaces et version installée inconnus"
+      ],
+      "adoption_dependencies": [
+        "Owner métier, utilisateurs pilotes et processus de validation à confirmer"
+      ],
+      "gates": [
+        {
+          "name": "data_rights",
+          "status": "unknown",
+          "claim_refs": [],
+          "reason": "Droits et qualité de Contraintes, qualifications,temps de setup non vérifiés"
+        },
+        {
+          "name": "security_ot",
+          "status": "unknown",
+          "claim_refs": [],
+          "reason": "Architecture, accès et réversibilité technique non validés"
+        },
+        {
+          "name": "human_control",
+          "status": "unknown",
+          "claim_refs": [],
+          "reason": "Circuit de validation et limites d’action à approuver"
+        },
+        {
+          "name": "ownership",
+          "status": "unknown",
+          "claim_refs": [],
+          "reason": "Mandat opérations à confirmer"
+        },
+        {
+          "name": "feasibility",
+          "status": "unknown",
+          "claim_refs": [],
+          "reason": "Baseline, labels, budget et gain additionnel inconnus"
+        }
+      ],
+      "priority_state": "validation_required",
+      "ratings": {
+        "economic_value": "unknown",
+        "strategic_value": "unknown",
+        "feasibility": "unknown",
+        "time_to_value": "unknown",
+        "repeatability": "unknown",
+        "adoption": "unknown",
+        "risk": "unknown",
+        "portfolio_reuse": "unknown"
+      },
+      "family": "transformation",
+      "horizon": "18-36",
+      "sourcing_posture": "BUY",
+      "baseline_without_ai": "Planification actuelle / solveur contraintes",
+      "reversibility": "Lecture seule/offline ; retour au workflow courant avant écriture ERP",
+      "unknowns": [
+        "Contraintes, qualifications,temps de setup",
+        "Baseline,owner et coût complet"
+      ],
+      "validation_question": "Le gain net dépasse-t-il Planification actuelle / solveur contraintes sur Délais/capacité utile ; goulot prouvé avant capex évité ?",
+      "driver_refs": [
+        "DRV-07"
+      ],
+      "value_strategy": "COST_AVOIDANCE",
+      "technique_class": "optimisation_or",
+      "kpi": "Délais/capacité utile ; goulot prouvé avant capex évité",
+      "stop_condition": "Arrêter si absence de gain métier net versus baseline, données insuffisantes ou gate bloquant",
+      "cost_base_id": "capex_evitable",
+      "is_prerequisite": false,
+      "double_count_justification": null,
+      "new_demand_hypothesis": null,
+      "customer_test": null
+    },
+    {
+      "id": "UC-S08",
+      "title": "Dossiers qualité et connaissances",
+      "vertical": "workspace",
+      "workflow": "Conformité",
+      "problem": "Gisement à confirmer : Erreurs dossier et délai ; validation expert",
+      "value_mechanism": "RISK_RESILIENCE ; Erreurs dossier et délai ; validation expert",
+      "status": "hypothesis",
+      "company_claim_refs": [
+        "C-pro"
+      ],
+      "sector_claim_refs": [
+        "C-JDE-02"
+      ],
+      "business_owner_hypothesis": "qualité/réglementaire (mandat non confirmé)",
+      "data_dependencies": [
+        "Corpus autorisé versionné, règles et droits"
+      ],
+      "technology_dependencies": [
+        "Parc JDE/OT, interfaces et version installée inconnus"
+      ],
+      "adoption_dependencies": [
+        "Owner métier, utilisateurs pilotes et processus de validation à confirmer"
+      ],
+      "gates": [
+        {
+          "name": "data_rights",
+          "status": "unknown",
+          "claim_refs": [],
+          "reason": "Droits et qualité de Corpus autorisé versionné, règles et droits non vérifiés"
+        },
+        {
+          "name": "security_ot",
+          "status": "unknown",
+          "claim_refs": [],
+          "reason": "Architecture, accès et réversibilité technique non validés"
+        },
+        {
+          "name": "human_control",
+          "status": "unknown",
+          "claim_refs": [],
+          "reason": "Circuit de validation et limites d’action à approuver"
+        },
+        {
+          "name": "ownership",
+          "status": "unknown",
+          "claim_refs": [],
+          "reason": "Mandat qualité/réglementaire à confirmer"
+        },
+        {
+          "name": "feasibility",
+          "status": "unknown",
+          "claim_refs": [],
+          "reason": "Baseline, labels, budget et gain additionnel inconnus"
+        }
+      ],
+      "priority_state": "validation_required",
+      "ratings": {
+        "economic_value": "unknown",
+        "strategic_value": "unknown",
+        "feasibility": "unknown",
+        "time_to_value": "unknown",
+        "repeatability": "unknown",
+        "adoption": "unknown",
+        "risk": "unknown",
+        "portfolio_reuse": "unknown"
+      },
+      "family": "structural",
+      "horizon": "6-18",
+      "sourcing_posture": "BUY",
+      "baseline_without_ai": "GED, moteur lexical et checklist",
+      "reversibility": "Lecture seule/offline ; retour au workflow courant avant écriture ERP",
+      "unknowns": [
+        "Corpus autorisé versionné, règles et droits",
+        "Baseline,owner et coût complet"
+      ],
+      "validation_question": "Le gain net dépasse-t-il GED, moteur lexical et checklist sur Erreurs dossier et délai ; validation expert ?",
+      "driver_refs": [
+        "DRV-09"
+      ],
+      "value_strategy": "RISK_RESILIENCE",
+      "technique_class": "genai_rag",
+      "kpi": "Erreurs dossier et délai ; validation expert",
+      "stop_condition": "Arrêter si absence de gain métier net versus baseline, données insuffisantes ou gate bloquant",
+      "cost_base_id": null,
+      "is_prerequisite": false,
+      "double_count_justification": null,
+      "new_demand_hypothesis": null,
+      "customer_test": null
+    },
+    {
+      "id": "UC-S09",
+      "title": "Pricing et indexation matière",
+      "vertical": "revenue",
+      "workflow": "Pricing indexation",
+      "problem": "Gisement à confirmer : Asymétrie pass-through ; marge durable distincte du timing",
+      "value_mechanism": "RISK_RESILIENCE ; Asymétrie pass-through ; marge durable distincte du timing",
+      "status": "hypothesis",
+      "company_claim_refs": [
+        "C-finance"
+      ],
+      "sector_claim_refs": [
+        "C-JDE-02"
+      ],
+      "business_owner_hypothesis": "commercial/finance (mandat non confirmé)",
+      "data_dependencies": [
+        "Prix nets, clauses hausses/baisses,grades,cost-to-serve"
+      ],
+      "technology_dependencies": [
+        "Parc JDE/OT, interfaces et version installée inconnus"
+      ],
+      "adoption_dependencies": [
+        "Owner métier, utilisateurs pilotes et processus de validation à confirmer"
+      ],
+      "gates": [
+        {
+          "name": "data_rights",
+          "status": "unknown",
+          "claim_refs": [],
+          "reason": "Droits et qualité de Prix nets, clauses hausses/baisses,grades,cost-to-serve non vérifiés"
+        },
+        {
+          "name": "security_ot",
+          "status": "unknown",
+          "claim_refs": [],
+          "reason": "Architecture, accès et réversibilité technique non validés"
+        },
+        {
+          "name": "human_control",
+          "status": "unknown",
+          "claim_refs": [],
+          "reason": "Circuit de validation et limites d’action à approuver"
+        },
+        {
+          "name": "ownership",
+          "status": "unknown",
+          "claim_refs": [],
+          "reason": "Mandat commercial/finance à confirmer"
+        },
+        {
+          "name": "feasibility",
+          "status": "unknown",
+          "claim_refs": [],
+          "reason": "Baseline, labels, budget et gain additionnel inconnus"
+        }
+      ],
+      "priority_state": "validation_required",
+      "ratings": {
+        "economic_value": "unknown",
+        "strategic_value": "unknown",
+        "feasibility": "unknown",
+        "time_to_value": "unknown",
+        "repeatability": "unknown",
+        "adoption": "unknown",
+        "risk": "unknown",
+        "portfolio_reuse": "unknown"
+      },
+      "family": "structural",
+      "horizon": "6-18",
+      "sourcing_posture": "BUY",
+      "baseline_without_ai": "Clauses contractuelles et BI marge",
+      "reversibility": "Lecture seule/offline ; retour au workflow courant avant écriture ERP",
+      "unknowns": [
+        "Prix nets, clauses hausses/baisses,grades,cost-to-serve",
+        "Baseline,owner et coût complet"
+      ],
+      "validation_question": "Le gain net dépasse-t-il Clauses contractuelles et BI marge sur Asymétrie pass-through ; marge durable distincte du timing ?",
+      "driver_refs": [
+        "DRV-01"
+      ],
+      "value_strategy": "RISK_RESILIENCE",
+      "technique_class": "classical_ml",
+      "kpi": "Asymétrie pass-through ; marge durable distincte du timing",
+      "stop_condition": "Arrêter si absence de gain métier net versus baseline, données insuffisantes ou gate bloquant",
+      "cost_base_id": null,
+      "is_prerequisite": false,
+      "double_count_justification": null,
+      "new_demand_hypothesis": null,
+      "customer_test": null
+    },
+    {
+      "id": "UC-S10",
+      "title": "Formulation et plan d’essais",
+      "vertical": "engineering",
+      "workflow": "R&D",
+      "problem": "Gisement à confirmer : Nombre essais et performance validée ; pas de recette auto-libérée",
+      "value_mechanism": "DIFFERENTIATION_GROWTH ; Nombre essais et performance validée ; pas de recette auto-libérée",
+      "status": "hypothesis",
+      "company_claim_refs": [
+        "C-ownership"
+      ],
+      "sector_claim_refs": [
+        "C-JDE-04"
+      ],
+      "business_owner_hypothesis": "R&D (mandat non confirmé)",
+      "data_dependencies": [
+        "Essais comparables,propriétés,recettes,IP"
+      ],
+      "technology_dependencies": [
+        "Parc JDE/OT, interfaces et version installée inconnus"
+      ],
+      "adoption_dependencies": [
+        "Owner métier, utilisateurs pilotes et processus de validation à confirmer"
+      ],
+      "gates": [
+        {
+          "name": "data_rights",
+          "status": "unknown",
+          "claim_refs": [],
+          "reason": "Droits et qualité de Essais comparables,propriétés,recettes,IP non vérifiés"
+        },
+        {
+          "name": "security_ot",
+          "status": "unknown",
+          "claim_refs": [],
+          "reason": "Architecture, accès et réversibilité technique non validés"
+        },
+        {
+          "name": "human_control",
+          "status": "unknown",
+          "claim_refs": [],
+          "reason": "Circuit de validation et limites d’action à approuver"
+        },
+        {
+          "name": "ownership",
+          "status": "unknown",
+          "claim_refs": [],
+          "reason": "Mandat R&D à confirmer"
+        },
+        {
+          "name": "feasibility",
+          "status": "unknown",
+          "claim_refs": [],
+          "reason": "Baseline, labels, budget et gain additionnel inconnus"
+        }
+      ],
+      "priority_state": "validation_required",
+      "ratings": {
+        "economic_value": "unknown",
+        "strategic_value": "unknown",
+        "feasibility": "unknown",
+        "time_to_value": "unknown",
+        "repeatability": "unknown",
+        "adoption": "unknown",
+        "risk": "unknown",
+        "portfolio_reuse": "unknown"
+      },
+      "family": "transformation",
+      "horizon": "18-36",
+      "sourcing_posture": "PARTNER",
+      "baseline_without_ai": "Expertise matériaux et plans expérimentaux",
+      "reversibility": "Lecture seule/offline ; retour au workflow courant avant écriture ERP",
+      "unknowns": [
+        "Essais comparables,propriétés,recettes,IP",
+        "Baseline,owner et coût complet"
+      ],
+      "validation_question": "Le gain net dépasse-t-il Expertise matériaux et plans expérimentaux sur Nombre essais et performance validée ; pas de recette auto-libérée ?",
+      "driver_refs": [
+        "DRV-08"
+      ],
+      "value_strategy": "DIFFERENTIATION_GROWTH",
+      "technique_class": "classical_ml",
+      "kpi": "Nombre essais et performance validée ; pas de recette auto-libérée",
+      "stop_condition": "Arrêter si absence de gain métier net versus baseline, données insuffisantes ou gate bloquant",
+      "cost_base_id": null,
+      "is_prerequisite": false,
+      "double_count_justification": null,
+      "new_demand_hypothesis": null,
+      "customer_test": null
+    },
+    {
+      "id": "UC-S11",
+      "title": "Recouvrement et résolution litiges",
+      "vertical": "workspace",
+      "workflow": "Order to cash",
+      "problem": "Gisement à confirmer : DSO et cash incrémental par cohortes ; envoi humain",
+      "value_mechanism": "CAPITAL_PRODUCTIVITY ; DSO et cash incrémental par cohortes ; envoi humain",
+      "status": "hypothesis",
+      "company_claim_refs": [
+        "C-finance"
+      ],
+      "sector_claim_refs": [
+        "C-JDE-02"
+      ],
+      "business_owner_hypothesis": "finance/crédit (mandat non confirmé)",
+      "data_dependencies": [
+        "Échéances,litiges,actions,encaissements"
+      ],
+      "technology_dependencies": [
+        "Parc JDE/OT, interfaces et version installée inconnus"
+      ],
+      "adoption_dependencies": [
+        "Owner métier, utilisateurs pilotes et processus de validation à confirmer"
+      ],
+      "gates": [
+        {
+          "name": "data_rights",
+          "status": "unknown",
+          "claim_refs": [],
+          "reason": "Droits et qualité de Échéances,litiges,actions,encaissements non vérifiés"
+        },
+        {
+          "name": "security_ot",
+          "status": "unknown",
+          "claim_refs": [],
+          "reason": "Architecture, accès et réversibilité technique non validés"
+        },
+        {
+          "name": "human_control",
+          "status": "unknown",
+          "claim_refs": [],
+          "reason": "Circuit de validation et limites d’action à approuver"
+        },
+        {
+          "name": "ownership",
+          "status": "unknown",
+          "claim_refs": [],
+          "reason": "Mandat finance/crédit à confirmer"
+        },
+        {
+          "name": "feasibility",
+          "status": "unknown",
+          "claim_refs": [],
+          "reason": "Baseline, labels, budget et gain additionnel inconnus"
+        }
+      ],
+      "priority_state": "validation_required",
+      "ratings": {
+        "economic_value": "unknown",
+        "strategic_value": "unknown",
+        "feasibility": "unknown",
+        "time_to_value": "unknown",
+        "repeatability": "unknown",
+        "adoption": "unknown",
+        "risk": "unknown",
+        "portfolio_reuse": "unknown"
+      },
+      "family": "structural",
+      "horizon": "6-18",
+      "sourcing_posture": "BUY",
+      "baseline_without_ai": "Balance âgée, règles relance et workflow litiges",
+      "reversibility": "Lecture seule/offline ; retour au workflow courant avant écriture ERP",
+      "unknowns": [
+        "Échéances,litiges,actions,encaissements",
+        "Baseline,owner et coût complet"
+      ],
+      "validation_question": "Le gain net dépasse-t-il Balance âgée, règles relance et workflow litiges sur DSO et cash incrémental par cohortes ; envoi humain ?",
+      "driver_refs": [
+        "DRV-05"
+      ],
+      "value_strategy": "CAPITAL_PRODUCTIVITY",
+      "technique_class": "classical_ml",
+      "kpi": "DSO et cash incrémental par cohortes ; envoi humain",
+      "stop_condition": "Arrêter si absence de gain métier net versus baseline, données insuffisantes ou gate bloquant",
+      "cost_base_id": null,
+      "is_prerequisite": false,
+      "double_count_justification": null,
+      "new_demand_hypothesis": null,
+      "customer_test": null
+    },
+    {
+      "id": "UC-S12",
+      "title": "MOQ, lots et fréquence de livraison",
+      "vertical": "operations",
+      "workflow": "Achats et livraison",
+      "problem": "Gisement à confirmer : Coût total livré et OTIF ; pas transport gagné contre surstock",
+      "value_mechanism": "CAPITAL_PRODUCTIVITY ; Coût total livré et OTIF ; pas transport gagné contre surstock",
+      "status": "hypothesis",
+      "company_claim_refs": [
+        "C-finance"
+      ],
+      "sector_claim_refs": [
+        "C-JDE-02"
+      ],
+      "business_owner_hypothesis": "achats/supply chain (mandat non confirmé)",
+      "data_dependencies": [
+        "MOQ,tarifs,transport,capacités,service,stocks"
+      ],
+      "technology_dependencies": [
+        "Parc JDE/OT, interfaces et version installée inconnus"
+      ],
+      "adoption_dependencies": [
+        "Owner métier, utilisateurs pilotes et processus de validation à confirmer"
+      ],
+      "gates": [
+        {
+          "name": "data_rights",
+          "status": "unknown",
+          "claim_refs": [],
+          "reason": "Droits et qualité de MOQ,tarifs,transport,capacités,service,stocks non vérifiés"
+        },
+        {
+          "name": "security_ot",
+          "status": "unknown",
+          "claim_refs": [],
+          "reason": "Architecture, accès et réversibilité technique non validés"
+        },
+        {
+          "name": "human_control",
+          "status": "unknown",
+          "claim_refs": [],
+          "reason": "Circuit de validation et limites d’action à approuver"
+        },
+        {
+          "name": "ownership",
+          "status": "unknown",
+          "claim_refs": [],
+          "reason": "Mandat achats/supply chain à confirmer"
+        },
+        {
+          "name": "feasibility",
+          "status": "unknown",
+          "claim_refs": [],
+          "reason": "Baseline, labels, budget et gain additionnel inconnus"
+        }
+      ],
+      "priority_state": "validation_required",
+      "ratings": {
+        "economic_value": "unknown",
+        "strategic_value": "unknown",
+        "feasibility": "unknown",
+        "time_to_value": "unknown",
+        "repeatability": "unknown",
+        "adoption": "unknown",
+        "risk": "unknown",
+        "portfolio_reuse": "unknown"
+      },
+      "family": "structural",
+      "horizon": "6-18",
+      "sourcing_posture": "BUY",
+      "baseline_without_ai": "EOQ/règles contractuelles/optimisation classique",
+      "reversibility": "Lecture seule/offline ; retour au workflow courant avant écriture ERP",
+      "unknowns": [
+        "MOQ,tarifs,transport,capacités,service,stocks",
+        "Baseline,owner et coût complet"
+      ],
+      "validation_question": "Le gain net dépasse-t-il EOQ/règles contractuelles/optimisation classique sur Coût total livré et OTIF ; pas transport gagné contre surstock ?",
+      "driver_refs": [
+        "DRV-06"
+      ],
+      "value_strategy": "CAPITAL_PRODUCTIVITY",
+      "technique_class": "optimisation_or",
+      "kpi": "Coût total livré et OTIF ; pas transport gagné contre surstock",
+      "stop_condition": "Arrêter si absence de gain métier net versus baseline, données insuffisantes ou gate bloquant",
+      "cost_base_id": null,
+      "is_prerequisite": false,
+      "double_count_justification": null,
+      "new_demand_hypothesis": null,
+      "customer_test": null
+    }
+  ],
+  "strategic_positions": [
+    {
+      "activity_id": "A-02",
+      "centrality": "core",
+      "differentiation": "parity",
+      "claim_refs": [
+        "C-pro"
+      ],
+      "rationale": "Position provisoire ; aucune prime ni rareté prouvée. Sourcing exploratoire, pas recommandation fournisseur.",
+      "sourcing_posture": "BUY",
+      "reversibility": "Lecture seule/offline ; retour au workflow courant avant écriture ERP"
+    },
+    {
+      "activity_id": "A-03",
+      "centrality": "core",
+      "differentiation": "parity",
+      "claim_refs": [
+        "C-italy"
+      ],
+      "rationale": "Position provisoire ; aucune prime ni rareté prouvée. Sourcing exploratoire, pas recommandation fournisseur.",
+      "sourcing_posture": "BUY",
+      "reversibility": "Lecture seule/offline ; retour au workflow courant avant écriture ERP"
+    },
+    {
+      "activity_id": "A-04",
+      "centrality": "core",
+      "differentiation": "parity",
+      "claim_refs": [
+        "C-ownership"
+      ],
+      "rationale": "Position provisoire ; aucune prime ni rareté prouvée. Sourcing exploratoire, pas recommandation fournisseur.",
+      "sourcing_posture": "PARTNER",
+      "reversibility": "Lecture seule/offline ; retour au workflow courant avant écriture ERP"
+    },
+    {
+      "activity_id": "A-05",
+      "centrality": "core",
+      "differentiation": "parity",
+      "claim_refs": [
+        "C-polyex"
+      ],
+      "rationale": "Position provisoire ; aucune prime ni rareté prouvée. Sourcing exploratoire, pas recommandation fournisseur.",
+      "sourcing_posture": "PARTNER",
+      "reversibility": "Lecture seule/offline ; retour au workflow courant avant écriture ERP"
+    },
+    {
+      "activity_id": "A-06",
+      "centrality": "core",
+      "differentiation": "parity",
+      "claim_refs": [
+        "C-polyex"
+      ],
+      "rationale": "Position provisoire ; aucune prime ni rareté prouvée. Sourcing exploratoire, pas recommandation fournisseur.",
+      "sourcing_posture": "PARTNER",
+      "reversibility": "Lecture seule/offline ; retour au workflow courant avant écriture ERP"
+    },
+    {
+      "activity_id": "A-07",
+      "centrality": "core",
+      "differentiation": "parity",
+      "claim_refs": [
+        "C-italy"
+      ],
+      "rationale": "Position provisoire ; aucune prime ni rareté prouvée. Sourcing exploratoire, pas recommandation fournisseur.",
+      "sourcing_posture": "BUY",
+      "reversibility": "Lecture seule/offline ; retour au workflow courant avant écriture ERP"
+    },
+    {
+      "activity_id": "A-08",
+      "centrality": "support",
+      "differentiation": "parity",
+      "claim_refs": [
+        "C-pro"
+      ],
+      "rationale": "Position provisoire ; aucune prime ni rareté prouvée. Sourcing exploratoire, pas recommandation fournisseur.",
+      "sourcing_posture": "BUY",
+      "reversibility": "Lecture seule/offline ; retour au workflow courant avant écriture ERP"
+    },
+    {
+      "activity_id": "A-09",
+      "centrality": "core",
+      "differentiation": "parity",
+      "claim_refs": [
+        "C-finance"
+      ],
+      "rationale": "Position provisoire ; aucune prime ni rareté prouvée. Sourcing exploratoire, pas recommandation fournisseur.",
+      "sourcing_posture": "BUY",
+      "reversibility": "Lecture seule/offline ; retour au workflow courant avant écriture ERP"
+    },
+    {
+      "activity_id": "A-10",
+      "centrality": "core",
+      "differentiation": "parity",
+      "claim_refs": [
+        "C-ownership"
+      ],
+      "rationale": "Position provisoire ; aucune prime ni rareté prouvée. Sourcing exploratoire, pas recommandation fournisseur.",
+      "sourcing_posture": "PARTNER",
+      "reversibility": "Lecture seule/offline ; retour au workflow courant avant écriture ERP"
+    },
+    {
+      "activity_id": "A-11",
+      "centrality": "support",
+      "differentiation": "parity",
+      "claim_refs": [
+        "C-finance"
+      ],
+      "rationale": "Position provisoire ; aucune prime ni rareté prouvée. Sourcing exploratoire, pas recommandation fournisseur.",
+      "sourcing_posture": "BUY",
+      "reversibility": "Lecture seule/offline ; retour au workflow courant avant écriture ERP"
+    },
+    {
+      "activity_id": "A-12",
+      "centrality": "core",
+      "differentiation": "parity",
+      "claim_refs": [
+        "C-finance"
+      ],
+      "rationale": "Position provisoire ; aucune prime ni rareté prouvée. Sourcing exploratoire, pas recommandation fournisseur.",
+      "sourcing_posture": "BUY",
+      "reversibility": "Lecture seule/offline ; retour au workflow courant avant écriture ERP"
+    }
+  ],
+  "contradictions": [
+    "Italie22%/220M non réconciliés",
+    "18/19sites selon source et périmètre ; capacité235kt non actualisée démontrée",
+    "Ventes recyclé/biosourcé ne représentent pas achats"
+  ],
+  "unknowns": [
+    "COO/DSI groupe",
+    "Équipe et stratégie ML",
+    "Données2025 segment/cash",
+    "Prix rPE pondérés réels",
+    "Part relative/croissance marché"
+  ],
+  "strategic_context_ref": "strategic_context.json",
+  "drivers": [
+    {
+      "id": "DRV-01",
+      "rank": 1,
+      "external_signal_claim_refs": [
+        "C-M02"
+      ],
+      "exposure_claim_refs": [
+        "C-finance"
+      ],
+      "exposure_hypothesis": "Exposition économique nette à confirmer ; rang=ordre de recherche, pas priorité de capital",
+      "economic_mechanism": "D01a : Asymétrie pass-through ; marge durable distincte du timing",
+      "value_strategies": [
+        "RISK_RESILIENCE"
+      ],
+      "kpis": [
+        "Asymétrie pass-through ; marge durable distincte du timing"
+      ],
+      "baseline_status": "unknown",
+      "counter_evidence_refs": [
+        "C-ml-unknown"
+      ],
+      "owner_hypothesis": "Owner métier proposé à confirmer",
+      "rank_inversion_condition": "Baseline,coût évitable ou demande ne confirment pas le mécanisme ; arrêter ou reclasser"
+    },
+    {
+      "id": "DRV-02",
+      "rank": 2,
+      "external_signal_claim_refs": [
+        "C-M03"
+      ],
+      "exposure_claim_refs": [
+        "C-ownership"
+      ],
+      "exposure_hypothesis": "Exposition économique nette à confirmer ; rang=ordre de recherche, pas priorité de capital",
+      "economic_mechanism": "D01b : Coût/t conforme ; essais physiques et contraintes produit",
+      "value_strategies": [
+        "COST_REDUCTION"
+      ],
+      "kpis": [
+        "Coût/t conforme ; essais physiques et contraintes produit"
+      ],
+      "baseline_status": "unknown",
+      "counter_evidence_refs": [
+        "C-ml-unknown"
+      ],
+      "owner_hypothesis": "Owner métier proposé à confirmer",
+      "rank_inversion_condition": "Baseline,coût évitable ou demande ne confirment pas le mécanisme ; arrêter ou reclasser"
+    },
+    {
+      "id": "DRV-03",
+      "rank": 3,
+      "external_signal_claim_refs": [
+        "C-JDE-04"
+      ],
+      "exposure_claim_refs": [
+        "C-polyex"
+      ],
+      "exposure_hypothesis": "Exposition économique nette à confirmer ; rang=ordre de recherche, pas priorité de capital",
+      "economic_mechanism": "D02 : Défauts échappés, faux rejets, scrap évitable; kg rebut/t et kWh/t conforme ; contrôle intersites",
+      "value_strategies": [
+        "COST_REDUCTION"
+      ],
+      "kpis": [
+        "Défauts échappés, faux rejets, scrap évitable",
+        "kg rebut/t et kWh/t conforme ; contrôle intersites"
+      ],
+      "baseline_status": "unknown",
+      "counter_evidence_refs": [
+        "C-ml-unknown"
+      ],
+      "owner_hypothesis": "Owner métier proposé à confirmer",
+      "rank_inversion_condition": "Baseline,coût évitable ou demande ne confirment pas le mécanisme ; arrêter ou reclasser"
+    },
+    {
+      "id": "DRV-04",
+      "rank": 4,
+      "external_signal_claim_refs": [
+        "C-italy"
+      ],
+      "exposure_claim_refs": [
+        "C-italy"
+      ],
+      "exposure_hypothesis": "Exposition économique nette à confirmer ; rang=ordre de recherche, pas priorité de capital",
+      "economic_mechanism": "D03a : DIO moyen+OTIF ; backtest temporel puis pilote",
+      "value_strategies": [
+        "CAPITAL_PRODUCTIVITY"
+      ],
+      "kpis": [
+        "DIO moyen+OTIF ; backtest temporel puis pilote"
+      ],
+      "baseline_status": "unknown",
+      "counter_evidence_refs": [
+        "C-ml-unknown"
+      ],
+      "owner_hypothesis": "Owner métier proposé à confirmer",
+      "rank_inversion_condition": "Baseline,coût évitable ou demande ne confirment pas le mécanisme ; arrêter ou reclasser"
+    },
+    {
+      "id": "DRV-05",
+      "rank": 5,
+      "external_signal_claim_refs": [
+        "C-finance"
+      ],
+      "exposure_claim_refs": [
+        "C-finance"
+      ],
+      "exposure_hypothesis": "Exposition économique nette à confirmer ; rang=ordre de recherche, pas priorité de capital",
+      "economic_mechanism": "D03b : DSO et cash incrémental par cohortes ; envoi humain",
+      "value_strategies": [
+        "CAPITAL_PRODUCTIVITY"
+      ],
+      "kpis": [
+        "DSO et cash incrémental par cohortes ; envoi humain"
+      ],
+      "baseline_status": "unknown",
+      "counter_evidence_refs": [
+        "C-ml-unknown"
+      ],
+      "owner_hypothesis": "Owner métier proposé à confirmer",
+      "rank_inversion_condition": "Baseline,coût évitable ou demande ne confirment pas le mécanisme ; arrêter ou reclasser"
+    },
+    {
+      "id": "DRV-06",
+      "rank": 6,
+      "external_signal_claim_refs": [
+        "C-M03"
+      ],
+      "exposure_claim_refs": [
+        "C-finance"
+      ],
+      "exposure_hypothesis": "Exposition économique nette à confirmer ; rang=ordre de recherche, pas priorité de capital",
+      "economic_mechanism": "D03c : Coût total livré et OTIF ; pas transport gagné contre surstock",
+      "value_strategies": [
+        "CAPITAL_PRODUCTIVITY"
+      ],
+      "kpis": [
+        "Coût total livré et OTIF ; pas transport gagné contre surstock"
+      ],
+      "baseline_status": "unknown",
+      "counter_evidence_refs": [
+        "C-ml-unknown"
+      ],
+      "owner_hypothesis": "Owner métier proposé à confirmer",
+      "rank_inversion_condition": "Baseline,coût évitable ou demande ne confirment pas le mécanisme ; arrêter ou reclasser"
+    },
+    {
+      "id": "DRV-07",
+      "rank": 7,
+      "external_signal_claim_refs": [
+        "C-ownership"
+      ],
+      "exposure_claim_refs": [
+        "C-italy"
+      ],
+      "exposure_hypothesis": "Exposition économique nette à confirmer ; rang=ordre de recherche, pas priorité de capital",
+      "economic_mechanism": "D04 : Délais/capacité utile ; goulot prouvé avant capex évité",
+      "value_strategies": [
+        "COST_AVOIDANCE"
+      ],
+      "kpis": [
+        "Délais/capacité utile ; goulot prouvé avant capex évité"
+      ],
+      "baseline_status": "unknown",
+      "counter_evidence_refs": [
+        "C-ml-unknown"
+      ],
+      "owner_hypothesis": "Owner métier proposé à confirmer",
+      "rank_inversion_condition": "Baseline,coût évitable ou demande ne confirment pas le mécanisme ; arrêter ou reclasser"
+    },
+    {
+      "id": "DRV-08",
+      "rank": 8,
+      "external_signal_claim_refs": [
+        "C-M05"
+      ],
+      "exposure_claim_refs": [
+        "C-pro"
+      ],
+      "exposure_hypothesis": "Exposition économique nette à confirmer ; rang=ordre de recherche, pas priorité de capital",
+      "economic_mechanism": "D05 : Taux de conversion/marge nette ; validation du devis; Nombre essais et performance validée ; pas de recette auto-libérée",
+      "value_strategies": [
+        "DIFFERENTIATION_GROWTH"
+      ],
+      "kpis": [
+        "Taux de conversion/marge nette ; validation du devis",
+        "Nombre essais et performance validée ; pas de recette auto-libérée"
+      ],
+      "baseline_status": "unknown",
+      "counter_evidence_refs": [
+        "C-ml-unknown"
+      ],
+      "owner_hypothesis": "Owner métier proposé à confirmer",
+      "rank_inversion_condition": "Baseline,coût évitable ou demande ne confirment pas le mécanisme ; arrêter ou reclasser"
+    },
+    {
+      "id": "DRV-09",
+      "rank": 9,
+      "external_signal_claim_refs": [
+        "C-ownership"
+      ],
+      "exposure_claim_refs": [
+        "C-pro"
+      ],
+      "exposure_hypothesis": "Exposition économique nette à confirmer ; rang=ordre de recherche, pas priorité de capital",
+      "economic_mechanism": "D06 : Erreurs dossier et délai ; validation expert",
+      "value_strategies": [
+        "RISK_RESILIENCE"
+      ],
+      "kpis": [
+        "Erreurs dossier et délai ; validation expert"
+      ],
+      "baseline_status": "unknown",
+      "counter_evidence_refs": [
+        "C-ml-unknown"
+      ],
+      "owner_hypothesis": "Owner métier proposé à confirmer",
+      "rank_inversion_condition": "Baseline,coût évitable ou demande ne confirment pas le mécanisme ; arrêter ou reclasser"
+    }
+  ],
+  "market_context": {
+    "arenas": [
+      {
+        "id": "AR-01",
+        "name": "Ménager/retail",
+        "buyer_value": "Prix à spécification constante,disponibilité,résistance",
+        "claim_refs": [
+          "C-segments",
+          "C-M02"
+        ]
+      },
+      {
+        "id": "AR-02",
+        "name": "Professionnels/collectivités",
+        "buyer_value": "Service,conformité,coût total",
+        "claim_refs": [
+          "C-pro",
+          "C-M03"
+        ]
+      },
+      {
+        "id": "AR-03",
+        "name": "Films industriels",
+        "buyer_value": "Performance,qualification,coût d’usage",
+        "claim_refs": [
+          "C-polyex",
+          "C-M01P"
+        ]
+      }
+    ],
+    "peers": [
+      {
+        "name": "RKW",
+        "signal": "Chevauchement d’offre publié",
+        "comparability_limit": "Pas de part de marché ni client perdu observé ; segment/pays à comparer",
+        "claim_refs": [
+          "C-M01P"
+        ]
+      },
+      {
+        "name": "Polipak",
+        "signal": "Chevauchement d’offre publié",
+        "comparability_limit": "Pas de part de marché ni client perdu observé ; segment/pays à comparer",
+        "claim_refs": [
+          "C-M02"
+        ]
+      },
+      {
+        "name": "Ersoplast",
+        "signal": "Chevauchement d’offre publié",
+        "comparability_limit": "Pas de part de marché ni client perdu observé ; segment/pays à comparer",
+        "claim_refs": [
+          "C-M03"
+        ]
+      },
+      {
+        "name": "Hongyuan",
+        "signal": "Chevauchement d’offre publié",
+        "comparability_limit": "Pas de part de marché ni client perdu observé ; segment/pays à comparer",
+        "claim_refs": [
+          "C-M04"
+        ]
+      },
+      {
+        "name": "Cuki Cofresco",
+        "signal": "Chevauchement d’offre publié",
+        "comparability_limit": "Pas de part de marché ni client perdu observé ; segment/pays à comparer",
+        "claim_refs": [
+          "C-M05"
+        ]
+      },
+      {
+        "name": "Novamont",
+        "signal": "Chevauchement d’offre publié",
+        "comparability_limit": "Pas de part de marché ni client perdu observé ; segment/pays à comparer",
+        "claim_refs": [
+          "C-M06"
+        ]
+      }
+    ],
+    "coverage": {
+      "demand_price": {
+        "status": "partial",
+        "gap_impact": "Pricing power inconnu",
+        "next_research": "Panier prix nets +clauses"
+      },
+      "competition": {
+        "status": "partial",
+        "gap_impact": "Parts relatives inconnues",
+        "next_research": "Comparer segments/pays/specifications"
+      },
+      "materials_energy": {
+        "status": "partial",
+        "gap_impact": "Mix coûts réel inconnu",
+        "next_research": "Ventiler rPE/vierge/énergie"
+      },
+      "productivity_quality": {
+        "status": "partial",
+        "gap_impact": "Scrap et baseline inconnus",
+        "next_research": "Baseline ligne et S&OP Italie"
+      },
+      "regulation": {
+        "status": "partial",
+        "gap_impact": "Applicabilité SKU/pays inconnue",
+        "next_research": "Revue expert ciblée"
+      },
+      "customers_upmarket": {
+        "status": "partial",
+        "gap_impact": "Premium et contribution inconnus",
+        "next_research": "Win/loss et marge segment"
+      }
+    }
+  }
+}

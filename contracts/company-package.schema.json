@@ -101,6 +101,20 @@
           "rights": {
             "type": "string",
             "minLength": 1
+          },
+          "capture_kind": {
+            "enum": [
+              "selected_excerpt",
+              "full_original",
+              "web_extract"
+            ]
+          },
+          "hash_scope": {
+            "enum": [
+              "excerpt_utf8",
+              "original_bytes",
+              "extraction_bytes"
+            ]
           }
         },
         "required": [
@@ -1300,6 +1314,10 @@
         "additionalProperties": false
       },
       "minItems": 1
+    },
+    "strategic_context_ref": {
+      "type": "string",
+      "minLength": 1
     }
   },
   "required": [
