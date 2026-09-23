@@ -181,5 +181,6 @@
     "hitl",
     "next_action"
   ],
-  "additionalProperties": false
+  "additionalProperties": false,
+  "$id": "https://github.com/achard-arnaud/Hivest-ptf-analysis/contracts/run-context.schema.json"
 }

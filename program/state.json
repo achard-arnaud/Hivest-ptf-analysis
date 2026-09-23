@@ -2,7 +2,7 @@
   "version": "0.1.0",
   "phase": "PILOTS",
   "design_status": "candidate_for_pilots",
-  "next_action": "Sphere: revue HITL du contexte marché et des drivers ; second pilote ensuite",
+  "next_action": "Sphere: archiver les sources originales, construire un package JSON validé, puis soumettre le dossier à HITL ; STG ensuite",
   "pilots": [
     "sphere",
     "stg"

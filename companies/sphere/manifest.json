@@ -1,13 +1,14 @@
 {
   "entity_id": "sphere",
   "cutoff": "2026-09-23",
-  "stage": "HITL_PENDING",
-  "package_ref": "companies/sphere/pre_hitl_dossier.md",
+  "stage": "RESEARCH",
+  "package_ref": null,
+  "dossier_ref": "companies/sphere/pre_hitl_dossier.md",
   "top_unknowns": [
     "Hétérogénéité ERP/MES et données qualité par site ?",
     "Coût réel pertes, arrêts et énergie ?",
     "Autorité groupe/usines pour financer et déployer ?"
   ],
-  "diagnostic_status": "pre_hitl_market_enriched",
+  "diagnostic_status": "evidence_capture_required_before_hitl",
   "market_context_ref": "companies/sphere/market_drivers.md"
 }

@@ -70,6 +70,67 @@ class Contracts(unittest.TestCase):
         self.p['claims'][0]['status']='hypothesis'
         for g in self.p['use_cases'][0]['gates']:g.update(status='pass',claim_refs=['C1'])
         self.p['use_cases'][0]['priority_state']='eligible';self.reject()
+    def clear_gates(self):
+        for g in self.p['use_cases'][0]['gates']:g.update(status='pass',claim_refs=['C1'])
+        self.p['use_cases'][0]['priority_state']='eligible'
+    def test_job_cannot_clear_gate(self):
+        self.clear_gates();self.p['sources'][0]['source_type']='job';self.reject()
+    def test_social_cannot_clear_gate(self):
+        self.clear_gates();self.p['sources'][0]['source_type']='social';self.reject()
+    def test_stale_claim_cannot_clear_gate(self):
+        self.clear_gates();self.p['claims'][0]['valid_until']='2026-01-02';self.reject()
+    def test_score4_requires_scaled(self):
+        self.score(4)
+        self.add_independent_source()
+        self.p['claims'][0]['deployment_stage']='experiment';self.reject()
+    def test_score3_any_dimension_requires_production(self):
+        self.p['maturity']['dimensions'][0].update(score=3,status='observed',claim_refs=['C1'])
+        self.add_independent_source();self.reject()
+    def add_independent_source(self):
+        s=copy.deepcopy(self.p['sources'][0]);s.update(id='S2',url='https://example.org/other',sha256='b'*64,origin_id='origin2');self.p['sources'].append(s)
+        f=copy.deepcopy(self.p['fragments'][0]);f.update(id='F2',source_id='S2');self.p['fragments'].append(f)
+        self.p['claims'][0]['fragment_refs'].append('F2')
+    def test_same_url_different_origin(self):
+        self.add_independent_source();self.p['sources'][1]['url']=self.p['sources'][0]['url']+'/';self.reject()
+    def test_same_hash_different_origin(self):
+        self.add_independent_source();self.p['sources'][1]['sha256']=self.p['sources'][0]['sha256'];self.reject()
+    def test_claim_precedes_publication(self):
+        self.p['claims'][0]['observed_at']='2025-12-31';self.reject()
+    def test_announced_use_case_not_fact(self):
+        self.p['use_cases'][0]['status']='fact';self.p['claims'][0]['deployment_stage']='announcement';self.reject()
+    def test_ungrounded_inference(self):
+        self.p['claims'][0].update(status='inference',fragment_refs=[],basis_claim_refs=['C2'])
+        c=copy.deepcopy(self.p['claims'][0]);c.update(id='C2',basis_claim_refs=[],fragment_refs=[])
+        self.p['claims'].append(c);self.reject()
+    def test_partial_source_cannot_support_high_confidence(self):
+        self.p['sources'][0]['access_status']='partial';self.p['claims'][0]['confidence']='high';self.reject()
+    def test_unicode_nfc_fragment_hash(self):
+        self.p['fragments'][0]['excerpt']='Cafe\u0301'
+        self.p['fragments'][0]['sha256']=v.excerpt_hash('Caf\u00e9')
+        self.assertTrue(v.validate_package(self.p))
+    def test_stale_fact_in_payload(self):
+        c=self.prepare_content();self.p['claims'][0]['valid_until']='2026-01-02'
+        c=content(self.p);c['payload']['page1']['identity']=[dict(text='Synthetic',status='fact',claim_refs=['C1'])]
+        c['payload_sha256']=v.digest(c['payload'])
+        with self.assertRaises(ValueError):v.validate_content(c,self.p)
+    def version_02(self):
+        self.p['version']='0.2.0'
+        covered=dict(status='missing',gap_impact='Unknown impact',next_research='Request evidence')
+        self.p['market_context']=dict(arenas=[dict(id='AR-01',name='Synthetic arena',buyer_value='Unknown',claim_refs=['C1'])],peers=[],coverage={k:copy.deepcopy(covered) for k in ['demand_price','competition','materials_energy','productivity_quality','regulation','customers_upmarket']})
+        self.p['drivers']=[dict(id='DRV-01',rank=1,external_signal_claim_refs=['C1'],exposure_claim_refs=['C1'],exposure_hypothesis=None,economic_mechanism='Synthetic mechanism',value_strategies=['COST_REDUCTION'],kpis=['Waste'],baseline_status='unknown',counter_evidence_refs=[],owner_hypothesis='Operations',rank_inversion_condition='Missing baseline')]
+        self.p['use_cases'][0].update(driver_refs=['DRV-01'],value_strategy='COST_REDUCTION',technique_class='rules_spc',kpi='Waste',stop_condition='No gain',cost_base_id='material',is_prerequisite=False,double_count_justification=None,new_demand_hypothesis=None,customer_test=None)
+    def test_version_02_valid(self):
+        self.version_02();self.assertTrue(v.validate_package(self.p))
+    def test_version_02_missing_market(self):
+        self.version_02();del self.p['market_context'];self.reject()
+    def test_version_02_missing_driver(self):
+        self.version_02();self.p['use_cases'][0]['driver_refs']=['DRV-99'];self.reject()
+    def test_version_02_exposure_required(self):
+        self.version_02();self.p['drivers'][0].update(exposure_claim_refs=[],exposure_hypothesis=None);self.reject()
+    def test_version_02_double_count(self):
+        self.version_02();uc=copy.deepcopy(self.p['use_cases'][0]);uc['id']='UC2';self.p['use_cases'].append(uc);self.reject()
+    def test_version_02_blue_ocean_test(self):
+        self.version_02();self.p['use_cases'][0]['value_strategy']='BLUE_OCEAN';self.reject()
     def test_schema_forbids_global_average(self):self.p['maturity']['global_score']=2.5;self.reject()
     def prepare_content(self):
         for i in range(2,7):

@@ -1308,5 +1308,6 @@
     "payload_sha256",
     "run_context"
   ],
-  "additionalProperties": false
+  "additionalProperties": false,
+  "$id": "https://github.com/achard-arnaud/Hivest-ptf-analysis/contracts/three-pager.schema.json"
 }

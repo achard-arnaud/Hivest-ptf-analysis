@@ -16,6 +16,7 @@ Lire `program/state.json` puis UN manifest entreprise. Charger uniquement la pro
 | Étape | Ressource | Sortie / gate |
 |---|---|---|
 | Intake, research, sector wiki | references/evidence.md | paquet evidence + couverture |
+| Market context, drivers | references/market-drivers.md | signaux externes → exposition → drivers → stratégies de valeur |
 | Value chain, 7S, maturity | references/diagnostic.md | diagnostic + inconnues |
 | Opportunities, 9-box | references/opportunities.md | inventaire + shortlist |
 | Red-team, HITL | references/review.md | dossier pré-HITL |
@@ -26,8 +27,8 @@ Limiter le contexte courant : une entreprise, une étape, un résumé wiki et le
 
 ## États
 PROGRAM_DESIGN_READY → PILOTS → PILOT_LOOPBACK → CLUSTERS → HIVEST → PORTFOLIO_REVIEW → DONE.
-Entreprise : INTAKE → RESEARCH → ANALYSIS → RED_TEAM → HITL_PENDING → GO_DRAFT → FROZEN → RENDERED → DONE.
+Entreprise : INTAKE → RESEARCH → MARKET_CONTEXT → ANALYSIS → OPPORTUNITIES → RED_TEAM → HITL_PENDING → GO_DRAFT → FROZEN → RENDERED → DONE.
 Les décisions HITL sont GO_DRAFT, RESEARCH_TARGETED, NARROW_SCOPE, PIVOT. Ne jamais auto-attribuer une approbation utilisateur. L'autorisation de préparer le programme ne vaut pas validation de ses conclusions.
 Ne lancer les clusters qu'après les deux pilotes et leur loopback. Une entreprise DONE satisfait toutes les conditions de `contracts/decision-rules.md`.
 
-Avant toute shortlist ou révision : lire `references/market-drivers.md`. Le contexte externe et le classement des drivers industriels sont obligatoires ; la facilité de déploiement ne détermine pas la priorité business.
+L'étape MARKET_CONTEXT utilise `references/market-drivers.md` et produit `market_context` et `drivers` au contrat v0.2. OPPORTUNITIES et RED_TEAM relisent ces sorties. Le contexte externe et le classement des drivers industriels sont obligatoires ; la facilité de déploiement ne détermine pas la priorité business. Un dossier prose n'est pas un `package_ref` validé ; Sphere reste en RESEARCH tant que les originaux ne sont pas archivés.
