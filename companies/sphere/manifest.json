@@ -1,12 +1,12 @@
 {
   "entity_id": "sphere",
   "cutoff": "2026-09-23",
-  "stage": "INTAKE",
-  "package_ref": null,
+  "stage": "HITL_PENDING",
+  "package_ref": "sphere-deliverables/Sphere_pre_HITL_dossier.md",
   "top_unknowns": [
     "Hétérogénéité ERP/MES et données qualité par site ?",
     "Coût réel pertes, arrêts et énergie ?",
     "Autorité groupe/usines pour financer et déployer ?"
   ],
-  "diagnostic_status": "not_started"
+  "diagnostic_status": "pre_hitl"
 }
