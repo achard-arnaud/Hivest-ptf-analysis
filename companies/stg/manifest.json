@@ -1,0 +1,12 @@
+{
+  "entity_id": "stg",
+  "cutoff": "2026-09-23",
+  "stage": "INTAKE",
+  "package_ref": null,
+  "top_unknowns": [
+    "Couverture et interopérabilité TMS/WMS et télématique ?",
+    "Coût de service et contraintes par flux client ?",
+    "Décisions planification/dispatch centralisées ou locales ?"
+  ],
+  "diagnostic_status": "not_started"
+}

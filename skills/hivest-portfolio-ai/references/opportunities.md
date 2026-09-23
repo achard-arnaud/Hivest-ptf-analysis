@@ -1,0 +1,7 @@
+# Use cases et sourcing
+Lire chaîne, claims entreprise et wiki pertinent. Récolter large puis dédupliquer par workflow/outcome, pas par nom d'outil. Séparer cas observé et opportunité hypothétique ; les deux peuvent être utiles à une décision mais n'ont pas le même statut.
+Compléter les champs du schema pour chaque cas : douleur, valeur, propriétaire hypothétique, données/IT/adoption, baseline sans IA, réversibilité, huit ratings, gates, horizon, sourcing, question de validation. Les gates unknown interdisent une priorité eligible.
+Évaluer d'abord data rights, sécurité/OT, contrôle humain, responsabilité et faisabilité ; documenter aussi les non-applicabilités plutôt que les oublier. Aucun bon score économique ne compense un gate bloquant.
+Comparer qualité du processus et automatisation classique à l'IA. Quick win n'est pas synonyme de chatbot ni seulement d'horizon court. Structural change le workflow ; transformation modifie rôles, actifs ou modèle économique. ERIC est réservé aux transformation bets.
+Positionner capacités dans centrality × differentiation puis argumenter BUILD/BUY/PARTNER/OUTSOURCE/NO-ACTION ; ne pas en faire un mapping automatique. Conserver IP, données, contrôles, coût complet et sortie.
+Prioriser ordinalement avec incertitude et sensibilité. Ne pas transférer un ROI fournisseur ni additionner deux gains sur la même base. Shortlist 6–10, et moins uniquement avec scope explicitement réouvert. Aucun fournisseur recommandé.

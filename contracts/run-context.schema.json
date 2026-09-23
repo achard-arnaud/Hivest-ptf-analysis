@@ -1,0 +1,185 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "version": {
+      "const": "0.1.0"
+    },
+    "entity_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "stage": {
+      "enum": [
+        "INTAKE",
+        "RESEARCH",
+        "ANALYSIS",
+        "RED_TEAM",
+        "HITL_PENDING",
+        "GO_DRAFT",
+        "FROZEN",
+        "RENDERED",
+        "DONE"
+      ]
+    },
+    "analysis_dimension": {
+      "const": "business"
+    },
+    "package_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "source_refs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0
+    },
+    "claim_refs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0
+    },
+    "contradictions": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0
+    },
+    "unknowns": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0
+    },
+    "rejected_alternatives": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0
+    },
+    "hard_gates": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0
+    },
+    "versions": {
+      "type": "object",
+      "properties": {
+        "workflow": {
+          "type": "string",
+          "minLength": 1
+        },
+        "template": {
+          "type": "string",
+          "minLength": 1
+        },
+        "fixture": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "workflow",
+        "template",
+        "fixture"
+      ],
+      "additionalProperties": false
+    },
+    "red_team_verdict": {
+      "enum": [
+        "NOT_RUN",
+        "SURVIVES_RED_TEAM",
+        "SURVIVES_WITH_NARROWING",
+        "PIVOT_REQUIRED",
+        "REOPEN_TARGETED"
+      ]
+    },
+    "repair_count": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "hitl": {
+      "anyOf": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "object",
+          "properties": {
+            "decision": {
+              "enum": [
+                "GO_DRAFT",
+                "RESEARCH_TARGETED",
+                "NARROW_SCOPE",
+                "PIVOT"
+              ]
+            },
+            "actor": {
+              "type": "string",
+              "minLength": 1
+            },
+            "decided_at": {
+              "type": "string",
+              "format": "date"
+            },
+            "decision_ref": {
+              "type": "string",
+              "minLength": 1
+            },
+            "package_sha256": {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            }
+          },
+          "required": [
+            "decision",
+            "actor",
+            "decided_at",
+            "decision_ref",
+            "package_sha256"
+          ],
+          "additionalProperties": false
+        }
+      ]
+    },
+    "next_action": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "required": [
+    "version",
+    "entity_id",
+    "stage",
+    "analysis_dimension",
+    "package_sha256",
+    "source_refs",
+    "claim_refs",
+    "contradictions",
+    "unknowns",
+    "rejected_alternatives",
+    "hard_gates",
+    "versions",
+    "red_team_verdict",
+    "repair_count",
+    "hitl",
+    "next_action"
+  ],
+  "additionalProperties": false
+}

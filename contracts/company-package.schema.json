@@ -1,0 +1,877 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "version": {
+      "const": "0.1.0"
+    },
+    "entity_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "cutoff": {
+      "type": "string",
+      "format": "date"
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "scope": {
+            "enum": [
+              "company",
+              "sector",
+              "portfolio"
+            ]
+          },
+          "entity_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 0
+          },
+          "published_at": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "accessed_at": {
+            "type": "string",
+            "format": "date"
+          },
+          "grade": {
+            "enum": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E"
+            ]
+          },
+          "origin_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source_type": {
+            "enum": [
+              "filing",
+              "corporate",
+              "customer_case",
+              "research",
+              "job",
+              "social",
+              "supplied"
+            ]
+          },
+          "access_status": {
+            "enum": [
+              "read",
+              "partial",
+              "inaccessible"
+            ]
+          },
+          "snapshot_uri": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "rights": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "id",
+          "url",
+          "scope",
+          "entity_ids",
+          "published_at",
+          "accessed_at",
+          "grade",
+          "origin_id",
+          "source_type",
+          "access_status",
+          "snapshot_uri",
+          "sha256",
+          "rights"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0
+    },
+    "fragments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "locator": {
+            "type": "string",
+            "minLength": 1
+          },
+          "excerpt": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 1000
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          }
+        },
+        "required": [
+          "id",
+          "source_id",
+          "locator",
+          "excerpt",
+          "sha256"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0
+    },
+    "claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "entity_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "scope": {
+            "enum": [
+              "company",
+              "sector",
+              "portfolio"
+            ]
+          },
+          "statement": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "enum": [
+              "fact",
+              "inference",
+              "hypothesis",
+              "recommendation",
+              "unknown"
+            ]
+          },
+          "confidence": {
+            "enum": [
+              "low",
+              "medium",
+              "high"
+            ]
+          },
+          "fragment_refs": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 0
+          },
+          "basis_claim_refs": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 0
+          },
+          "contradiction_refs": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 0
+          },
+          "observed_at": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "valid_until": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "owner": {
+            "type": "string",
+            "minLength": 1
+          },
+          "validation_question": {
+            "type": "string",
+            "minLength": 1
+          },
+          "deployment_stage": {
+            "enum": [
+              "not_applicable",
+              "announcement",
+              "experiment",
+              "repeatable",
+              "production",
+              "scaled",
+              "unknown"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "entity_id",
+          "scope",
+          "statement",
+          "status",
+          "confidence",
+          "fragment_refs",
+          "basis_claim_refs",
+          "contradiction_refs",
+          "observed_at",
+          "valid_until",
+          "owner",
+          "validation_question",
+          "deployment_stage"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0
+    },
+    "maturity": {
+      "type": "object",
+      "properties": {
+        "dimensions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "enum": [
+                  "strategy_value",
+                  "operating_model",
+                  "data_knowledge",
+                  "technology_platform",
+                  "delivery",
+                  "people_adoption",
+                  "security_risk",
+                  "breadth"
+                ]
+              },
+              "score": {
+                "enum": [
+                  null,
+                  1,
+                  2,
+                  3,
+                  4
+                ]
+              },
+              "status": {
+                "enum": [
+                  "observed",
+                  "inferred",
+                  "unknown"
+                ]
+              },
+              "confidence": {
+                "enum": [
+                  "low",
+                  "medium",
+                  "high"
+                ]
+              },
+              "claim_refs": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "minItems": 0
+              },
+              "counter_evidence": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "minItems": 0
+              },
+              "unknowns": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "minItems": 0
+              },
+              "rationale": {
+                "type": "string",
+                "minLength": 1
+              },
+              "scope": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "id",
+              "score",
+              "status",
+              "confidence",
+              "claim_refs",
+              "counter_evidence",
+              "unknowns",
+              "rationale",
+              "scope"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 8,
+          "maxItems": 8
+        },
+        "summary": {
+          "type": "string",
+          "minLength": 1
+        },
+        "bottlenecks": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0
+        },
+        "applicable_domains": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "operations",
+              "engineering",
+              "revenue",
+              "workspace"
+            ]
+          },
+          "minItems": 1
+        },
+        "excluded_domains_rationale": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0
+        }
+      },
+      "required": [
+        "dimensions",
+        "summary",
+        "bottlenecks",
+        "applicable_domains",
+        "excluded_domains_rationale"
+      ],
+      "additionalProperties": false
+    },
+    "value_chain": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "claim_refs": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 0
+          },
+          "value_creation": {
+            "type": "string",
+            "minLength": 1
+          },
+          "friction": {
+            "type": "string",
+            "minLength": 1
+          },
+          "control_points": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 0
+          },
+          "vrio": {
+            "type": "string",
+            "minLength": 1
+          },
+          "digitalisation": {
+            "type": "string",
+            "minLength": 1
+          },
+          "ai_opportunity_refs": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 0
+          },
+          "constraints": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 0
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "claim_refs",
+          "value_creation",
+          "friction",
+          "control_points",
+          "vrio",
+          "digitalisation",
+          "ai_opportunity_refs",
+          "constraints"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0
+    },
+    "use_cases": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "vertical": {
+            "enum": [
+              "operations",
+              "engineering",
+              "revenue",
+              "workspace"
+            ]
+          },
+          "workflow": {
+            "type": "string",
+            "minLength": 1
+          },
+          "problem": {
+            "type": "string",
+            "minLength": 1
+          },
+          "value_mechanism": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "enum": [
+              "fact",
+              "inference",
+              "hypothesis",
+              "recommendation",
+              "unknown"
+            ]
+          },
+          "company_claim_refs": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 0
+          },
+          "sector_claim_refs": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 0
+          },
+          "business_owner_hypothesis": {
+            "type": "string",
+            "minLength": 1
+          },
+          "data_dependencies": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 0
+          },
+          "technology_dependencies": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 0
+          },
+          "adoption_dependencies": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 0
+          },
+          "gates": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "status": {
+                  "enum": [
+                    "pass",
+                    "fail",
+                    "unknown"
+                  ]
+                },
+                "claim_refs": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "minItems": 0
+                },
+                "reason": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "name",
+                "status",
+                "claim_refs",
+                "reason"
+              ],
+              "additionalProperties": false
+            },
+            "minItems": 1
+          },
+          "priority_state": {
+            "enum": [
+              "eligible",
+              "blocked",
+              "validation_required"
+            ]
+          },
+          "ratings": {
+            "type": "object",
+            "properties": {
+              "economic_value": {
+                "enum": [
+                  "low",
+                  "medium",
+                  "high",
+                  "unknown"
+                ]
+              },
+              "strategic_value": {
+                "enum": [
+                  "low",
+                  "medium",
+                  "high",
+                  "unknown"
+                ]
+              },
+              "feasibility": {
+                "enum": [
+                  "low",
+                  "medium",
+                  "high",
+                  "unknown"
+                ]
+              },
+              "time_to_value": {
+                "enum": [
+                  "low",
+                  "medium",
+                  "high",
+                  "unknown"
+                ]
+              },
+              "repeatability": {
+                "enum": [
+                  "low",
+                  "medium",
+                  "high",
+                  "unknown"
+                ]
+              },
+              "adoption": {
+                "enum": [
+                  "low",
+                  "medium",
+                  "high",
+                  "unknown"
+                ]
+              },
+              "risk": {
+                "enum": [
+                  "low",
+                  "medium",
+                  "high",
+                  "unknown"
+                ]
+              },
+              "portfolio_reuse": {
+                "enum": [
+                  "low",
+                  "medium",
+                  "high",
+                  "unknown"
+                ]
+              }
+            },
+            "required": [
+              "economic_value",
+              "strategic_value",
+              "feasibility",
+              "time_to_value",
+              "repeatability",
+              "adoption",
+              "risk",
+              "portfolio_reuse"
+            ],
+            "additionalProperties": false
+          },
+          "family": {
+            "enum": [
+              "quick_win",
+              "structural",
+              "transformation"
+            ]
+          },
+          "horizon": {
+            "enum": [
+              "0-6",
+              "6-18",
+              "18-36"
+            ]
+          },
+          "sourcing_posture": {
+            "enum": [
+              "BUILD",
+              "BUY",
+              "PARTNER",
+              "OUTSOURCE",
+              "NO-ACTION"
+            ]
+          },
+          "baseline_without_ai": {
+            "type": "string",
+            "minLength": 1
+          },
+          "reversibility": {
+            "type": "string",
+            "minLength": 1
+          },
+          "unknowns": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 0
+          },
+          "validation_question": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "id",
+          "title",
+          "vertical",
+          "workflow",
+          "problem",
+          "value_mechanism",
+          "status",
+          "company_claim_refs",
+          "sector_claim_refs",
+          "business_owner_hypothesis",
+          "data_dependencies",
+          "technology_dependencies",
+          "adoption_dependencies",
+          "gates",
+          "priority_state",
+          "ratings",
+          "family",
+          "horizon",
+          "sourcing_posture",
+          "baseline_without_ai",
+          "reversibility",
+          "unknowns",
+          "validation_question"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0
+    },
+    "strategic_positions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "activity_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "centrality": {
+            "enum": [
+              "support",
+              "enabler",
+              "core"
+            ]
+          },
+          "differentiation": {
+            "enum": [
+              "commodity",
+              "parity",
+              "differentiating"
+            ]
+          },
+          "claim_refs": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 0
+          },
+          "rationale": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sourcing_posture": {
+            "enum": [
+              "BUILD",
+              "BUY",
+              "PARTNER",
+              "OUTSOURCE",
+              "NO-ACTION"
+            ]
+          },
+          "reversibility": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "activity_id",
+          "centrality",
+          "differentiation",
+          "claim_refs",
+          "rationale",
+          "sourcing_posture",
+          "reversibility"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0
+    },
+    "contradictions": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0
+    },
+    "unknowns": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0
+    }
+  },
+  "required": [
+    "version",
+    "entity_id",
+    "cutoff",
+    "sources",
+    "fragments",
+    "claims",
+    "maturity",
+    "value_chain",
+    "use_cases",
+    "strategic_positions",
+    "contradictions",
+    "unknowns"
+  ],
+  "additionalProperties": false
+}

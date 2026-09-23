@@ -1,0 +1,4 @@
+interface:
+  display_name: "Hivest Portfolio AI"
+  short_description: "Diagnostic IA et création de valeur portefeuille"
+  default_prompt: "Utilise $hivest-portfolio-ai pour reprendre le programme au dernier gate validé."

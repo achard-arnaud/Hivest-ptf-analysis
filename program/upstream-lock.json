@@ -1,0 +1,75 @@
+{
+  "inspected_at": "2026-09-23",
+  "mode": "selective_procedure_and_contract_reuse_no_runtime_import",
+  "files": [
+    {
+      "repository": "ai-maturity-diagnostic",
+      "path": "contracts/claim.schema.yaml",
+      "commit": "9414d73d5d623e1709b721f50e7e57281bd2db93",
+      "blob": "f6ed19cc9adfe9b030f8f3fa0bafe1fd72ee1079"
+    },
+    {
+      "repository": "ai-maturity-diagnostic",
+      "path": "contracts/evidence_v1.schema.yaml",
+      "commit": "9414d73d5d623e1709b721f50e7e57281bd2db93",
+      "blob": "4af5d355a9b5ed30c4576d600a6faf405aadc3f5"
+    },
+    {
+      "repository": "ai-maturity-diagnostic",
+      "path": "contracts/use_case_inventory.schema.yaml",
+      "commit": "9414d73d5d623e1709b721f50e7e57281bd2db93",
+      "blob": "96de557568cae126d3d5b9360be87f1312c9890f"
+    },
+    {
+      "repository": "ai-maturity-diagnostic",
+      "path": "contracts/value_chain_causal.schema.yaml",
+      "commit": "9414d73d5d623e1709b721f50e7e57281bd2db93",
+      "blob": "5a27292e9acc0b0554a2f066296ac138fc0213e2"
+    },
+    {
+      "repository": "ai-maturity-diagnostic",
+      "path": "skills/ai-strategy-control-tower/SKILL.md",
+      "commit": "9414d73d5d623e1709b721f50e7e57281bd2db93",
+      "blob": "b4040a541202bc7656b07e0ecc45d4588493b326"
+    },
+    {
+      "repository": "ai-maturity-diagnostic",
+      "path": "skills/enterprise-use-case-intelligence/SKILL.md",
+      "commit": "9414d73d5d623e1709b721f50e7e57281bd2db93",
+      "blob": "83df4d049ae9ac6020612c5fdc0d0e62dd2a1cd2"
+    },
+    {
+      "repository": "ai-maturity-diagnostic",
+      "path": "skills/enterprise-value-chain-causal-analysis/SKILL.md",
+      "commit": "9414d73d5d623e1709b721f50e7e57281bd2db93",
+      "blob": "654a401759b1819e5e67eaeb2033b2d1731c9626"
+    },
+    {
+      "repository": "skills-notes-and-storytelling",
+      "path": "AGENTS.md",
+      "commit": "c10f0d30b918b33d9e5d22c98439ffac64a45bca",
+      "blob": "bf423a2783da0817634c16a4acf6408380813d45"
+    },
+    {
+      "repository": "skills-notes-and-storytelling",
+      "path": "SKILL.md",
+      "commit": "c10f0d30b918b33d9e5d22c98439ffac64a45bca",
+      "blob": "9ebe99a401dec76af46e3e71c98db6bb24159281"
+    },
+    {
+      "repository": "skills-notes-and-storytelling",
+      "url": "https://github.com/achard-arnaud/skills-notes-and-storytelling/blob/c10f0d30b918b33d9e5d22c98439ffac64a45bca/contracts/claims-graph-light.schema.json",
+      "blob": "2ac3dcdda526abb4deeb315af1b16f7c7597d58f"
+    },
+    {
+      "repository": "skills-notes-and-storytelling",
+      "url": "https://github.com/achard-arnaud/skills-notes-and-storytelling/blob/c10f0d30b918b33d9e5d22c98439ffac64a45bca/references/bridges-integration-and-run-memory.md",
+      "blob": "2a756383b606bb867504d87dcf563ba8a95f83b2"
+    },
+    {
+      "repository": "skills-notes-and-storytelling",
+      "url": "https://github.com/achard-arnaud/skills-notes-and-storytelling/blob/c10f0d30b918b33d9e5d22c98439ffac64a45bca/references/dreaming-self-healing.md",
+      "blob": "975c76bd8d4b058f068f347bfb95eef2738bf714"
+    }
+  ]
+}

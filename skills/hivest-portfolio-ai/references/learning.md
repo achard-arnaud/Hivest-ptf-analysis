@@ -1,0 +1,6 @@
+# Loopback et portefeuille
+Après chaque entreprise : capturer défauts, surprises, corrections et patterns réellement réutilisables. Tier 0 NO_REUSABLE_DELTA est valide ; Tier 1 delta borné ; Tier 2 contre-analyse ciblée ; Tier 3 revue multi-runs explicite. Ne pas promouvoir une règle silencieusement.
+Créer un événement : proposition attaquée, verdict, réparation, portée du delta, ressources affectées, fixture, stop condition. Canonicaliser seulement après décision humaine, avec version et rollback. Ne pas stocker le run brut dans le code.
+Après Sphere ET STG : comparer couverture, biais industriels, 7S inconnu, densité des trois pages et valeur de la 9-box. Présenter le delta avant les clusters.
+Consolider uniquement depuis claims entreprise. Toute recommandation mutualisée conserve les IDs d'au moins deux entreprises distinctes, les différences d'intégration/ownership et une hypothèse économique testable. Une similarité n'est pas une preuve de gain de mutualisation.
+Produire heatmap avec unknown et couverture, cas transverses et locaux, capability gaps et assets partagés candidats. Diagnostiquer Hivest après les participations. Aucun poids économique inventé ; ordre de recherche séparé des allocations de capital.

@@ -1,0 +1,1312 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "version": {
+      "const": "0.1.0"
+    },
+    "template": {
+      "const": "THREE_PAGER_PORTFOLIO_AI"
+    },
+    "payload": {
+      "type": "object",
+      "properties": {
+        "entity_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "cutoff": {
+          "type": "string",
+          "format": "date"
+        },
+        "page1": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string",
+              "minLength": 1
+            },
+            "identity": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "status": {
+                    "enum": [
+                      "fact",
+                      "inference",
+                      "hypothesis",
+                      "recommendation",
+                      "unknown"
+                    ]
+                  },
+                  "claim_refs": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "minItems": 0
+                  }
+                },
+                "required": [
+                  "text",
+                  "status",
+                  "claim_refs"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 1
+            },
+            "financials": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "status": {
+                    "enum": [
+                      "fact",
+                      "inference",
+                      "hypothesis",
+                      "recommendation",
+                      "unknown"
+                    ]
+                  },
+                  "claim_refs": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "minItems": 0
+                  }
+                },
+                "required": [
+                  "text",
+                  "status",
+                  "claim_refs"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 1
+            },
+            "business_thesis": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "status": {
+                    "enum": [
+                      "fact",
+                      "inference",
+                      "hypothesis",
+                      "recommendation",
+                      "unknown"
+                    ]
+                  },
+                  "claim_refs": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "minItems": 0
+                  }
+                },
+                "required": [
+                  "text",
+                  "status",
+                  "claim_refs"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 1
+            },
+            "seven_s": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "status": {
+                    "enum": [
+                      "fact",
+                      "inference",
+                      "hypothesis",
+                      "recommendation",
+                      "unknown"
+                    ]
+                  },
+                  "claim_refs": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "minItems": 0
+                  }
+                },
+                "required": [
+                  "text",
+                  "status",
+                  "claim_refs"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 7
+            },
+            "swot": {
+              "type": "object",
+              "properties": {
+                "strengths": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "text": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "status": {
+                        "enum": [
+                          "fact",
+                          "inference",
+                          "hypothesis",
+                          "recommendation",
+                          "unknown"
+                        ]
+                      },
+                      "claim_refs": {
+                        "type": "array",
+                        "items": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "minItems": 0
+                      }
+                    },
+                    "required": [
+                      "text",
+                      "status",
+                      "claim_refs"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "minItems": 1
+                },
+                "weaknesses": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "text": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "status": {
+                        "enum": [
+                          "fact",
+                          "inference",
+                          "hypothesis",
+                          "recommendation",
+                          "unknown"
+                        ]
+                      },
+                      "claim_refs": {
+                        "type": "array",
+                        "items": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "minItems": 0
+                      }
+                    },
+                    "required": [
+                      "text",
+                      "status",
+                      "claim_refs"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "minItems": 1
+                },
+                "opportunities": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "text": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "status": {
+                        "enum": [
+                          "fact",
+                          "inference",
+                          "hypothesis",
+                          "recommendation",
+                          "unknown"
+                        ]
+                      },
+                      "claim_refs": {
+                        "type": "array",
+                        "items": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "minItems": 0
+                      }
+                    },
+                    "required": [
+                      "text",
+                      "status",
+                      "claim_refs"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "minItems": 1
+                },
+                "threats": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "text": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "status": {
+                        "enum": [
+                          "fact",
+                          "inference",
+                          "hypothesis",
+                          "recommendation",
+                          "unknown"
+                        ]
+                      },
+                      "claim_refs": {
+                        "type": "array",
+                        "items": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "minItems": 0
+                      }
+                    },
+                    "required": [
+                      "text",
+                      "status",
+                      "claim_refs"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "minItems": 1
+                }
+              },
+              "required": [
+                "strengths",
+                "weaknesses",
+                "opportunities",
+                "threats"
+              ],
+              "additionalProperties": false
+            },
+            "maturity": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "status": {
+                    "enum": [
+                      "fact",
+                      "inference",
+                      "hypothesis",
+                      "recommendation",
+                      "unknown"
+                    ]
+                  },
+                  "claim_refs": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "minItems": 0
+                  }
+                },
+                "required": [
+                  "text",
+                  "status",
+                  "claim_refs"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 8
+            }
+          },
+          "required": [
+            "title",
+            "identity",
+            "financials",
+            "business_thesis",
+            "seven_s",
+            "swot",
+            "maturity"
+          ],
+          "additionalProperties": false
+        },
+        "page2": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string",
+              "minLength": 1
+            },
+            "activities": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "status": {
+                    "enum": [
+                      "fact",
+                      "inference",
+                      "hypothesis",
+                      "recommendation",
+                      "unknown"
+                    ]
+                  },
+                  "claim_refs": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "minItems": 0
+                  }
+                },
+                "required": [
+                  "text",
+                  "status",
+                  "claim_refs"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 1
+            },
+            "supports": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "status": {
+                    "enum": [
+                      "fact",
+                      "inference",
+                      "hypothesis",
+                      "recommendation",
+                      "unknown"
+                    ]
+                  },
+                  "claim_refs": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "minItems": 0
+                  }
+                },
+                "required": [
+                  "text",
+                  "status",
+                  "claim_refs"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 1
+            },
+            "handoffs": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "status": {
+                    "enum": [
+                      "fact",
+                      "inference",
+                      "hypothesis",
+                      "recommendation",
+                      "unknown"
+                    ]
+                  },
+                  "claim_refs": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "minItems": 0
+                  }
+                },
+                "required": [
+                  "text",
+                  "status",
+                  "claim_refs"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 1
+            }
+          },
+          "required": [
+            "title",
+            "activities",
+            "supports",
+            "handoffs"
+          ],
+          "additionalProperties": false
+        },
+        "page3": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string",
+              "minLength": 1
+            },
+            "strategic_positions": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "status": {
+                    "enum": [
+                      "fact",
+                      "inference",
+                      "hypothesis",
+                      "recommendation",
+                      "unknown"
+                    ]
+                  },
+                  "claim_refs": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "minItems": 0
+                  }
+                },
+                "required": [
+                  "text",
+                  "status",
+                  "claim_refs"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 1
+            },
+            "use_case_ids": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "minItems": 6,
+              "maxItems": 10,
+              "uniqueItems": true
+            },
+            "horizons": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "status": {
+                    "enum": [
+                      "fact",
+                      "inference",
+                      "hypothesis",
+                      "recommendation",
+                      "unknown"
+                    ]
+                  },
+                  "claim_refs": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "minItems": 0
+                  }
+                },
+                "required": [
+                  "text",
+                  "status",
+                  "claim_refs"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 1
+            },
+            "sourcing": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "status": {
+                    "enum": [
+                      "fact",
+                      "inference",
+                      "hypothesis",
+                      "recommendation",
+                      "unknown"
+                    ]
+                  },
+                  "claim_refs": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "minItems": 0
+                  }
+                },
+                "required": [
+                  "text",
+                  "status",
+                  "claim_refs"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 1
+            },
+            "equity_thesis": {
+              "type": "object",
+              "properties": {
+                "text": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "status": {
+                  "enum": [
+                    "fact",
+                    "inference",
+                    "hypothesis",
+                    "recommendation",
+                    "unknown"
+                  ]
+                },
+                "claim_refs": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "minItems": 0
+                }
+              },
+              "required": [
+                "text",
+                "status",
+                "claim_refs"
+              ],
+              "additionalProperties": false
+            },
+            "next_validation": {
+              "type": "object",
+              "properties": {
+                "text": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "status": {
+                  "enum": [
+                    "fact",
+                    "inference",
+                    "hypothesis",
+                    "recommendation",
+                    "unknown"
+                  ]
+                },
+                "claim_refs": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "minItems": 0
+                }
+              },
+              "required": [
+                "text",
+                "status",
+                "claim_refs"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "title",
+            "strategic_positions",
+            "use_case_ids",
+            "horizons",
+            "sourcing",
+            "equity_thesis",
+            "next_validation"
+          ],
+          "additionalProperties": false
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1
+        },
+        "use_cases": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "title": {
+                "type": "string",
+                "minLength": 1
+              },
+              "vertical": {
+                "enum": [
+                  "operations",
+                  "engineering",
+                  "revenue",
+                  "workspace"
+                ]
+              },
+              "workflow": {
+                "type": "string",
+                "minLength": 1
+              },
+              "problem": {
+                "type": "string",
+                "minLength": 1
+              },
+              "value_mechanism": {
+                "type": "string",
+                "minLength": 1
+              },
+              "status": {
+                "enum": [
+                  "fact",
+                  "inference",
+                  "hypothesis",
+                  "recommendation",
+                  "unknown"
+                ]
+              },
+              "company_claim_refs": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "minItems": 0
+              },
+              "sector_claim_refs": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "minItems": 0
+              },
+              "business_owner_hypothesis": {
+                "type": "string",
+                "minLength": 1
+              },
+              "data_dependencies": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "minItems": 0
+              },
+              "technology_dependencies": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "minItems": 0
+              },
+              "adoption_dependencies": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "minItems": 0
+              },
+              "gates": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "status": {
+                      "enum": [
+                        "pass",
+                        "fail",
+                        "unknown"
+                      ]
+                    },
+                    "claim_refs": {
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "minItems": 0
+                    },
+                    "reason": {
+                      "type": "string",
+                      "minLength": 1
+                    }
+                  },
+                  "required": [
+                    "name",
+                    "status",
+                    "claim_refs",
+                    "reason"
+                  ],
+                  "additionalProperties": false
+                },
+                "minItems": 1
+              },
+              "priority_state": {
+                "enum": [
+                  "eligible",
+                  "blocked",
+                  "validation_required"
+                ]
+              },
+              "ratings": {
+                "type": "object",
+                "properties": {
+                  "economic_value": {
+                    "enum": [
+                      "low",
+                      "medium",
+                      "high",
+                      "unknown"
+                    ]
+                  },
+                  "strategic_value": {
+                    "enum": [
+                      "low",
+                      "medium",
+                      "high",
+                      "unknown"
+                    ]
+                  },
+                  "feasibility": {
+                    "enum": [
+                      "low",
+                      "medium",
+                      "high",
+                      "unknown"
+                    ]
+                  },
+                  "time_to_value": {
+                    "enum": [
+                      "low",
+                      "medium",
+                      "high",
+                      "unknown"
+                    ]
+                  },
+                  "repeatability": {
+                    "enum": [
+                      "low",
+                      "medium",
+                      "high",
+                      "unknown"
+                    ]
+                  },
+                  "adoption": {
+                    "enum": [
+                      "low",
+                      "medium",
+                      "high",
+                      "unknown"
+                    ]
+                  },
+                  "risk": {
+                    "enum": [
+                      "low",
+                      "medium",
+                      "high",
+                      "unknown"
+                    ]
+                  },
+                  "portfolio_reuse": {
+                    "enum": [
+                      "low",
+                      "medium",
+                      "high",
+                      "unknown"
+                    ]
+                  }
+                },
+                "required": [
+                  "economic_value",
+                  "strategic_value",
+                  "feasibility",
+                  "time_to_value",
+                  "repeatability",
+                  "adoption",
+                  "risk",
+                  "portfolio_reuse"
+                ],
+                "additionalProperties": false
+              },
+              "family": {
+                "enum": [
+                  "quick_win",
+                  "structural",
+                  "transformation"
+                ]
+              },
+              "horizon": {
+                "enum": [
+                  "0-6",
+                  "6-18",
+                  "18-36"
+                ]
+              },
+              "sourcing_posture": {
+                "enum": [
+                  "BUILD",
+                  "BUY",
+                  "PARTNER",
+                  "OUTSOURCE",
+                  "NO-ACTION"
+                ]
+              },
+              "baseline_without_ai": {
+                "type": "string",
+                "minLength": 1
+              },
+              "reversibility": {
+                "type": "string",
+                "minLength": 1
+              },
+              "unknowns": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "minItems": 0
+              },
+              "validation_question": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "id",
+              "title",
+              "vertical",
+              "workflow",
+              "problem",
+              "value_mechanism",
+              "status",
+              "company_claim_refs",
+              "sector_claim_refs",
+              "business_owner_hypothesis",
+              "data_dependencies",
+              "technology_dependencies",
+              "adoption_dependencies",
+              "gates",
+              "priority_state",
+              "ratings",
+              "family",
+              "horizon",
+              "sourcing_posture",
+              "baseline_without_ai",
+              "reversibility",
+              "unknowns",
+              "validation_question"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 6,
+          "maxItems": 10
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "url": {
+                "type": "string",
+                "format": "uri"
+              },
+              "scope": {
+                "enum": [
+                  "company",
+                  "sector",
+                  "portfolio"
+                ]
+              },
+              "entity_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "minItems": 0
+              },
+              "published_at": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "format": "date"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "accessed_at": {
+                "type": "string",
+                "format": "date"
+              },
+              "grade": {
+                "enum": [
+                  "A",
+                  "B",
+                  "C",
+                  "D",
+                  "E"
+                ]
+              },
+              "origin_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source_type": {
+                "enum": [
+                  "filing",
+                  "corporate",
+                  "customer_case",
+                  "research",
+                  "job",
+                  "social",
+                  "supplied"
+                ]
+              },
+              "access_status": {
+                "enum": [
+                  "read",
+                  "partial",
+                  "inaccessible"
+                ]
+              },
+              "snapshot_uri": {
+                "type": "string",
+                "minLength": 1
+              },
+              "sha256": {
+                "type": "string",
+                "pattern": "^[a-f0-9]{64}$"
+              },
+              "rights": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "id",
+              "url",
+              "scope",
+              "entity_ids",
+              "published_at",
+              "accessed_at",
+              "grade",
+              "origin_id",
+              "source_type",
+              "access_status",
+              "snapshot_uri",
+              "sha256",
+              "rights"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 0
+        }
+      },
+      "required": [
+        "entity_id",
+        "cutoff",
+        "page1",
+        "page2",
+        "page3",
+        "source_ids",
+        "use_cases",
+        "sources"
+      ],
+      "additionalProperties": false
+    },
+    "payload_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "run_context": {
+      "type": "object",
+      "properties": {
+        "version": {
+          "const": "0.1.0"
+        },
+        "entity_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "stage": {
+          "enum": [
+            "INTAKE",
+            "RESEARCH",
+            "ANALYSIS",
+            "RED_TEAM",
+            "HITL_PENDING",
+            "GO_DRAFT",
+            "FROZEN",
+            "RENDERED",
+            "DONE"
+          ]
+        },
+        "analysis_dimension": {
+          "const": "business"
+        },
+        "package_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "source_refs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0
+        },
+        "claim_refs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0
+        },
+        "contradictions": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0
+        },
+        "unknowns": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0
+        },
+        "rejected_alternatives": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0
+        },
+        "hard_gates": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0
+        },
+        "versions": {
+          "type": "object",
+          "properties": {
+            "workflow": {
+              "type": "string",
+              "minLength": 1
+            },
+            "template": {
+              "type": "string",
+              "minLength": 1
+            },
+            "fixture": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "workflow",
+            "template",
+            "fixture"
+          ],
+          "additionalProperties": false
+        },
+        "red_team_verdict": {
+          "enum": [
+            "NOT_RUN",
+            "SURVIVES_RED_TEAM",
+            "SURVIVES_WITH_NARROWING",
+            "PIVOT_REQUIRED",
+            "REOPEN_TARGETED"
+          ]
+        },
+        "repair_count": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "hitl": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "object",
+              "properties": {
+                "decision": {
+                  "enum": [
+                    "GO_DRAFT",
+                    "RESEARCH_TARGETED",
+                    "NARROW_SCOPE",
+                    "PIVOT"
+                  ]
+                },
+                "actor": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "decided_at": {
+                  "type": "string",
+                  "format": "date"
+                },
+                "decision_ref": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "package_sha256": {
+                  "type": "string",
+                  "pattern": "^[a-f0-9]{64}$"
+                }
+              },
+              "required": [
+                "decision",
+                "actor",
+                "decided_at",
+                "decision_ref",
+                "package_sha256"
+              ],
+              "additionalProperties": false
+            }
+          ]
+        },
+        "next_action": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "version",
+        "entity_id",
+        "stage",
+        "analysis_dimension",
+        "package_sha256",
+        "source_refs",
+        "claim_refs",
+        "contradictions",
+        "unknowns",
+        "rejected_alternatives",
+        "hard_gates",
+        "versions",
+        "red_team_verdict",
+        "repair_count",
+        "hitl",
+        "next_action"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "version",
+    "template",
+    "payload",
+    "payload_sha256",
+    "run_context"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,20 @@
+{
+  "version": "0.1.0",
+  "phase": "PROGRAM_DESIGN_READY",
+  "design_status": "candidate_for_pilots",
+  "next_action": "Sphere research, then pre-HITL dossier",
+  "pilots": [
+    "sphere",
+    "stg"
+  ],
+  "pilots_started": false,
+  "template_status": "candidate_unrendered",
+  "production_allowed": false,
+  "hitl": null,
+  "open_gates": [
+    "pilot_diagnostics",
+    "human_GO_DRAFT_each_pilot",
+    "two_render_QA",
+    "pilot_loopback"
+  ]
+}
