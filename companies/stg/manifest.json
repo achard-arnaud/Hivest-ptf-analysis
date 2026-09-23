@@ -1,14 +1,15 @@
 {
   "entity_id": "stg",
   "cutoff": "2026-09-23",
-  "stage": "INTAKE",
+  "stage": "RESEARCH",
   "package_ref": null,
   "top_unknowns": [
     "Couverture et interopérabilité TMS/WMS et télématique ?",
     "Coût de service et contraintes par flux client ?",
     "Décisions planification/dispatch centralisées ou locales ?"
   ],
-  "diagnostic_status": "not_started",
+  "diagnostic_status": "transport_only_intake_after_boreal_separation; package_v02_and_original_capture_pending",
+  "intake_ref": "companies/stg/intake_2026.md",
   "required_pitch_fields": [
     "COO",
     "DSI",

@@ -2,7 +2,7 @@
   "version": "0.2.0",
   "phase": "PILOTS",
   "design_status": "candidate_for_pilots",
-  "next_action": "Sphere: compléter archivage originaux avant HITL ; utiliser bundle v0.2 enrichi et questions ciblées ; STG ensuite",
+  "next_action": "STG: confirmer périmètre transport après séparation Boréal, construire bundle v0.2 et baselines TMS/dispatch ; Sphere: archivage originaux avant HITL ; comparer les deux pilotes puis loopback",
   "pilots": [
     "sphere",
     "stg"
