@@ -1,10 +1,14 @@
 {
   "entity_id": "novasol-chemicals",
   "cutoff": "2026-09-23",
-  "stage": "INTAKE",
+  "stage": "RESEARCH",
   "package_ref": null,
-  "top_unknowns": [],
-  "diagnostic_status": "not_started",
+  "top_unknowns": [
+    "Comptes NBB consolidés et périmètre Novasol/filiales : CA, marge brute, cash et stock par verticale/pays ?",
+    "Mandats et dépendances fournisseurs/clients et exposition REACH/CLP par SKU/pays ?",
+    "COO/DSI/data owners et architecture ERP/CRM/PIM, qualité des référentiels et ML réellement observé ?"
+  ],
+  "diagnostic_status": "primary_web_research_bridge_only; NBB_originals_and_bundle_v02_pending",
   "required_pitch_fields": [
     "COO",
     "DSI",
@@ -12,5 +16,6 @@
     "ml_strategy_observed",
     "ml_strategy_proposed"
   ],
-  "leadership_register_ref": "program/leadership_register.json"
+  "leadership_register_ref": "program/leadership_register.json",
+  "intake_ref": "companies/novasol-chemicals/intake_2026-09-24.md"
 }
