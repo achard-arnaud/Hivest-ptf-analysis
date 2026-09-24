@@ -11,3 +11,7 @@ Lire [le registre ToT et ses corrections](source_register_2026-09-24.md) avant d
 ## Seconde passe business case
 
 [Recherche ToT × self-consistency du 24/09/2026](research_2026-09-24_tot_consistency.md) : trois lectures concurrentes de la marge (densité, service/froid, prix et interface Boréal), journal B1–B8, préfigurations des trois pages et questions exécutables. Le communiqué STG du 23/09 établit les accords de services et la transition avec Boréal ; les comptes pro forma, coûts par flux et déploiements data/ML restent ouverts. La note est une analyse RESEARCH, sans GO_DRAFT.
+
+## Complément marché et passage à Claude
+
+[Contexte sectoriel du 24/09/2026](market_context_2026-09-24.md) : segmentation par flux, structure concurrentielle STEF/Delanchy/Primever, frontières de comparabilité, drivers et limites du chiffre macro SDES. [Handoff trois pages pour Claude](handoff_claude_2026-09-24.md) : contenu proposé P1–P3, table des données internes nécessaires, protocole contrefactuel, verdict de recherche et gates. Le cadrage sectoriel est prêt ; le business case chiffré, les captures intègres, le bundle v0.2 et le GO_DRAFT demeurent ouverts. Le statut reste RESEARCH.
