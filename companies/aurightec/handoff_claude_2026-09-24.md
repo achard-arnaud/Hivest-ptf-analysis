@@ -1,0 +1,9 @@
+# Passage de relais à Claude — Aurightec
+
+Reprendre `companies/aurightec/INDEX.md`, puis `source_register_2026-09-24.md`, `market_context_2026-09-24.md` et `business_case_validation_2026-09-24.md`. Lire `AGENTS.md`, `program/state.json`, `companies/aurightec/manifest.json` et la procédure de l'étape avant action. Les deux fichiers `research_brief_nlm_tot_*` et `source_leads_supplied_*` sont des **inputs non probants** ; le registre corrige leur identifiant estonien erroné.
+
+**Mission immédiate :** compléter les trois inconnues ciblées, acquérir les originaux autorisés hors code avec SHA-256, établir fragments/claims et bundle v0.2 ; tester `scripts/validate_bundle.py` et les gates du dépôt. Demander DAF/ops/IT : consolidation et contribution des trois sites, contrats BOM/données, ERP/MES/qualité, budget/coût et owners IA Chine, COO/DSI groupe. Résoudre le CA et les marges par programme avant score ou shortlist. L'article Chine permet d'écrire « l'entreprise affirme avoir déployé » ; éviter « le groupe a prouvé +125 % de productivité ».
+
+**Narrative candidate du futur trois pages, seulement après gates :** (1) Aurightec post-cession et pression de marge concrète à Tallinn, marché EMS concurrentiel ; (2) chaîne sourcing → NPI → test/qualité → livraison/service et baselines ; (3) priorités conditionnelles sur données et droits, avec déploiements déclarés en Chine et scénario de transfert à tester. Tenir trois pages selon `templates/THREE_PAGER_EXEC_v0.3.md`, profils CSS et QA visuelle prescrits ; aucune recommandation fournisseur, aucun ROI inventé.
+
+**Décision de passation :** recherche prête pour reprise ciblée par Claude, **rendu final non autorisé à ce stade**. Le programme est `PILOTS` avec `production_allowed=false`; pilotes Sphere/STG, loopback, dossier pré-HITL puis décision humaine `GO_DRAFT` Aurightec sont requis avant freeze/rendu. Ne pas modifier ces états pour accélérer le rendu.
