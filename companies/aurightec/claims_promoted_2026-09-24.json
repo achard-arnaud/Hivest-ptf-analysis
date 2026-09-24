@@ -1,0 +1,87 @@
+{
+  "version": "research_claims_0.1",
+  "entity": "aurightec",
+  "cutoff": "2026-09-23",
+  "reviewed_on": "2026-09-24",
+  "capture_kind": "web_reader_excerpts_only",
+  "original_snapshot_uri": null,
+  "original_sha256": null,
+  "bundle_v0_2_validated": false,
+  "claims": [
+    {
+      "id": "AUR-C01",
+      "kind": "fact",
+      "status": "promoted_at_source_scope",
+      "scope": "Aurightec Estonia AS, FY2025 vs FY2024",
+      "statement": "Revenue €36,466,707 versus €40,785,234, a reported decline of €4,318,527 (10.59%).",
+      "source": "S-AUR-02",
+      "locator": "income statement, PDF pp. 6-7",
+      "limit": "Subsidiary accounts; not group turnover or organic sales."
+    },
+    {
+      "id": "AUR-C02",
+      "kind": "fact",
+      "status": "promoted_at_source_scope",
+      "scope": "Aurightec Estonia AS, related-party sales, FY2025 vs FY2024",
+      "statement": "Sales to other companies in the consolidation group fell from €4,152,422 (€4,070,673 goods and €81,749 services) to €207,469 (goods only). The note states these are included in revenue.",
+      "source": "S-AUR-02",
+      "locator": "note 18, PDF pp. 22-23, MÜÜDUD and explanatory paragraph",
+      "limit": "Classification and counterparty changes after disposals require reconciliation."
+    },
+    {
+      "id": "AUR-C03",
+      "kind": "inference",
+      "status": "promoted_with_qualification",
+      "scope": "Aurightec Estonia AS, arithmetic decomposition only",
+      "statement": "The €3,944,953 decline in disclosed related-party sales is 91.35% of the €4,318,527 reported revenue decline. Subtracting disclosed related-party sales yields €36,259,238 in 2025 versus €36,632,812 in 2024, a 1.02% decline.",
+      "sources": ["S-AUR-02"],
+      "locators": ["income statement, PDF pp. 6-7", "note 18, PDF pp. 22-23"],
+      "limit": "Not an organic growth estimate, causal attribution, or proof that external customer demand was stable. Do not add the separate geographic Morocco delta to related-party delta."
+    },
+    {
+      "id": "AUR-C04",
+      "kind": "fact",
+      "status": "promoted_at_source_scope",
+      "scope": "Aurightec Estonia AS, FY2025",
+      "statement": "Net loss €902,739, raw materials and materials expense €22,792,125, inventories €5,775,028; this raw-materials line is 62.50% of revenue. The wider goods/raw materials/services category totals €23,643,169.",
+      "source": "S-AUR-02",
+      "locator": "financial statements and notes, PDF pp. 6-8, 20-21, note 14",
+      "limit": "Expense share is not avoidable savings or a procurement ROI."
+    },
+    {
+      "id": "AUR-C05",
+      "kind": "fact",
+      "status": "promoted_at_source_scope",
+      "scope": "Financière de l'Ombrée, SIREN 413101957",
+      "statement": "Consolidated accounts for the financial year ended 31 December 2025 were filed.",
+      "source": "S-AUR-15",
+      "locator": "BODACC C 151, notice 7115, 10-11 August 2026, p. 1",
+      "limit": "Notice contains no financial amounts. The original consolidated accounts remain unread."
+    },
+    {
+      "id": "AUR-C06",
+      "kind": "fact",
+      "status": "promoted_at_source_scope",
+      "scope": "Eolane (China) Co., Ltd, 2024",
+      "statement": "Listed by JIPM among 2024 Award for TPM Excellence recipients.",
+      "source": "S-AUR-14",
+      "locator": "Winners for 2024 Awards, Award for TPM Excellence, Eolane (China) entry",
+      "limit": "Does not validate Aurightec's claimed 23% defect or 50% downtime reductions, nor establish AI causality."
+    },
+    {
+      "id": "AUR-C07",
+      "kind": "attributed_company_claim",
+      "status": "promoted_as_attribution_only",
+      "scope": "Aurightec China, not group-wide",
+      "statement": "Aurightec China states that it launched a local AI platform in H1 2025, connected an early-2025 data warehouse to enterprise systems, and deployed OCR, order handling, AIOps, knowledge and 8D assistance.",
+      "sources": ["S-AUR-09", "S-AUR-10"],
+      "locators": ["AI-driven digital foundation, sections 2-3", "AI operations article, applications section"],
+      "limit": "One corporate editorial origin; deployment and measured impact unverified independently, group replication unknown."
+    }
+  ],
+  "not_promoted": [
+    {"id": "AUR-N01", "statement": "Pappers 2025 consolidated turnover €95.6m, EBITDA €6.69m and net profit €329k", "source": "S-AUR-16", "reason": "Secondary aggregation; original consolidated accounts unavailable and perimeter unreconciled."},
+    {"id": "AUR-N02", "statement": "Tallinn demand contracted 10.6% organically", "source": "S-AUR-02", "reason": "Intra-group revenue movement explains most of the reported accounting change; external customer and perimeter bridge unavailable."},
+    {"id": "AUR-N03", "statement": "AI improved China's operational efficiency by 125%", "source": "S-AUR-10", "reason": "Company assertion has undefined baseline, unit, period and independent validation."}
+  ]
+}

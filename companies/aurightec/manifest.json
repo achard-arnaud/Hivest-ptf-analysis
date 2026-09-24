@@ -1,14 +1,24 @@
 {
   "entity_id": "aurightec",
   "cutoff": "2026-09-23",
-  "stage": "RESEARCH",
+  "stage": "GO_DRAFT",
   "package_ref": null,
   "top_unknowns": [
-    "Comptes et périmètre consolidé 2025 après cession des sites France/Maroc ?",
-    "Coût de non-qualité, ruptures et stock par site et porteur contractuel du risque ?",
-    "COO/DSI, droits de données et qualification des transferts intersites ?"
+    "Original des comptes consolidés Financière de l'Ombrée 2025 et réconciliation des ventes intragroupe Tallinn, puis rentabilité par site, client et programme",
+    "Déploiement et gains IA Chine audités, transférabilité intersites et droits sur données client",
+    "COO/DSI et owner data/ML groupe, qualité des données et capacité de pilotage"
   ],
-  "diagnostic_status": "research_brief_and_primary_web_verification_only; originals_and_bundle_v02_pending",
+  "diagnostic_status": "human_go_draft_for_scoped_editorial_draft;_bundle_and_program_gates_open",
+  "hitl": {
+    "decision": "GO_DRAFT",
+    "actor": "François (instruction explicite dans cette conversation)",
+    "date": "2026-09-24",
+    "dossier_ref": "companies/aurightec/decision_dossier_2026-09-24.md",
+    "dossier_sha256": "c92784b2d437f316a239aec5154c63d8089d0e701faa7859f7260903dffe754a",
+    "scope": "rédaction d'un brouillon traçable à partir des claims promus, sans ROI inventé ni diffusion comme diagnostic final",
+    "accepted_open_gates": ["original_snapshots_and_sha256", "bundle_v0.2_validation", "diagnostic_and_shortlist", "pilot_loopback", "render_and_visual_QA"],
+    "decision_ref": "companies/aurightec/hitl_decision_2026-09-24.md"
+  },
   "required_pitch_fields": [
     "COO",
     "DSI",
