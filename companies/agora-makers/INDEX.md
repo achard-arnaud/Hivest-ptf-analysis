@@ -1,3 +1,3 @@
-# Agora Makers — intake
+# Agora Makers — routeur de recherche
 
-[Brief ToT fourni le 24/09/2026](intake_brief_tot_2026-09-24.md) : carte de recherche, pas un dossier de preuves ni un diagnostic. État INTAKE inchangé ; aucune promotion de claim, aucun GO_DRAFT. Les autres fichiers de la même remise sont deux duplications de briefs Aurightec et VMI-Jokon déjà présents (variantes de mise en forme) et un rapport de découverte VMI-Jokon audité séparément.
+**État : RESEARCH**, cutoff 2026-09-23. Le [brief ToT fourni](intake_brief_tot_2026-09-24.md) est une carte de questions. Lire le [premier bridge marché/business/data](research_bridge_2026-09-24.md) pour les claims vérifiés AG-01–07, les hypothèses de valeur et les trois inconnues qui changent la décision. Acrospire, acquis en septembre 2026, étend le périmètre à dix marques. Le chiffre >230 M€ du brief vient d’une annonce de combinaison de 2023 ; il n’est pas un CA 2025. Pas de bundle v0.2 ni GO_DRAFT.
