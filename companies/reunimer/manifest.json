@@ -1,10 +1,14 @@
 {
   "entity_id": "reunimer",
   "cutoff": "2026-09-23",
-  "stage": "INTAKE",
+  "stage": "RESEARCH",
   "package_ref": null,
-  "top_unknowns": [],
-  "diagnostic_status": "not_started",
+  "top_unknowns": [
+    "Comptes consolidés homogènes et périmètre/date des 70 M€, 111 M€ et 106,1 M€ ; marge par activité et acquisition post-Hivest n°1 ?",
+    "Rattachement juridique des armements/navires et quotas annuels à Reunimer ; flux import UE relevant de CATCH ?",
+    "COO/DSI/qualité/data owners, architecture ERP/lot/froid multi-filiales et preuves de ML observée ?"
+  ],
+  "diagnostic_status": "primary_web_research_bridge_only; financial_originals_quota_link_and_bundle_v02_pending",
   "required_pitch_fields": [
     "COO",
     "DSI",
@@ -12,5 +16,6 @@
     "ml_strategy_observed",
     "ml_strategy_proposed"
   ],
-  "leadership_register_ref": "program/leadership_register.json"
+  "leadership_register_ref": "program/leadership_register.json",
+  "intake_ref": "companies/reunimer/intake_2026-09-24.md"
 }
