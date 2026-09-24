@@ -2,6 +2,14 @@
 
 **24/09/2026, cutoff 23/09/2026.** Sources et locators : [registre](source_register_2026-09-24.md). Les données sectorielles et des pairs n'établissent pas la performance d'Aurightec.
 
+## Doctrine d'ingestion et de périmètre
+
+Les termes `Aurightec` et `Eolane` servent à **repérer des candidats**, puis l'entité juridique, la période, le site et la relation de groupe déterminent leur portée. La formule proposée `(Aurightec OR Eolane) AND (Tallinn OR Suzhou OR Kulim) NOT (France OR Maroc OR Cicor)` n'est **pas** un filtre d'exclusion : elle supprimerait des comptes de la holding française, la preuve de la cession à Cicor et des flux historiques avec le Maroc. Conserver une capture hors périmètre avec son étiquette et sa justification ; ne jamais la confondre avec la performance des trois sites actuels. L'identifiant de Tallinn est `10092440`, non `10574032` [S-AUR-01,02].
+
+Attribuer le grade à **la pièce et à son origine**, jamais au seul domaine : compte déposé ou avis BODACC lus à leur portée peuvent être A [S-AUR-02,15] ; les agrégats Pappers [S-AUR-16] et Teatmik restent secondaires jusqu'au rapprochement avec l'original. Une offre d'emploi datée et attribuée à la bonne entité prouve un **besoin de recrutement**, pas un déploiement réel ou une équipe en poste. La recherche sans résultat est une limite de couverture documentée, pas la preuve d'une absence.
+
+L'intégrité requiert la capture des **octets effectivement acquis**, un `snapshot_uri` durable et un **SHA-256** de ces octets. Un MD5 du DOM peut servir de signal technique supplémentaire, mais ne satisfait pas le contrat de preuve d'`AGENTS.md` et ne remplace pas l'original. Le [registre des pistes et corrections](scraping_leads_user_2026-09-24.md) conserve les URL proposées ; leur présence ne les promeut pas comme faits.
+
 ## Segments, structure, position
 
 Aurightec se présente comme EMS moyenne série/forte complexité pour transport, énergie, industrie, médical et communications critiques [S-AUR-05]. L'acheteur type est un OEM qui externalise tout ou partie de l'industrialisation, des achats, de l'assemblage et du test ; la vente peut être un programme de production ou un service de cycle de vie, mais le mix réel Aurightec reste inconnu. Tallinn sert une clientèle majoritairement européenne (35,76 M€ sur 36,47 M€ de CA 2025) et sa géographie publiée montre la Finlande à 13,55 M€ et la Bulgarie à 7,37 M€ [S-AUR-02]. Ces pays de facturation ne prouvent pas le secteur ni le client final. Suzhou a un hub distinct d'achats à Shanghai ; Kulim offre une base de production en Malaisie [S-AUR-07,08]. Les sites cédés à Cicor ne font plus partie du périmètre [S-AUR-04].
