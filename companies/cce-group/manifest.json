@@ -4,11 +4,11 @@
   "stage": "RESEARCH",
   "package_ref": null,
   "top_unknowns": [
-    "CA, contribution et effectifs par exercice et périmètre après acquisitions",
+    "Pont consolidé 2024–26 (Trip&Co, Icebridge, InTech), croissance organique, marge par division, dette post-refinancement et contribution de synergie",
     "Contrats multi-entités, revenus récurrents et droits aux données chez les clients/poolers",
-    "COO/DSI groupe, owners data/ML et modèles réellement exploités"
+    "Portée de l'approbation CAAS Driessen après 05/06/2026 et autres certifications ; COO/DSI groupe, owners data/ML et modèles exploités"
   ],
-  "diagnostic_status": "research_second_pass_unvalidated",
+  "diagnostic_status": "research_second_pass_2024_audit_found_bundle_unvalidated",
   "required_pitch_fields": [
     "COO",
     "DSI",
