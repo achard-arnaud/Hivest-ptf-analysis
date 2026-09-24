@@ -1,10 +1,14 @@
 {
   "entity_id": "aurightec",
   "cutoff": "2026-09-23",
-  "stage": "INTAKE",
+  "stage": "RESEARCH",
   "package_ref": null,
-  "top_unknowns": [],
-  "diagnostic_status": "not_started",
+  "top_unknowns": [
+    "Comptes et périmètre consolidé 2025 après cession des sites France/Maroc ?",
+    "Coût de non-qualité, ruptures et stock par site et porteur contractuel du risque ?",
+    "COO/DSI, droits de données et qualification des transferts intersites ?"
+  ],
+  "diagnostic_status": "research_brief_and_primary_web_verification_only; originals_and_bundle_v02_pending",
   "required_pitch_fields": [
     "COO",
     "DSI",
@@ -12,5 +16,6 @@
     "ml_strategy_observed",
     "ml_strategy_proposed"
   ],
-  "leadership_register_ref": "program/leadership_register.json"
+  "leadership_register_ref": "program/leadership_register.json",
+  "intake_ref": "companies/aurightec/intake_brief_tot_2026-09-24.md"
 }
