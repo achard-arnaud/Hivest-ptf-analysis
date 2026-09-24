@@ -1,10 +1,14 @@
 {
   "entity_id": "cce-group",
   "cutoff": "2026-09-23",
-  "stage": "INTAKE",
+  "stage": "RESEARCH",
   "package_ref": null,
-  "top_unknowns": [],
-  "diagnostic_status": "not_started",
+  "top_unknowns": [
+    "CA, contribution et effectifs par exercice et périmètre après acquisitions",
+    "Contrats multi-entités, revenus récurrents et droits aux données chez les clients/poolers",
+    "COO/DSI groupe, owners data/ML et modèles réellement exploités"
+  ],
+  "diagnostic_status": "research_second_pass_unvalidated",
   "required_pitch_fields": [
     "COO",
     "DSI",
