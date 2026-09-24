@@ -1,0 +1,7 @@
+# Intake — rapport complet et brief ToT utilisateur, 24/09/2026
+
+Le premier message ne fournissait que la section « 0. Synthèse de Cadrage » et l'ouverture du journal ToT. Deux pièces jointes reçues ensuite complètent l'intake : « Fichier markdown(20260924-140210).md collé » (rapport, 757 lignes) et « Fichier markdown (2)(6).md collé » (brief Gemini/NotebookLM, 407 lignes). Ces documents utilisateur sont des **sources secondaires et des instructions de recherche**, pas des preuves primaires. Originaux joints conservés hors code ; le dépôt retient seulement les connaissances contrôlées. Leur audit est dans [source_audit_2026-09-24.md](source_audit_2026-09-24.md).
+
+Propositions à tester : participation majoritaire Hivest décembre 2023 ; six sites français et environ 500 personnes ; offre PLV premium cosmétique et agencement ; trois acquisitions ; éco-conception Footprint Progress depuis 2017 ; hypothèses d'ERP/CRM/PLM fragmentés, de leadership data non visible et de budget capex contraint. Le terme Engineer-to-Order, l'existence d'une DSI structurée et la causalité loi AGEC → demande ne sont pas établis par le fragment.
+
+**Rectifications primaires :** les trois acquisitions annoncées sont Chaudesaigues, Ledia et Vimage en mars **2022**, avant l'entrée de Hivest ; le chiffre six sites/~500 personnes décrit **décembre 2023** ; Footprint Progress combine un processus d'éco-conception audité et des références produits labellisées, sans couvrir automatiquement toute la production. Voir les claims et sources du bridge.

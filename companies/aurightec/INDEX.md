@@ -2,6 +2,8 @@
 
 **État : GO_DRAFT humain limité au brouillon · cutoff : 23/09/2026 · profil François-Pro.** [Manifest](manifest.json), [décision datée](hitl_decision_2026-09-24.md). Les pièces remises sont conservées comme [brief](research_brief_nlm_tot_2026-09-24.md), [pistes initiales](source_leads_supplied_2026-09-24.md) et [complément de collecte corrigé](scraping_leads_user_2026-09-24.md) ; elles ne constituent pas des sources primaires.
 
+Le [brief ToT intégré sur main](intake_brief_tot_2026-09-24.md) et la [première recherche business](research_business_case_2026-09-24.md) restent consultables. Leurs conclusions antérieures à la revue des comptes et à la décision humaine ne prévalent pas sur le [registre de claims promus](claims_promoted_2026-09-24.json). Le [wiki sectoriel commun](../../wiki/electronics-and-mobility.md) fournit le contexte externe, pas des résultats Aurightec.
+
 | Question | Artefact ciblé |
 |---|---|
 | Quelles preuves ont été lues et quels liens ont été corrigés ? | [Registre de preuves](source_register_2026-09-24.md) |

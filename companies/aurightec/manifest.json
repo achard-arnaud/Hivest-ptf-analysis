@@ -26,5 +26,6 @@
     "ml_strategy_observed",
     "ml_strategy_proposed"
   ],
-  "leadership_register_ref": "program/leadership_register.json"
+  "leadership_register_ref": "program/leadership_register.json",
+  "intake_ref": "companies/aurightec/intake_brief_tot_2026-09-24.md"
 }

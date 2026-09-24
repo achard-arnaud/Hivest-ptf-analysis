@@ -1,10 +1,14 @@
 {
   "entity_id": "agora-makers",
   "cutoff": "2026-09-23",
-  "stage": "INTAKE",
+  "stage": "RESEARCH",
   "package_ref": null,
-  "top_unknowns": [],
-  "diagnostic_status": "not_started",
+  "top_unknowns": [
+    "Pont CA et EBITDA consolidés 2023–26, revenu logiciel récurrent et coût des acquisitions ?",
+    "Contrats et marge effectivement captés sur Strasbourg et autres cohortes Nexiode/Kuzzle ?",
+    "COO/DSI, droits aux données publiques, sécurité et modèles ML en production ?"
+  ],
+  "diagnostic_status": "primary_web_research_bridge_only; originals_and_bundle_v02_pending",
   "required_pitch_fields": [
     "COO",
     "DSI",
@@ -12,5 +16,6 @@
     "ml_strategy_observed",
     "ml_strategy_proposed"
   ],
-  "leadership_register_ref": "program/leadership_register.json"
+  "leadership_register_ref": "program/leadership_register.json",
+  "intake_ref": "companies/agora-makers/intake_brief_tot_2026-09-24.md"
 }

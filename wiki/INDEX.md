@@ -6,3 +6,4 @@ Toute phrase matérielle renvoie à un claim. Réutiliser les preuves, revalider
 Statut actuel : une synthèse sectorielle candidate (films et emballages) ; aucun diagnostic d'entreprise promu.
 
 - [Films et emballages : contexte sectoriel](packaging-films.md) — v0.1, 2026-09-23, synthèse candidate.
+- [Électronique et mobilité : contexte transversal](electronics-and-mobility.md) — v0.1, 2026-09-24, hypothèses de transfert limitées.
