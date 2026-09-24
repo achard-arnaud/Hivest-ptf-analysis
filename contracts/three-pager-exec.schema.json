@@ -55,7 +55,7 @@
       "properties": {"quadrant": {"type": "object", "required": ["cells", "take"], "properties": {"cells": {"type": "array", "minItems": 5, "maxItems": 10,
           "items": {"type": "object", "required": ["row", "col", "label"], "properties": {"row": {"enum": ["Core", "Enabler", "Support"]},
             "col": {"enum": ["Commodity", "Parity", "Differentiating"]}, "label": {"type": "string", "maxLength": 32}, "theme": {"type": "integer"}}}}}},
-        "ai_diag": {"type": "object", "required": ["level", "facts", "take"], "properties": {"level": {"enum": ["Faible", "Partiel", "Établi"]}, "facts": {"type": "array", "minItems": 2, "maxItems": 3}}},
+        "ai_diag": {"type": "object", "required": ["level", "facts", "take"], "properties": {"level": {"enum": ["Inconnue", "Faible", "Partiel", "Établi"]}, "facts": {"type": "array", "minItems": 2, "maxItems": 3}}},
         "footer": {"$ref": "#/$defs/footer"}}}
   },
   "$defs": {

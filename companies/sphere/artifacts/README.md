@@ -1,0 +1,5 @@
+# Prototype trois pages Sphere — 24/09/2026
+
+`SPHERE_diagnostic_prudent_3pages.pdf` et les PNG des trois pages sont produits depuis `sphere_exec_conservative_2026-09-24.json` par `renderers/three_pager_exec/render_fallback.py`. L'export HTML du template exec existe mais requiert Chromium pour une QA DOM exacte ; cette exécution a utilisé un export PDF ReportLab reprenant ses tokens de couleur et son contrat de trois pages. Chaque page a été inspectée visuellement à 1200 px ; aucune carte n'a débordé. Le contrôle de taille des textes et du padding du DOM CSS n'a **pas** été exécuté : la QA visuelle ne doit pas être déclarée équivalente.
+
+État `RESEARCH / prototype`, non `GO_DRAFT`, non contenu gelé, non décision d'investissement. Les sources primaires et les données internes restent à archiver/vérifier ; les nouveaux rapports NotebookLM ne sont pas des preuves indépendantes. Montants de 2024 distincts du chiffre d'affaires 2025 communiqué. La priorité d'investissement et la maturité IA restent ouvertes.

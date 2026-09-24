@@ -17,3 +17,9 @@ Statut RESEARCH ; préparation HITL ; bundle v0.2 ; cutoff2026-09-23. Lire uniqu
 | Quel verdict ? | reviews/01_contracts.md,02_alternative.md,03_decision.md |
 
 `pre_hitl_dossier.md` est généré par `scripts/compose_dossier.py` ; ne pas l’utiliser comme intake ni l’éditer seul. `market_drivers.md` est une vue de navigation. Le registre COO/DSI portefeuille est `program/leadership_register.json`.
+
+## Nouveaux matériaux (24/09/2026)
+
+- [Audit des sources NotebookLM](evidence/notebooklm_source_audit.md) : candidats, éligibilité, exclusions.
+- [Wiki Sphere](wiki.md) : synthèse cumulative prudente.
+- [Revue contradictoire des nouveaux fichiers](reviews/04_new_materials_2026-09-24.md).
