@@ -1,0 +1,22 @@
+# EMS Aurightec — contexte marché et drivers, version de recherche
+
+**24/09/2026, cutoff 23/09/2026.** Sources et locators : [registre](source_register_2026-09-24.md). Les données sectorielles et des pairs n'établissent pas la performance d'Aurightec.
+
+## Segments, structure, position
+
+Aurightec se présente comme EMS moyenne série/forte complexité pour transport, énergie, industrie, médical et communications critiques [S-AUR-05]. L'acheteur type est un OEM qui externalise tout ou partie de l'industrialisation, des achats, de l'assemblage et du test ; la vente peut être un programme de production ou un service de cycle de vie, mais le mix réel Aurightec reste inconnu. Tallinn sert une clientèle majoritairement européenne (35,76 M€ sur 36,47 M€ de CA 2025) et sa géographie publiée montre la Finlande à 13,55 M€ et la Bulgarie à 7,37 M€ [S-AUR-02]. Ces pays de facturation ne prouvent pas le secteur ni le client final. Suzhou a un hub distinct d'achats à Shanghai ; Kulim offre une base de production en Malaisie [S-AUR-07,08]. Les sites cédés à Cicor ne font plus partie du périmètre [S-AUR-04].
+
+**Pairs de structure, non classement de marché :** Scanfil 797,1 M€ de ventes en 2025, Kitron 738,3 M€, Cicor EMS 583,978 M CHF [S-AUR-11–13]. Ces groupes ont des périmètres, devises, mix et acquisitions différents. Le seul CA consolidé d'Aurightec manque : aucune part relative, taille de marché ni statut « top 3 » défendable. Cicor est aussi un concurrent renforcé par les anciens actifs Eolane France/Maroc [S-AUR-04]. Kitron propose lui aussi industrialisation, sourcing, fabrication et réparation (https://www.kitron.com/services, consultation 24/09/2026) : la couverture « end-to-end » seule n'établit pas une rareté.
+
+**Cinq forces, lecture qualitative à tester :** fournisseurs de composants potentiellement structurants (achats de matières = 62,5 % des ventes Tallinn, calcul S-AUR-02) ; pouvoir des OEM dépendant des droits de conception, qualification et coûts de changement non publiés ; rivalité de pairs multi-sites avérée mais prix/marge comparables inconnus ; substituts possibles par production internalisée ou EMS alternatifs ; barrières de qualification et de fiabilité plausibles, mais coûts de changement et durée des contrats inconnus. Ce n'est pas une notation de forces du groupe.
+
+## Drivers hiérarchisés, sans score inventé
+
+| Driver | Signal externe / exposition Aurightec | Mécanisme et KPI à établir | Réfutation / inversion |
+|---|---|---|---|
+| **D1 · protéger la contribution matières et l'approvisionnement** | Tallinn : matières 22,79 M€ / CA 36,47 M€, stocks 5,78 M€ [S-AUR-02]. Sourcing groupe/Shanghai déclaré [S-AUR-05,07]. | Coût BOM net, substitutions qualifiées, obsolescence, manque de pièces, stock dormant, cash/BFR ; comparer règles MRP/ABC avant IA. | Contrats OEM répercutent intégralement les coûts ou données BOM/lifecycle non accessibles. |
+| **D2 · rendement qualité et maîtrise des retouches** | Tallinn : 1,09 M€ investi en machines en 2025 dont contrôle visuel et X-ray [S-AUR-02] ; Chine : baisse de défauts 23 % déclarée sur trois ans, sans audit causal [S-AUR-07]. | First pass yield, défauts par programme, coût de non-qualité, reprise, garantie ; SPC/règles vs vision/ML. | Baseline déjà saturée par automation classique, labels incomplets ou faux rejets coûteux. |
+| **D3 · adapter capacité et NPI à la demande** | Ventes Tallinn −10,6 % en 2025 et projets différés ; effectif fin d'année 235 → 180 [S-AUR-02]. NPI et transfert intersites offerts [S-AUR-05]. | Marge par programme, ramp-up, OTIF, OEE, utilisation, lead-time et coûts d'ingénierie. | Mix et contrats ne permettent pas de déplacer la production ; gains obtenus par planification standard. |
+| **D4 · continuité et différenciation du cycle de vie** | Réparation, obsolescence et test sont dans l'offre déclarée [S-AUR-05]. Kitron offre aussi de tels services ; rivalité réelle. | Rétention, marge de service, délai réparation et disponibilité long terme par cohorte client. | OEM garde propriété données/design ou service non monétisé. |
+
+**Ordre provisoire :** D1 puis D2/D3 selon la marge contributive et les programmes ; D4 conditionné aux contrats. Le montant de matières est une base de dépense, pas une économie potentielle. Valeur possible : coût évité, cash/BFR, risque qualité et différenciation NPI, mesurés séparément. Ni benchmark pair ni pourcentage de l'article IA ne devient ROI Aurightec.
