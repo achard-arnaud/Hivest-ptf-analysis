@@ -4,7 +4,7 @@
 
 ## Verdict utilisable
 
-**VALIDÉ comme problème stratégique à instruire et thèse de valeur falsifiable ; NON VALIDÉ comme création de valeur économique attribuable et chiffrée à CCE ; aucune priorité IA investissable.** Le modèle industriel/produit est observable : complémentarité des marques, deux divisions actives, InTech MRO cabine, SmartULD livré en volume déclaré [S-CCE-04,05,08]. Le marché externe apporte des motifs de demande, pas une preuve de capture par CCE : fret 2025 +3,4 % en CTK selon IATA, avec forte dispersion géographique ; flotte vieillissante ; coût sectoriel ULD réparation/perte évoqué par IATA [S-CCE-18–21]. Le contre-case est concret : Unilode contrôle relation parc, réparation et données chez ses clients et lance Super Sentinel ; Bucher propose un trolley à froid passif sans dry ice [S-CCE-06,16,22,23]. Par conséquent, ni « data moat », ni monopole du froid, ni rente MRO ULD ne sont démontrés.
+**VALIDÉ comme problème stratégique à instruire et thèse de valeur falsifiable ; NON VALIDÉ comme création de valeur économique attribuable et chiffrée à CCE ; aucune priorité IA investissable.** Une base comptable 2024 auditée existe pour AviusULD et Driessen [S-CCE-25], avec 137,140 MUSD de CA et 18,910 MUSD de résultat opérationnel courant ; elle ne couvre aucune des trois acquisitions 2025–26. Le modèle industriel/produit est observable : complémentarité des marques, deux divisions actives, InTech MRO cabine, SmartULD livré en volume déclaré [S-CCE-04,05,08]. Le marché externe apporte des motifs de demande, pas une preuve de capture par CCE : fret 2025 +3,4 % en CTK selon IATA, avec forte dispersion géographique ; flotte vieillissante ; coût sectoriel ULD réparation/perte évoqué par IATA [S-CCE-18–21]. Le contre-case est concret : Unilode contrôle relation parc, réparation et données chez ses clients et lance Super Sentinel ; Bucher propose un trolley à froid passif sans dry ice [S-CCE-06,16,22,23]. Par conséquent, ni « data moat », ni monopole du froid, ni rente MRO ULD ne sont démontrés.
 
 **Périmètre de la validation :** (i) besoin client réel au **niveau sectoriel** = oui ; (ii) adéquation portefeuille produit CCE = oui, déclarée ; (iii) usage réel SmartULD = livraison et télémétrie **déclarées par AviusULD**, oui ; (iv) avantage différentiel durable, revenus récurrents, cross-sell incrémental, marge et ROI = **unknown**. CCE Group n'est ni IATA, ni Unilode, ni la somme des baselines de ses clients.
 
@@ -20,7 +20,7 @@
 
 ### Architecture économique à tester, sans ROI fabriqué
 
-1. **Revenu de base :** équipements, pièces, services cabine et éventuelles licences/contrats numériques doivent être ventilés par entité, client, cohorte et exercice. L'acquisition de trois sociétés change le périmètre ; CA >150 M$ **2023** et seuil >150 M$ sans exercice dans les communiqués ultérieurs ne constituent pas une série [S-CCE-01,03,04].
+1. **Revenu de base :** les comptes audités établissent 137,140 MUSD en 2024 (Driessen 72,495 ; AviusULD 64,645) [S-CCE-25]. Les équipements, pièces, services cabine et licences éventuelles doivent être ventilés par entité, client, cohorte et exercice. Trois acquisitions ultérieures changent le périmètre ; le >150 MUSD « 2023 » du communiqué et les seuils non datés ne constituent pas une série comparable [S-CCE-01,03,04].
 2. **Contribution incrémentale :** ventes communes réellement nouvelles × marge contributive après remises, coûts commerciaux, intégration, logistique, support et qualité. La « même livraison » peut épargner une coordination au client sans accroître la marge de CCE.
 3. **Économie chez l'opérateur :** stock et leasing évités, pertes/réparations, poids, incidents et repas jetés mesurés chez airline/pooler ; établir **qui paie CCE et pourquoi**. Cash immobilisé chez le client ≠ EBITDA CCE ; perte évitée et achat différé d'un même ULD ne s'additionnent pas.
 4. **Contrefactuels :** NO-ACTION, règles de stock et géofences actuelles, solution numérique Unilode, produit thermique Bucher, qualité/manutention sans IA, optimisation classique. Tester des cohortes comparables dans le temps avant toute prévision ML.
@@ -30,7 +30,7 @@
 
 | Exigence | Preuve/couverture atteinte | Statut réel |
 |---|---|---|
-| Identité, finance, contradictions | Cinq marques ; deux divisions ; dates d'acquisition et divergence effectifs/CA conservées [S-CCE-01–05]. | **Partiel** : comptes consolidés datés et pont acquisitions manquants. |
+| Identité, finance, contradictions | Cinq marques ; deux divisions ; dates d'acquisition et divergence effectifs/CA conservées [S-CCE-01–05]. | **Partiel** : comptes consolidés **2024 trouvés** [S-CCE-25], mais pont 2025–26 après acquisitions manquant ; voir addendum. |
 | Segments, 4P, cinq forces, pairs | Trois segments et acheteurs, prix inconnu ; Nordisk/Satco/Unilode/Bucher ; IATA et Boeing [S-CCE-13–16,18–24]. | **Cadrage qualitatif** ; taille de segment, parts relatives, substituts et pouvoir contractuel à établir. Pas de BCG. |
 | Chaîne et neuf activités Porter | Cartographie candidate de la seconde passe ; distinction MRO cabine vs ULD du gestionnaire [S-CCE-04,06,16]. | **Structurelle** ; contribution, handoffs, coûts, sites et qualité par activité inconnus. Aucun ★★★ final. |
 | VRIO des actifs | *Valeur* technique plausible de SmartULD et du portefeuille ; *rareté* challengée par Unilode/Satco/Bucher ; *imitabilité* brevet/certification non audités ; *organisation* divisions actives [S-CCE-05,08,22,23]. | **Aucune rente VRIO prouvée.** Tester prix, IP, adoption et complémentarité contractuelle. |
@@ -65,7 +65,7 @@
 
 | Ordre | Responsable cible / donnée demandée | Critère d'arrêt |
 |---|---|---|
-| 1 | DAF groupe : comptes 2023–26 à périmètre comparable, ventes et marge par division, coûts d'intégration, produits numériques/services récurrents. | Bridge organique/acquisitions et marge contributive validés ; divergence d'effectifs réconciliée. |
+| 1 | DAF groupe : comptes 2025–26 certifiés, pont avec baseline 2024 [S-CCE-25] à périmètre comparable, ventes et marge par division, coûts d'intégration, produits numériques/services récurrents. | Bridge organique/acquisitions et marge contributive validés ; divergence d'effectifs réconciliée. |
 | 2 | Commercial Cargo/Catering + DAF : cohortes de clients communs, contrats avant/après build-up, panier net de remises, renouvellement et coût commercial. | H1 départagée par contribution incrémentale, pas par nombre de logos. |
 | 3 | AviusULD + clients/poolers : 30 000 livrés → actifs → événements exploitables → décisions → bénéfices et facturation ; contrats de données. | H2 validée contre règles et outils client/Unilode, coût complet et adoption. |
 | 4 | Driessen/Icebridge + airline/caterer : test comparatif froid passif, pertes de repas, coût/poids/capacité vs Bucher et méthode actuelle. | H3 départagée sans transférer les chiffres marketing du pair. |
@@ -73,3 +73,12 @@
 | 6 | CEO/RH/IT : organigramme COO/DSI, ownership data/ML, modèles en production, incidents, sécurité, contrôle. | H5 et cinq hard gates documentés ou maintenus unknown avec portée. |
 
 **Chemin contractuel après collecte :** captures originales autorisées et immuables hors code → fragments/claims → `package.json` et `strategic_context.json` v0.2 → `validate_bundle.py` sur le vrai dossier → marché/VRIO/7S/huit dimensions et opportunités → trois revues → dossier pré-HITL avec hash → décision humaine → gel et trois pages/QA. L'autorisation de recherche actuelle ne vaut pas GO_DRAFT.
+
+
+## Addendum financier et conformité — remplace les mentions « comptes manquants » pour 2024
+
+Le [rapprochement 2024](financial_reconciliation_2026-09-24.md) et [S-CCE-25] établissent une baseline **auditée** pour les deux familles historiques : CA 137,140 MUSD, résultat opérationnel courant 18,910 MUSD, résultat opérationnel 17,500 MUSD, coût financier net 13,865 MUSD, résultat net 4,331 MUSD, flux d'exploitation 11,383 MUSD et dette nette 89,672 MUSD. Il s'agit d'un groupe industriel déjà générateur de résultat d'exploitation en 2024, avec coût de financement conséquent ; la valeur **additionnelle** des acquisitions ou de l'IA demeure unknown. Le comparatif consolidé 2023 ne couvre que sept mois ; ne pas calculer de taux de croissance annuel. Les comptes 2025 consolidés ne sont pas accessibles sur la page consultée [S-CCE-26].
+
+**Révision du contrat de couverture :** identité/finance passe de « comptes consolidés absents » à **baseline 2024 A, pont acquisitions inconnu**. Les questions d'EBITDA, marge par division et bénéfices SmartULD demeurent null. Le hard gate réglementaire ajoute [S-CCE-27] : l'autorisation de production CAAS SAR-21 de Driessen Ltd a cessé le 05/06/2026. Établir motif, autres autorisations et incidence clientèle ; ne pas présenter cela comme fermeture ou défaut de toutes certifications. Le certificat FAA Part 145 annoncé par InTech [S-CCE-28] requiert vérification de portée. Avant H3 ou H4 investissable, demander le dossier d'approbations et les processus de libération des équipements.
+
+**Verdict actualisé :** business industriel historique **documenté en 2024** ; business case de synergie 2025–26 et d'investissement IA toujours **non validé**. `REOPEN_TARGETED`, `RESEARCH`, `package_ref=null`.
