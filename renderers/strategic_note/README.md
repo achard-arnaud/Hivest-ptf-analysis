@@ -3,8 +3,8 @@
 Markdown + directives légères → HTML → PDF A4 portrait, rendu « cabinet de conseil » pour un lectorat C-Level (5 à 7 pages).
 
 ```bash
-pip install markdown playwright pillow        # Chromium déjà présent ou via PLAYWRIGHT_BROWSERS_PATH
-npm i -g @mermaid-js/mermaid-cli               # mmdc
+pip install markdown "playwright==1.56.0" pillow  # version alignée sur chromium-1194 préinstallé
+npm i -g @mermaid-js/mermaid-cli@11             # mmdc 12 ne connaît plus l'option -w utilisée par build.py
 python renderers/strategic_note/build.py renderers/strategic_note/sample_note.md --out /tmp/snote --pages 1-3
 ```
 
@@ -23,3 +23,5 @@ python renderers/strategic_note/build.py renderers/strategic_note/sample_note.md
 **QA (`qa_report.json`, code retour 2 si échec)** : nombre de pages dans `--pages`, échelle de chaque figure ≥ 0,70 (sinon transposition LR↔TB automatique, source Mermaid conservée à côté du PNG), corps ≥ 9 pt, texte secondaire ≥ 8 pt. La relecture visuelle page par page reste obligatoire.
 
 Palette et typographie : navy/blue/teal/gold hérités de `Hivest-ptf-analysis/renderers/three_pager_exec/exec_theme.css` ; titres Source Serif 4, texte Inter (repli Carlito / Liberation).
+
+Polices : Chromium (Playwright) ne passe pas par le proxy HTTP ; si Google Fonts n'est pas joignable depuis le navigateur, installer Inter et Source Serif 4 localement (`~/.fonts`, `fc-cache -f`) et vérifier avec `pdffonts`.
