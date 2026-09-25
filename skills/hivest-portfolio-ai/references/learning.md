@@ -1,4 +1,7 @@
 # Loopback et portefeuille
+
+**Contrat local.** Entrée : rendus/revues et leurs preuves, statut du programme. Sortie : delta borné, contrat/test touché, décision de promotion, comparatif des deux pilotes puis rollup traçable. **Suite :** prochain pilote ou cluster selon `program/state.json`, retour à [evidence.md](evidence.md) pour une nouvelle entité. Contrat complet : [workflow.md](workflow.md).
+
 Après chaque entreprise : capturer défauts, surprises, corrections et patterns réellement réutilisables. Tier 0 NO_REUSABLE_DELTA est valide ; Tier 1 delta borné ; Tier 2 contre-analyse ciblée ; Tier 3 revue multi-runs explicite. Ne pas promouvoir une règle silencieusement.
 Créer un événement : proposition attaquée, verdict, réparation, portée du delta, ressources affectées, fixture, stop condition. Canonicaliser seulement après décision humaine, avec version et rollback. Ne pas stocker le run brut dans le code.
 Après Sphere ET STG : comparer couverture, biais industriels, 7S inconnu, densité des trois pages et valeur de la 9-box. Présenter le delta avant les clusters.

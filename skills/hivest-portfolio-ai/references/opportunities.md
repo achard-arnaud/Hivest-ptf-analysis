@@ -1,4 +1,7 @@
 # Use cases et sourcing
+
+**Contrat local.** Entrée : chaîne/diagnostic, drivers, baselines et alternatives sans IA. Sortie : `use_cases`, liens, shortlist, prérequis et gates dans le bundle ; vérifier les liens et les cinq gates avant classement. **Suite :** [review.md](review.md) ; question ciblée via [evidence.md](evidence.md) si gate inconnu. Contrat complet : [workflow.md](workflow.md).
+
 Lire chaîne, claims entreprise et wiki pertinent. Récolter large puis dédupliquer par workflow/outcome, pas par nom d'outil. Séparer cas observé et opportunité hypothétique ; les deux peuvent être utiles à une décision mais n'ont pas le même statut.
 Compléter les champs du schema pour chaque cas : douleur, valeur, propriétaire hypothétique, données/IT/adoption, baseline sans IA, réversibilité, huit ratings, gates, horizon, sourcing, question de validation. Les gates unknown interdisent une priorité eligible.
 Évaluer d'abord data rights, sécurité/OT, contrôle humain, responsabilité et faisabilité ; documenter aussi les non-applicabilités plutôt que les oublier. Aucun bon score économique ne compense un gate bloquant.

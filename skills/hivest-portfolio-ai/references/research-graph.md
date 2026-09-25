@@ -1,5 +1,8 @@
 # Wiki de recherche et contrats de reprise
 
+**Contrat conditionnel.** Entrée : manifest, index/graph s'ils existent et question décisionnelle. Sortie : questions bornées, dépendances et checkpoint ; aucune promotion automatique en fait. **Retour :** étape suspendue, généralement [evidence.md](evidence.md) ou [review.md](review.md). Contrat complet : [workflow.md](workflow.md).
+
+
 ## Granularité et contexte
 Ne pas maximiser profondeur ou nombre de fichiers. Une page par question décisionnelle stable,300–900 mots indicatifs ; scinder seulement quand les sources ou cycles de mise à jour divergent. Ne pas créer un fichier par phrase. Index court, liens typés et chemins exacts ; profondeur habituelle≤4 niveaux sous racine. Lire manifest→index→artefact cible→claims décisifs, jamais le corpus entier. Budget initial12 claims, élargir pour contradictions ; aucune perte silencieuse si budget dépassé.
 

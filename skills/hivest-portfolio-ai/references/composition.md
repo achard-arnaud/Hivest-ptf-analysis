@@ -1,4 +1,7 @@
 # Composition puis rendu — profils audit et exec
+
+**Contrat local.** Entrée : dossier revu, décision, bundle/claims et profil audit ou exec. Sortie : payload/manifest traçables puis trois pages et QA visuelle selon les gates du profil ; aucune fixture ne vaut preuve. **Suite :** [learning.md](learning.md) après rendu revu, ou retour ciblé à [review.md](review.md) si fond modifié. Pour le profil exec, charger [exec-writing.md](exec-writing.md). Contrat complet : [workflow.md](workflow.md).
+
 Choisir le profil avant de composer : `audit` suit `contracts/three-pager.schema.json` v0.1 et exige GO_DRAFT, gel, puis rendu final. `exec` suit `contracts/three-pager-exec.schema.json` v0.3, `references/exec-writing.md` et `templates/THREE_PAGER_EXEC_v0.3.md`. Une démonstration exec peut partir d'un bundle validé non gelé ; le manifeste porte le statut de preuve et les gates ouverts. Ne jamais inférer qu'un payload de démonstration valide le bundle.
 
 Pour exec, rédiger figures canoniques → activité et Porter → cinq drivers → trois à cinq thèmes et transformation → renvois et quadrant → gouvernance et posture → thèse et conclusions. Contrôler la cohérence, le schéma, trois pages sans débordement, puis lire les trois PNG à 100 %. Aucune taille de police réduite pour absorber un débordement. Les pages exec n'affichent ni IDs internes ni statut de gate ; celui-ci reste dans le payload et le manifeste.

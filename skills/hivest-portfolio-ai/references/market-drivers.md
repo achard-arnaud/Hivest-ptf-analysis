@@ -1,5 +1,8 @@
 # Marché → drivers industriels → stratégie IA
 
+**Contrat local.** Entrée : claims entreprise et sources sectorielles datées. Sortie : `market_context`, `drivers`, matrice driver→valeur et `strategic_context.json` relié au wiki ; contrôler transfert secteur→entreprise. **Suite :** [diagnostic.md](diagnostic.md) ; si manque critique, [evidence.md](evidence.md). Contrat complet : [workflow.md](workflow.md).
+
+
 Étape obligatoire avant la shortlist, y compris lors d'une reprise. Ne pas commencer par les technologies disponibles.
 
 ## Collecte externe et scraping ciblé
