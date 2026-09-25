@@ -1,4 +1,7 @@
 # Acquisition et mémoire
+
+**Contrat local.** Entrée : manifest/cutoff, index éventuel, questions et sources acquises. Sortie : sources→fragments→claims, couverture et inconnues dans `package.json`/`evidence/` ; contrôle du périmètre, de la capture et du package. **Suite :** [market-drivers.md](market-drivers.md) ; si une preuve critique manque, rester ici. Contrat complet : [workflow.md](workflow.md).
+
 Lire uniquement le manifest et les claims déjà existants. Fixer périmètre groupe/filiale/site, cutoff et trois inconnues qui inverseraient le verdict. Ne pas déduire autorité d'un titre.
 Reprendre les quatre passes corporate, leadership, hiring, newsflow du control tower ; conserver leur journal de couverture. Prioriser corporate/Hivest/comptes, puis signaux techniques, recrutements, LinkedIn et contre-preuves. Une source inaccessible ne fournit aucun fragment affirmé.
 Pour chaque source : URL, date de publication distincte de consultation, scope, type, origine indépendante, droits, snapshot externe et SHA-256. Capturer avant de synthétiser ; ne jamais écraser raw. Une correction crée un nouvel ID et conserve l'ancienne version.

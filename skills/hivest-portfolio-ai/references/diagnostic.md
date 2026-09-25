@@ -1,4 +1,7 @@
 # Chaîne et maturité
+
+**Contrat local.** Entrée : claims entreprise et contexte marché/drivers. Sortie : chaîne, VRIO, 7S, SWOT, Porter et huit dimensions avec portée/couverture dans le bundle et les analyses ; aucun score inventé. **Suite :** [opportunities.md](opportunities.md) ; recherche ciblée via [evidence.md](evidence.md). Contrat complet : [workflow.md](workflow.md).
+
 Construire d'abord la chaîne d'entreprise à partir des produits, clients, sites et flux. Définir activités, handoffs, contrôles, marge/coûts, friction et preuve. Porter est une lens ; ne pas forcer ses libellés. Appliquer VRIO aux actifs précis ; dériver SWOT ensuite.
 7S mesure la cohérence organisationnelle. Pour chaque S, enregistrer preuve, contradiction et inconnue. Si couverture incomplète, grille ; ne pas inventer un radar. GE/BCG/ADL facultatifs uniquement si leurs données existent.
 Évaluer les 8 dimensions ; null si inconnu. Pour chaque niveau choisir l'ancre la plus haute prouvée et préciser périmètre/site. Les seuils ci-dessous décrivent des preuves, pas une moyenne.

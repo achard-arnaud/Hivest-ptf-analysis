@@ -1,40 +1,12 @@
-# Portfolio router — profils de rendu v0.1 audit / v0.3 exec
+# Agent routeur — Hivest Portfolio AI
 
-Profil François-Pro. Finalité business et création de valeur ; aucune logique de product matching.
-Lire `program/state.json` puis UN manifest entreprise. Charger uniquement la procédure de l'étape depuis `skills/hivest-portfolio-ai/references/`. Ne pas relire le handoff entier ni énumérer le corpus pendant un run.
+Profil François-Pro. Objet : diagnostiquer les entreprises du portefeuille et la création de valeur IA ; exclure product matching et recommandations fournisseur.
 
-## Invariants
-- Source → fragment → claim → analyse → décision → contenu gelé. Conserver IDs, dates, contradictions et inconnues.
-- Une absence de preuve vaut `null / unknown`, jamais zéro. Ne pas calculer une moyenne globale de maturité.
-- Un pattern sectoriel n'est pas un fait entreprise ; un poste ouvert n'est pas une capacité acquise ; une annonce n'est pas un déploiement.
-- Évaluer les hard gates avant toute priorité. Garder NO-ACTION et la solution sans IA.
-- Les runs temporaires ne sont jamais stockés dans le code. Utiliser un répertoire externe au dépôt. Ne promouvoir que des connaissances contrôlées, fixtures et décisions canoniques.
-- Le profil exec masque les marqueurs internes sur la page ; le payload et le manifeste conservent les limites de preuve. Un rendu de démonstration ne clôt aucun gate.
-- Ne pas écrire de recommandations fournisseur. Distinguer technical, product et business ; business est la dimension principale.
-- Orchestrateur : distribuer les étapes, vérifier états/handoffs ; la recherche appartient au rôle research. Un rôle n'impose pas un nouvel agent.
+1. Lire `program/state.json`, **un** `companies/<id>/manifest.json`, puis `companies/<id>/INDEX.md` s'il existe. Vérifier le gate courant avant de choisir l'étape. Le manifest, les contrats et les preuves priment sur un ancien handoff ou un document narratif.
+2. Lire le [workflow de la skill unique](skills/hivest-portfolio-ai/references/workflow.md) ; charger **une seule procédure métier de l'étape** et ses seules références conditionnelles. Les entrées, sorties et passages à la suite y sont indiqués. Ne pas charger tout `docs/`, `companies/` ou `tests/`.
+3. Appliquer les [invariants et gates](docs/agent/gates.md). Pour une reprise, une recherche en branches ou un changement d'étape, appliquer le [contrat de contexte et checkpoint](docs/agent/context-and-resume.md).
+4. Vérifier les fichiers, références, décisions et contrôles de sortie avant de changer le manifest ou de passer la main. Une validation de schéma, un PDF existant ou une fixture ne valent pas approbation humaine.
 
-## Routage
-| Étape | Ressource | Sortie / gate |
-|---|---|---|
-| Intake, research, sector wiki | references/evidence.md | paquet evidence + couverture |
-| Market context, drivers | references/market-drivers.md | signaux externes → exposition → drivers → stratégies de valeur |
-| Value chain, 7S, maturity | references/diagnostic.md | diagnostic + inconnues |
-| Opportunities, 9-box | references/opportunities.md | inventaire + shortlist |
-| Red-team, HITL | references/review.md | dossier pré-HITL |
-| Storytelling, rendu | references/composition.md | contenu gelé puis trois pages |
-| Rédaction exec | references/exec-writing.md et templates/THREE_PAGER_EXEC_v0.3.md | payload exec, cohérence et QA visuelle |
-| Loopback, rollup | references/learning.md | delta proposé + lineage |
+Rôles : l'orchestrateur route, vérifie les gates et intègre ; le rôle research collecte et qualifie. Un rôle n'impose ni un nouvel agent ni une nouvelle skill. Les procédures peuvent être exécutées séquentiellement par un seul agent. Garder le contexte limité à une entreprise, une étape, les claims décisifs et leurs contre-preuves.
 
-Limiter le contexte courant : une entreprise, une étape, un résumé wiki et les claims décisifs avec leurs contre-preuves. Top-k initial 12, élargir si une contradiction ou un claim critique est omis. Sauvegarder un checkpoint avant changement d'étape.
-
-## États
-PROGRAM_DESIGN_READY → PILOTS → PILOT_LOOPBACK → CLUSTERS → HIVEST → PORTFOLIO_REVIEW → DONE.
-Entreprise : INTAKE → RESEARCH → MARKET_CONTEXT → ANALYSIS → OPPORTUNITIES → RED_TEAM → HITL_PENDING → GO_DRAFT → FROZEN → RENDERED → DONE.
-Les décisions HITL sont GO_DRAFT, RESEARCH_TARGETED, NARROW_SCOPE, PIVOT. Ne jamais auto-attribuer une approbation utilisateur. L'autorisation de préparer le programme ne vaut pas validation de ses conclusions.
-Ne lancer les clusters qu'après les deux pilotes et leur loopback. Une entreprise DONE satisfait toutes les conditions de `contracts/decision-rules.md`.
-
-L'étape MARKET_CONTEXT utilise `references/market-drivers.md` et produit `market_context` et `drivers` au contrat v0.2. OPPORTUNITIES et RED_TEAM relisent ces sorties. Le contexte externe et le classement des drivers industriels sont obligatoires ; la facilité de déploiement ne détermine pas la priorité business. Un dossier prose n'est pas un `package_ref` validé ; Sphere reste en RESEARCH tant que les originaux ne sont pas archivés.
-
-
-## Reprise v0.2
-Lire `companies/<id>/INDEX.md` et `research_graph.json`. Charger la procédure `research-graph.md` pour segmentation/Porter/4P, COO/DSI, équipes data/IA/ML et loopback. Valider `package.json` ET `strategic_context.json` via `scripts/validate_bundle.py`. Le Markdown est une projection ; les tests legacy seuls ne suffisent plus.
+Carte des commandes et capacités réellement codées : [docs/architecture/code-map.md](docs/architecture/code-map.md). Ce fichier est le point d'entrée ; les règles détaillées restent à leurs chemins explicites ci-dessus.
