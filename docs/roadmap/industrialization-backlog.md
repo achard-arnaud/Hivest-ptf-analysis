@@ -72,3 +72,13 @@
 ## Priorisation
 
 P0 = empêche une conclusion/provenance/gate défendable ; P1 = empêche la réutilisation industrielle ou le multiformat ; P2 = optimisation d'exploitation. Les tickets ne doivent pas faire entrer de nouveaux déploiements ni modifier les scores sans preuve. Chaque sprint dépend des contrats et fixtures de son prédécesseur. Avancement réel : voir Issues ; la présence de cette roadmap ne vaut ni validation ni clôture.
+
+## Tickets créés (13 octobre 2026)
+
+- [Sprint 0 — Issues #5–#9](https://github.com/achard-arnaud/Hivest-ptf-analysis/issues?q=is%3Aissue+%5BS0%5D) : 5 tickets de stabilisation.
+- [Sprint 1 — Issues #10–#16](https://github.com/achard-arnaud/Hivest-ptf-analysis/issues?q=is%3Aissue+%5BS1%5D) : 7 tickets extraction/provenance.
+- [Sprint 2 — Issues #17–#24](https://github.com/achard-arnaud/Hivest-ptf-analysis/issues?q=is%3Aissue+%5BS2%5D) : 8 tickets reasoning/narration.
+- [Sprint 3 — Issues #25–#32](https://github.com/achard-arnaud/Hivest-ptf-analysis/issues?q=is%3Aissue+%5BS3%5D) : 8 tickets publication/QA.
+- [Sprint 4 — Issues #33–#39](https://github.com/achard-arnaud/Hivest-ptf-analysis/issues?q=is%3Aissue+%5BS4%5D) : 7 tickets opérations, reprise et feedback.
+
+**35 issues ouvertes**. Les numéros représentent des tâches, non des commits, livraisons ou bugs déjà reproduits. Dépendances inter-sprints à maintenir lors de la planification ; aucun gate métier n'est modifié par cette roadmap.
