@@ -34,7 +34,7 @@
 ## Sprint 2 — industrialiser TRANSFORM (P0/P1)
 
 - S2-01 : contrat de Narrative Scaffold indépendant des templates.
-- S2-02 : relation \`narrative_block → claim → fragment → source\` et contrôle de couverture.
+- S2-02 : relation `narrative_block → claim → fragment → source` et contrôle de couverture.
 - S2-03 : moteur de tension narrative, objection forte, contre-thèse et issue décisionnelle (sans génération magique).
 - S2-04 : side stories typées, lineage, return/payoff, cycle candidate/validated/promoted/retired.
 - S2-05 : seuils de claims, sélection/reranking, contradicteurs et anti-invention.
