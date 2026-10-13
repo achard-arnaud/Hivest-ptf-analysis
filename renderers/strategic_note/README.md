@@ -23,6 +23,7 @@ python renderers/strategic_note/build.py renderers/strategic_note/sample_note.md
 **QA (`qa_report.json`, code retour 2 si échec)** : nombre de pages dans `--pages`, échelle de chaque figure ≥ 0,70 (sinon transposition LR↔TB automatique, source Mermaid conservée à côté du PNG), corps ≥ 9 pt, texte secondaire ≥ 8 pt. La relecture visuelle page par page reste obligatoire.
 
 Palette et typographie : navy/blue/teal/gold hérités de `Hivest-ptf-analysis/renderers/three_pager_exec/exec_theme.css` ; titres Source Serif 4, texte Inter (repli Carlito / Liberation).
+
 ## Frontière avec la recherche et la narration
 
 Ce README décrit **uniquement le renderer de la note stratégique C-Level**, pas une skill de recherche. Les sources, leurs fragments, claims, limitations et feedback sont organisés dans `companies/hivest/INDEX.md` et le contrat `templates/strategic-market-note.md` ; le parcours de diagnostic par participation suit `skills/hivest-portfolio-ai/SKILL.md` et ses propres gates. Le renderer prend le Markdown structuré comme **entrée**, sans ajouter de faits ni accorder GO_DRAFT. Voir [architecture ETL](../../docs/architecture/end-to-end-etl.md).
